@@ -14,6 +14,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Done
 
+- 2026-10-27: Design step 1: surveyed 12 similar sites for effectiveness, engagement, speed, and usage data. Written up in `docs/research.md`.
 - 2026-10-27: Project set up. Idea, content source, platform, and first milestone decided. CLAUDE.md, PLAN.md, IDEAS.md, README.md, and .gitignore written.
 
 ## Next
