@@ -4,18 +4,23 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 
 ## Project
 
-**Vision.** A daily general-knowledge game that people come back to every day, like a daily puzzle. Each day is a **timeline game with mixed topics**: 5 event cards drawn from history, science, geography, inventions, and current events. The player places each card on a timeline. After each card is placed, the game shows the right answer with a short, friendly "here's what happened and why it matters" note. The goal is something that feels like a game or a conversation, not an article, and that makes the player recall answers rather than just read them.
+**Vision.** A daily news and knowledge site that Amy comes back to every day and that makes them *remember*, not just read. It has four parts:
+- **Daily highlights.** Short World and US lists, about 5 items each, with a one-line summary and a source link.
+- **Topic pages.** 4–6 major ongoing stories (for example the Ukraine war and Israel–Palestine), each with a "how we got here" background, a key-dates timeline, and the latest tagged highlights.
+- **Weekly quiz.** A timeline round where you put the week's events in order, plus a few multiple-choice questions, each followed by a short explanation, a score, and a share button.
+- **Spaced repetition.** Missed questions come back as a short review on the home page after 3 days, 1 week, 2 weeks, and 1 month.
 
-**Content.** Written ahead of time and stored as data files in the repo (no live AI, no news API in v1). The agent drafts batches of days, Amy skims them, and the app picks the puzzle for today's date. Current-events cards are written in weekly batches and use only settled, clearly dated facts. Every card has a source link.
+It should feel like a game or a conversation, not an article.
 
-**Platform.** TypeScript + Vite, a static site hosted on GitHub Pages and deployed by GitHub Actions on push to `main`. No backend, no accounts. Player progress lives in `localStorage`.
+**Content.**
+- Daily headlines are fetched automatically from a news API by a scheduled GitHub Action and committed as dated JSON files.
+- The weekly quiz and topic updates are written by the agent, and Amy skims them before they go live.
+- The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly.
+- Every item and question has a source link.
 
-**First milestone: playable + live.** Opening the site shows today's puzzle:
-- 1 anchor card with its year shown, then 5 cards to place one at a time (tap a gap on the timeline; works on a phone)
-- Each placement is revealed right away: the year, right or wrong, and the "why it matters" note. A wrong card moves to its correct spot.
-- End screen with the score out of 5, a "share result" button (copies an emoji line such as `Daily Knowledge #3 🟩🟩🟥🟩🟩`), and the current streak
-- 14 days of content, and a friendly message when today has no puzzle
-- Live on GitHub Pages from a link
+**Platform.** TypeScript + Vite, a static site hosted on GitHub Pages and deployed by GitHub Actions on push to `main`. No backend, no accounts. Player progress (streak, quiz results, review schedule) lives in `localStorage`.
+
+**First milestone: news, topics, quiz, and review, live.** All four parts work on the live GitHub Pages site, with daily headlines updating automatically, 4–6 approved topic pages, one week's quiz, and the review schedule working. The steps are listed in `PLAN.md` under Next.
 
 See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for parked ideas.
 
@@ -43,12 +48,14 @@ See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for 
 - Comments explain *why*, not *what*.
 
 **Content**
-- One data file per day (or one file per batch) with a typed schema. Each card has a title, year (negative for BCE), category, a "why it matters" note of 1–2 sentences, and a source URL.
-- No two cards on the same day share a year. Notes are friendly and short. Avoid contested facts and fuzzy dates.
+- Every content file has a typed schema and is covered by a content check test. Every highlight, event, and question has a date and a source URL.
+- Quiz timeline rounds use events with distinct dates. Explanations are friendly and 1–2 sentences long.
+- **Contested topics** (wars, elections, Israel–Palestine, and similar) use neutral wording. State what happened, when, and who says what, and attribute any claim that is disputed. Background sections cite more than one source. Don't take sides, and don't use loaded labels without attributing them.
+- Quiz questions ask about facts that are settled and dated, not about opinions or predictions.
 
 **Testing**
-- Vitest for logic: picking the puzzle for a date, placement checking and scoring, streak updates, and share text.
-- A content check test that validates every day file (card count, unique years, required fields, source links).
+- Vitest for logic: parsing news API responses, picking today's and this week's files, quiz scoring, the review schedule, streaks, and share text.
+- A content check test that validates every content file (required fields, dates, source links, distinct dates in timeline rounds).
 - `npm test` and `npm run build` must pass before any commit. For UI changes, also check by hand in the browser at phone width.
 
 **Usability**
@@ -57,7 +64,8 @@ See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for 
 - Respects light and dark mode.
 
 **Security basics**
-- No secrets, API keys, or personal data in the repo, ever.
+- No secrets, API keys, or personal data in the repo, ever. The news API key lives only in GitHub Actions secrets and is used only by the scheduled job, never in browser code.
+- Treat news API responses as untrusted text: validate them against the schema and render them as plain text.
 - Render content with `textContent` or DOM APIs, never `innerHTML` with content strings.
 - `localStorage` holds only game progress (streak, past results). Wrap reads in try/catch so the game still works when storage is blocked.
 - Keep dependencies current, and look at `npm audit` output before adding packages.
