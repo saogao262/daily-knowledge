@@ -28,6 +28,8 @@ First milestone: **playable + live**
 
 ## Decisions
 
+- 2026-10-27: **Agent instructions live in `AGENTS.md`**, so Codex and Claude Code read the same file. `CLAUDE.md` is just `@AGENTS.md`.
+
 - 2026-10-27: **Daily format is a timeline game with mixed topics.** Amy finds articles dull and wants something that feels like a game or a conversation. A timeline fits every topic, because anything with a date works. Alternatives considered: a 5-question quiz, a lesson card plus quiz, a "What am I?" mystery with clues, and a map guess.
 - 2026-10-27: **Content is written ahead in repo data files.** It's free, works on static hosting, and every fact can be checked. Current-events cards come in weekly batches of settled facts. Live AI generation (needs a server and a secret key) and news or Wikipedia APIs (quality varies) were set aside.
 - 2026-10-27: **Platform is TypeScript + Vite on GitHub Pages**, deployed by GitHub Actions. Vite `base` must match the repo name (`/daily-knowledge/`).
