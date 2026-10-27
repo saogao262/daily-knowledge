@@ -6,6 +6,12 @@ Short, dated entries. Newest first within each section.
 
 A daily timeline game for general knowledge. Each day: one anchor card plus 5 event cards from mixed topics (history, science, geography, inventions, current events). Place each card on the timeline and get an instant reveal with a short "why it matters" note. Score out of 5, a shareable emoji result, and a daily streak. Static TypeScript + Vite site on GitHub Pages, with content written ahead in repo data files.
 
+**Why (Amy, 2026-10-27):** "I think I lack a lot of general knowledge, including history, current events, politics, geography etc. I want a fun easy daily sort of thing that will solve this."
+
+Inspired by this quote: "I think AI is currently creating two categories of students. The first one being the ones that use it to learn everything. The second one being the ones that use it to never learn anything ever again. The second group is much bigger."
+
+So the app should push toward the first group. Amy should actually learn and remember things, which means recalling answers, not just reading them. It should also stay fun and easy enough to do every day.
+
 ## Done
 
 - 2026-10-27: Project set up. Idea, content source, platform, and first milestone decided. CLAUDE.md, PLAN.md, IDEAS.md, README.md, and .gitignore written.
