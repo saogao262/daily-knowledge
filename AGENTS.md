@@ -5,7 +5,7 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 ## Project
 
 **Vision.** A daily news and knowledge site that Amy comes back to every day and that makes them *remember*, not just read. It has four parts:
-- **Daily highlights.** Short World and US lists, about 5 items each, with a one-line summary and a source link.
+- **Daily highlights.** Short World and US lists of up to about 5 items each. A story appears only when 2 or more credible outlets with different political leanings report it. Each item has a one-line summary and lists every outlet that covered it, with its leaning and a link.
 - **Topic pages.** 4–6 major ongoing stories (for example the Ukraine war and Israel–Palestine), each with a "how we got here" background, a key-dates timeline, and the latest tagged highlights.
 - **Weekly quiz.** A timeline round where you put the week's events in order, plus a few multiple-choice questions, each followed by a short explanation, a score, and a share button.
 - **Spaced repetition.** Missed questions come back as a short review on the home page after 3 days, 1 week, 2 weeks, and 1 month.
@@ -13,14 +13,15 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 It should feel like a game or a conversation, not an article.
 
 **Content.**
-- Daily headlines are fetched automatically from a news API by a scheduled GitHub Action and committed as dated JSON files.
+- Daily headlines are fetched automatically from 6–8 outlets by a scheduled GitHub Action. Headlines about the same story are grouped, and only groups that pass the cross-check are committed as dated JSON files.
+- **The cross-check rule:** a story needs 2 or more outlets, and at least two different leanings (left, center, or right) among them. Leanings come from AllSides and Ad Fontes Media and are saved in the repo's source list. Never show a story from a single source to fill space. Show fewer highlights instead.
 - The weekly quiz and topic updates are written by the agent, and Amy skims them before they go live.
 - The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly.
 - Every item and question has a source link.
 
 **Platform.** TypeScript + Vite, a static site hosted on GitHub Pages and deployed by GitHub Actions on push to `main`. No backend, no accounts. Player progress (streak, quiz results, review schedule) lives in `localStorage`.
 
-**First milestone: news, topics, quiz, and review, live.** All four parts work on the live GitHub Pages site, with daily headlines updating automatically, 4–6 approved topic pages, one week's quiz, and the review schedule working. The steps are listed in `PLAN.md` under Next.
+**First milestone: news, topics, quiz, and review, live.** All four parts work on the live GitHub Pages site, with cross-checked daily headlines updating automatically, 4–6 approved topic pages, one week's quiz, and the review schedule working. The steps are listed in `PLAN.md` under Next.
 
 See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for parked ideas.
 
@@ -54,7 +55,7 @@ See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for 
 - Quiz questions ask about facts that are settled and dated, not about opinions or predictions.
 
 **Testing**
-- Vitest for logic: parsing news API responses, picking today's and this week's files, quiz scoring, the review schedule, streaks, and share text.
+- Vitest for logic: parsing each news feed, grouping headlines into stories, the cross-check rule, picking today's and this week's files, quiz scoring, the review schedule, streaks, and share text.
 - A content check test that validates every content file (required fields, dates, source links, distinct dates in timeline rounds).
 - `npm test` and `npm run build` must pass before any commit. For UI changes, also check by hand in the browser at phone width.
 
@@ -64,7 +65,7 @@ See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for 
 - Respects light and dark mode.
 
 **Security basics**
-- No secrets, API keys, or personal data in the repo, ever. The news API key lives only in GitHub Actions secrets and is used only by the scheduled job, never in browser code.
+- No secrets, API keys, or personal data in the repo, ever. News API keys live only in GitHub Actions secrets and is used only by the scheduled job, never in browser code.
 - Treat news API responses as untrusted text: validate them against the schema and render them as plain text.
 - Render content with `textContent` or DOM APIs, never `innerHTML` with content strings.
 - `localStorage` holds only game progress (streak, past results). Wrap reads in try/catch so the game still works when storage is blocked.
