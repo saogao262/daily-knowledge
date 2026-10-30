@@ -14,6 +14,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Done
 
+- 2026-10-30: Design step 2: clickable sketches of every screen in two looks, described in `docs/design.md` (source in `docs/sketches/`). Look 1 chosen. The screens still need Amy's approval.
 - 2026-10-27: Added cross-checking to the first milestone: headlines must be reported by 2 or more outlets with different leanings.
 - 2026-10-27: Rethought the first milestone around the news ideas (daily highlights, topic pages, weekly quiz, spaced repetition), replacing the daily timeline game.
 - 2026-10-27: Design step 1: surveyed 12 similar sites for effectiveness, engagement, speed, and usage data. Written up in `docs/research.md`.
@@ -33,6 +34,7 @@ First milestone: **news, topics, quiz, and review, live** (about 4–5 sessions;
 
 ## Decisions
 
+- 2026-10-30: **The look is calm news + playful quiz.** The Today and Topics screens look like a clean newspaper (Source Serif 4 and Inter, white background, navy accent). The quiz and review screens are game-like (Nunito, cream background, orange accent, rounded cards). This keeps serious topics like wars feeling trustworthy while keeping the recall part fun. The alternative considered was a friendly game style everywhere.
 - 2026-10-27: **Headlines are cross-checked.** A story appears only when 2 or more credible outlets with different leanings (left, center, or right, using AllSides and Ad Fontes Media ratings) report it, and every outlet is shown and linked. This cuts down on one newsroom's slant and on thinly sourced stories. If no story passes, the page shows fewer highlights rather than a single-source one. Grouping starts with word matching, and an AI step could be added later if matching proves too weak. Replaces the single news API in the decision below.
 - 2026-10-27: **Topics: the agent proposes 4–6 major ongoing stories with reasons, and Amy approves or swaps them.** The list is reviewed monthly. Alternatives considered: Amy picks every topic, or topics are chosen automatically by how often they appear in headlines.
 - 2026-10-27: **The timeline game becomes the weekly quiz's main round** instead of a separate daily history game. That means one game to build, tied to the news. Replaces the "daily timeline game" decision below.

@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Daily Knowledge prototype</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Nunito:wght@500;700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; display: flex; flex-direction: column; overflow: hidden; background: {{screenBg}}; color: {{n.ink}}; font-family: {{n.ui}}; box-sizing: border-box">
+<main style="flex: 1; min-height: 0; overflow-y: auto">
+
+<sc-if value="{{onToday}}" hint-placeholder-val="{{true}}">
+<div style="padding: 24px 20px 32px; display: flex; flex-direction: column; gap: 20px">
+<header style="display: flex; justify-content: space-between; align-items: flex-end; gap: 12px">
+<div>
+<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: {{n.muted}}">Friday, October 30</p>
+<h1 style="margin: 4px 0 0; font-family: {{n.head}}; font-size: 32px; line-height: 1.1; font-weight: 700">Today</h1>
+</div>
+<p style="margin: 0; padding: 6px 12px; border-radius: 999px; background: {{q.soft}}; color: {{q.accentText}}; font-family: {{q.font}}; font-size: 13px; font-weight: 800">3-week streak</p>
+</header>
+<p style="margin: 0; padding: 10px 12px; border-radius: 8px; background: {{n.chipBg}}; color: {{n.muted}}; font-size: 13px; line-height: 1.4">Sample content. Headlines, outlets, and quiz events marked [Sample] are placeholders.</p>
+
+<sc-if value="{{showReview}}" hint-placeholder-val="{{true}}">
+<section aria-label="Review" style="background: {{q.surface}}; border: 2px solid {{q.soft}}; border-radius: {{q.radius}}; padding: 18px; display: flex; flex-direction: column; gap: 12px; font-family: {{q.font}}; color: {{q.ink}}">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: {{q.accentText}}">Review · 1 question due</p>
+<h2 style="margin: 0; font-size: 19px; line-height: 1.3; font-weight: 800">{{review.q}}</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<sc-for list="{{review.opts}}" as="o" hint-placeholder-count="4">
+<button onClick="{{o.pick}}" disabled="{{o.disabled}}" style="min-height: 48px; padding: 8px 10px; border-radius: 12px; border: 2px solid {{o.border}}; background: {{o.bg}}; color: {{q.ink}}; font-family: {{q.font}}; font-size: 16px; font-weight: 700; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px">
+<span>{{o.text}}</span>
+<sc-if value="{{o.hasLabel}}" hint-placeholder-val="{{false}}">
+<span style="font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: {{o.labelColor}}">{{o.label}}</span>
+</sc-if>
+</button>
+</sc-for>
+</div>
+<sc-if value="{{review.done}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p style="margin: 0; font-size: 16px; font-weight: 800; color: {{review.msgColor}}">{{review.msg}}</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.45; color: {{q.muted}}">{{review.why}}</p>
+</div>
+</sc-if>
+</section>
+</sc-if>
+
+<section style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 8px 0 0; font-family: {{n.head}}; font-size: 22px; font-weight: 700">World</h2>
+<sc-for list="{{world}}" as="h" hint-placeholder-count="3">
+<article style="background: {{n.cardBg}}; border-radius: {{n.radius}}; padding: {{n.cardPad}}; border-top: {{n.cardBorder}}; display: flex; flex-direction: column; gap: 6px">
+<sc-if value="{{h.hasTopic}}" hint-placeholder-val="{{true}}">
+<p style="margin: 0; font-size: 12px; font-weight: 600; color: {{n.accent}}">{{h.topic}}</p>
+</sc-if>
+<h3 style="margin: 0; font-family: {{n.head}}; font-size: 19px; line-height: 1.3; font-weight: 600">{{h.title}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: {{n.muted}}">{{h.summary}}</p>
+<button onClick="{{h.toggle}}" aria-expanded="{{h.isOpen}}" style="align-self: flex-start; min-height: 44px; padding: 0; border: 0; background: transparent; color: {{n.accent}}; font-family: {{n.ui}}; font-size: 14px; font-weight: 600; cursor: pointer">{{h.sourcesLabel}}</button>
+<sc-if value="{{h.isOpen}}" hint-placeholder-val="{{false}}">
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px">
+<sc-for list="{{h.outlets}}" as="o" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; justify-content: space-between; min-height: 40px; gap: 8px">
+<a href="#" style="color: {{n.accent}}; font-size: 15px">{{o.n}}: read the story</a>
+<span style="padding: 3px 10px; border-radius: 999px; background: {{n.chipBg}}; color: {{n.muted}}; font-size: 12px; font-weight: 600">{{o.l}}</span>
+</li>
+</sc-for>
+</ul>
+</sc-if>
+</article>
+</sc-for>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 8px 0 0; font-family: {{n.head}}; font-size: 22px; font-weight: 700">United States</h2>
+<sc-for list="{{us}}" as="h" hint-placeholder-count="3">
+<article style="background: {{n.cardBg}}; border-radius: {{n.radius}}; padding: {{n.cardPad}}; border-top: {{n.cardBorder}}; display: flex; flex-direction: column; gap: 6px">
+<sc-if value="{{h.hasTopic}}" hint-placeholder-val="{{true}}">
+<p style="margin: 0; font-size: 12px; font-weight: 600; color: {{n.accent}}">{{h.topic}}</p>
+</sc-if>
+<h3 style="margin: 0; font-family: {{n.head}}; font-size: 19px; line-height: 1.3; font-weight: 600">{{h.title}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: {{n.muted}}">{{h.summary}}</p>
+<button onClick="{{h.toggle}}" aria-expanded="{{h.isOpen}}" style="align-self: flex-start; min-height: 44px; padding: 0; border: 0; background: transparent; color: {{n.accent}}; font-family: {{n.ui}}; font-size: 14px; font-weight: 600; cursor: pointer">{{h.sourcesLabel}}</button>
+<sc-if value="{{h.isOpen}}" hint-placeholder-val="{{false}}">
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px">
+<sc-for list="{{h.outlets}}" as="o" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; justify-content: space-between; min-height: 40px; gap: 8px">
+<a href="#" style="color: {{n.accent}}; font-size: 15px">{{o.n}}: read the story</a>
+<span style="padding: 3px 10px; border-radius: 999px; background: {{n.chipBg}}; color: {{n.muted}}; font-size: 12px; font-weight: 600">{{o.l}}</span>
+</li>
+</sc-for>
+</ul>
+</sc-if>
+</article>
+</sc-for>
+</section>
+</div>
+</sc-if>
+
+<sc-if value="{{onTopicList}}" hint-placeholder-val="{{false}}">
+<div style="padding: 24px 20px 32px; display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-family: {{n.head}}; font-size: 32px; font-weight: 700">Topics</h1>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: {{n.muted}}">The biggest ongoing stories. These are proposed topics; you approve the final list.</p>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{topics}}" as="tp" hint-placeholder-count="5">
+<button onClick="{{tp.open}}" style="min-height: 72px; padding: 14px 16px; border-radius: {{n.radius}}; border: 1px solid {{n.line}}; background: {{n.cardBgSolid}}; color: {{n.ink}}; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-family: {{n.ui}}">
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: {{n.head}}; font-size: 18px; font-weight: 600">{{tp.name}}</span>
+<span style="font-size: 13px; color: {{n.muted}}">{{tp.updated}}</span>
+</span>
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg>
+</button>
+</sc-for>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{onTopicDetail}}" hint-placeholder-val="{{false}}">
+<div style="padding: 16px 20px 32px; display: flex; flex-direction: column; gap: 18px">
+<button onClick="{{backToTopics}}" style="align-self: flex-start; min-height: 44px; padding: 0 4px 0 0; border: 0; background: transparent; color: {{n.accent}}; font-family: {{n.ui}}; font-size: 15px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 4px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"></path></svg>
+Topics
+</button>
+<h1 style="margin: 0; font-family: {{n.head}}; font-size: 30px; line-height: 1.15; font-weight: 700">{{topic.name}}</h1>
+<section style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: {{n.head}}; font-size: 20px; font-weight: 700">How we got here</h2>
+<p style="margin: 0; padding: 14px; border-radius: 8px; border: 1px dashed {{n.line}}; font-size: 15px; line-height: 1.5; color: {{n.muted}}">[Background: 3 to 4 neutral sentences, citing 2 or more sources, written in build step 5.]</p>
+</section>
+<section style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-family: {{n.head}}; font-size: 20px; font-weight: 700">Key dates</h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+<sc-for list="{{topic.dates}}" as="d" hint-placeholder-count="3">
+<li style="display: flex; gap: 14px">
+<span style="display: flex; flex-direction: column; align-items: center; width: 12px">
+<span style="width: 12px; height: 12px; border-radius: 50%; background: {{n.accent}}; margin-top: 5px"></span>
+<span style="flex: 1; width: 2px; background: {{n.line}}"></span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding-bottom: 16px">
+<span style="font-size: 13px; font-weight: 700; color: {{n.accent}}">{{d.d}}</span>
+<span style="font-size: 15px; line-height: 1.45">{{d.t}}</span>
+</span>
+</li>
+</sc-for>
+</ol>
+</section>
+<section style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: {{n.head}}; font-size: 20px; font-weight: 700">This week</h2>
+<p style="margin: 0; padding: 14px; border-radius: 8px; border: 1px dashed {{n.line}}; font-size: 15px; line-height: 1.5; color: {{n.muted}}">[Cross-checked highlights tagged with this topic appear here, newest first.]</p>
+</section>
+</div>
+</sc-if>
+
+<sc-if value="{{onQuiz}}" hint-placeholder-val="{{false}}">
+<div style="padding: 24px 20px 32px; display: flex; flex-direction: column; gap: 18px; font-family: {{q.font}}; color: {{q.ink}}">
+
+<sc-if value="{{qIntro}}" hint-placeholder-val="{{true}}">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: {{q.accentText}}">Week of Oct 19 to 25</p>
+<h1 style="margin: 0; font-size: 34px; line-height: 1.1; font-weight: 900">Weekly quiz</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: {{q.muted}}">How much of this week's news stuck? About 4 minutes.</p>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="background: {{q.surface}}; border-radius: {{q.radius}}; padding: 16px; display: flex; gap: 14px; align-items: center">
+<span style="width: 44px; height: 44px; border-radius: 50%; background: {{q.soft}}; color: {{q.accentText}}; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px">1</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 800">Timeline</span><span style="font-size: 14px; color: {{q.muted}}">Put 3 of the week's events in order</span></span>
+</div>
+<div style="background: {{q.surface}}; border-radius: {{q.radius}}; padding: 16px; display: flex; gap: 14px; align-items: center">
+<span style="width: 44px; height: 44px; border-radius: 50%; background: {{q.soft}}; color: {{q.accentText}}; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px">2</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 800">Quick questions</span><span style="font-size: 14px; color: {{q.muted}}">2 multiple-choice questions</span></span>
+</div>
+</div>
+<button onClick="{{startQuiz}}" style="min-height: 56px; border: 0; border-radius: 999px; background: {{q.accent}}; color: #FFFFFF; font-family: {{q.font}}; font-size: 18px; font-weight: 900; cursor: pointer">Start quiz</button>
+</div>
+</sc-if>
+
+<sc-if value="{{qTimeline}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: {{q.accentText}}">Round 1 · Timeline · {{tl.progress}}</p>
+<sc-if value="{{tl.asking}}" hint-placeholder-val="{{true}}">
+<div style="background: {{q.accent}}; color: #FFFFFF; border-radius: {{q.radius}}; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em">Where does this go?</span>
+<span style="font-size: 19px; line-height: 1.3; font-weight: 800">{{tl.current.title}}</span>
+</div>
+</sc-if>
+<sc-if value="{{tl.revealing}}" hint-placeholder-val="{{false}}">
+<div style="background: {{tl.revealBg}}; border: 2px solid {{tl.revealBorder}}; border-radius: {{q.radius}}; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 18px; font-weight: 900; color: {{tl.revealColor}}">{{tl.revealTitle}}</span>
+<span style="font-size: 15px; line-height: 1.5">{{tl.revealWhy}}</span>
+<button onClick="{{tl.next}}" style="align-self: flex-end; min-height: 48px; padding: 0 22px; border: 0; border-radius: 999px; background: {{q.accent}}; color: #FFFFFF; font-family: {{q.font}}; font-size: 16px; font-weight: 900; cursor: pointer">Next</button>
+</div>
+</sc-if>
+<ol aria-label="Timeline, earliest at the top" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px">
+<sc-for list="{{tl.rows}}" as="r" hint-placeholder-count="3">
+<sc-if value="{{r.isGap}}" hint-placeholder-val="{{false}}">
+<li>
+<button onClick="{{r.place}}" style="width: 100%; min-height: 44px; border: 2px dashed {{q.accent}}; border-radius: 12px; background: transparent; color: {{q.accentText}}; font-family: {{q.font}}; font-size: 15px; font-weight: 800; cursor: pointer">{{r.label}}</button>
+</li>
+</sc-if>
+<sc-if value="{{r.isCard}}" hint-placeholder-val="{{true}}">
+<li style="background: {{r.bg}}; border: 2px solid {{r.border}}; border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 800; color: {{q.accentText}}">{{r.date}}</span>
+<span style="font-size: 16px; line-height: 1.35; font-weight: 700">{{r.title}}</span>
+</li>
+</sc-if>
+</sc-for>
+</ol>
+</div>
+</sc-if>
+
+<sc-if value="{{qMc}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: {{q.accentText}}">Round 2 · {{mc.progress}}</p>
+<h2 style="margin: 0; font-size: 23px; line-height: 1.25; font-weight: 900">{{mc.q}}</h2>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{mc.opts}}" as="o" hint-placeholder-count="4">
+<button onClick="{{o.pick}}" disabled="{{o.disabled}}" style="min-height: 56px; padding: 10px 16px; border-radius: 14px; border: 2px solid {{o.border}}; background: {{o.bg}}; color: {{q.ink}}; font-family: {{q.font}}; font-size: 17px; font-weight: 700; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 8px">
+<span>{{o.text}}</span>
+<sc-if value="{{o.hasLabel}}" hint-placeholder-val="{{false}}">
+<span style="font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: {{o.labelColor}}">{{o.label}}</span>
+</sc-if>
+</button>
+</sc-for>
+</div>
+<sc-if value="{{mc.done}}" hint-placeholder-val="{{false}}">
+<div style="background: {{q.surface}}; border-radius: {{q.radius}}; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 18px; font-weight: 900; color: {{mc.msgColor}}">{{mc.msg}}</span>
+<span style="font-size: 15px; line-height: 1.5">{{mc.why}}</span>
+<button onClick="{{mc.next}}" style="align-self: flex-end; min-height: 48px; padding: 0 22px; border: 0; border-radius: 999px; background: {{q.accent}}; color: #FFFFFF; font-family: {{q.font}}; font-size: 16px; font-weight: 900; cursor: pointer">{{mc.nextLabel}}</button>
+</div>
+</sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{qResults}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 18px; align-items: stretch">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: {{q.accentText}}">Week of Oct 19 to 25</p>
+<div style="background: {{q.surface}}; border-radius: {{q.radius}}; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; gap: 12px">
+<span style="font-size: 56px; line-height: 1; font-weight: 900">{{res.score}}</span>
+<span style="font-size: 16px; color: {{q.muted}}">{{res.caption}}</span>
+<div role="img" aria-label="{{res.squaresLabel}}" style="display: flex; gap: 6px">
+<sc-for list="{{res.squares}}" as="sq" hint-placeholder-count="5">
+<span style="width: 28px; height: 28px; border-radius: 6px; background: {{sq.bg}}"></span>
+</sc-for>
+</div>
+<span style="padding: 6px 14px; border-radius: 999px; background: {{q.soft}}; color: {{q.accentText}}; font-size: 14px; font-weight: 800">4-week streak</span>
+</div>
+<button onClick="{{res.share}}" style="min-height: 56px; border: 0; border-radius: 999px; background: {{q.accent}}; color: #FFFFFF; font-family: {{q.font}}; font-size: 18px; font-weight: 900; cursor: pointer">{{res.shareLabel}}</button>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: {{q.muted}}; text-align: center">{{res.reviewNote}}</p>
+<button onClick="{{res.restart}}" style="min-height: 44px; border: 0; background: transparent; color: {{q.accentText}}; font-family: {{q.font}}; font-size: 15px; font-weight: 800; cursor: pointer">Replay the sample quiz</button>
+</div>
+</sc-if>
+
+</div>
+</sc-if>
+</main>
+
+<nav aria-label="Main" style="display: flex; border-top: 1px solid {{n.line}}; background: {{tabBg}}">
+<button onClick="{{goToday}}" aria-current="{{tabs.todayCurrent}}" style="flex: 1; min-height: 64px; border: 0; background: transparent; color: {{tabs.today}}; font-family: {{n.ui}}; font-size: 12px; font-weight: 700; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+Today
+</button>
+<button onClick="{{goTopics}}" aria-current="{{tabs.topicsCurrent}}" style="flex: 1; min-height: 64px; border: 0; background: transparent; color: {{tabs.topics}}; font-family: {{n.ui}}; font-size: 12px; font-weight: 700; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"></path></svg>
+Topics
+</button>
+<button onClick="{{goQuiz}}" aria-current="{{tabs.quizCurrent}}" style="flex: 1; min-height: 64px; border: 0; background: transparent; color: {{tabs.quiz}}; font-family: {{n.ui}}; font-size: 12px; font-weight: 700; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z"></path></svg>
+Quiz
+</button>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"look":{"editor":"enum","options":["calm","friendly"],"default":"calm"},"$preview":{"width":390,"height":844}}'>
+var QUIZ_THEME = {
+  bg: '#FFF7ED', surface: '#FFFFFF', ink: '#1C1917', muted: '#57534E',
+  accent: '#C2410C', accentText: '#9A3412', soft: '#FED7AA',
+  font: "'Nunito', system-ui, sans-serif", radius: '18px',
+  ok: '#1D4ED8', okBg: '#DBEAFE', bad: '#B45309', badText: '#92400E', badBg: '#FEF3C7'
+};
+var LOOKS = {
+  calm: {
+    n: { bg: '#FFFFFF', ink: '#18181B', muted: '#52525B', line: '#E4E4E7',
+      head: "'Source Serif 4', Georgia, serif", ui: "'Inter', system-ui, sans-serif",
+      accent: '#1E40AF', chipBg: '#F4F4F5', radius: '0', cardBg: 'transparent', cardBgSolid: '#FFFFFF',
+      cardPad: '16px 0 4px', cardBorder: '1px solid #E4E4E7' },
+    tabBg: '#FFFFFF'
+  },
+  friendly: {
+    n: { bg: '#FFF7ED', ink: '#1C1917', muted: '#57534E', line: '#FED7AA',
+      head: "'Nunito', system-ui, sans-serif", ui: "'Nunito', system-ui, sans-serif",
+      accent: '#0F766E', chipBg: '#FFEDD5', radius: '18px', cardBg: '#FFFFFF', cardBgSolid: '#FFFFFF',
+      cardPad: '16px', cardBorder: '0' },
+    tabBg: '#FFFFFF'
+  }
+};
+var OUT = {
+  A: { n: 'Outlet A', l: 'Left' }, B: { n: 'Outlet B', l: 'Center' },
+  C: { n: 'Outlet C', l: 'Right' }, D: { n: 'Outlet D', l: 'Center' }
+};
+var WORLD = [
+  { id: 'w1', topic: 'Climate and energy', title: '[Sample] Heat wave breaks records across southern Europe', summary: 'Several countries reported their hottest October days on record, and officials issued health warnings.', outlets: [OUT.A, OUT.B, OUT.C] },
+  { id: 'w2', topic: '', title: '[Sample] Trade ministers meet to discuss rising shipping costs', summary: 'Ministers from a dozen countries agreed to study new rules for container shipping fees.', outlets: [OUT.B, OUT.C] },
+  { id: 'w3', topic: '', title: '[Sample] Regional regulator approves a new malaria vaccine', summary: 'The approval clears the way for rollout in five countries early next year.', outlets: [OUT.A, OUT.D] }
+];
+var US = [
+  { id: 'u1', topic: 'US economy', title: '[Sample] Central bank holds interest rates steady', summary: 'Officials said inflation is cooling but they want more data before cutting rates.', outlets: [OUT.A, OUT.B, OUT.C, OUT.D] },
+  { id: 'u2', topic: 'Climate and energy', title: '[Sample] Storm makes landfall on the Gulf Coast', summary: 'Thousands lost power and several counties ordered evacuations.', outlets: [OUT.A, OUT.C] },
+  { id: 'u3', topic: '', title: '[Sample] Senate passes a bipartisan bridge repair bill', summary: 'The bill now goes to the House, where leaders expect a vote next month.', outlets: [OUT.B, OUT.C] }
+];
+var TOPICS = [
+  { id: 'ukr', name: 'Russia–Ukraine war', updated: 'Updated Oct 29 · 3 new this week', dates: [
+    { d: 'March 2014', t: 'Russia annexes Crimea.' },
+    { d: 'Feb 24, 2022', t: 'Russia begins its full-scale invasion of Ukraine.' },
+    { d: '[Latest]', t: '[New key dates are added each week.]' }
+  ] },
+  { id: 'ip', name: 'Israel–Palestine', updated: 'Updated Oct 28 · 2 new this week', dates: [] },
+  { id: 'econ', name: 'US economy', updated: 'Updated Oct 30 · 4 new this week', dates: [] },
+  { id: 'climate', name: 'Climate and energy', updated: 'Updated Oct 30 · 2 new this week', dates: [] },
+  { id: 'ai', name: 'AI and tech policy', updated: 'Updated Oct 27 · 1 new this week', dates: [] }
+];
+var ANCHOR = { id: 'a', day: 19, date: 'Mon, Oct 19', title: '[Sample] Parliament passes a new budget bill' };
+var CARDS = [
+  { id: 'c1', day: 24, date: 'Sat, Oct 24', title: '[Sample] Storm makes landfall on the Gulf Coast', why: 'It hit on Saturday, the last event of the week. Sample explanation: one or two friendly sentences on why it matters.' },
+  { id: 'c2', day: 21, date: 'Wed, Oct 21', title: '[Sample] Trade ministers meet about shipping costs', why: 'The meeting was midweek, on Wednesday. Sample explanation of what was agreed and why it matters.' },
+  { id: 'c3', day: 22, date: 'Thu, Oct 22', title: '[Sample] Central bank holds interest rates steady', why: 'The decision came on Thursday, the day after the trade meeting. Sample explanation of what it means for borrowing.' }
+];
+var MC = [
+  { q: 'When did Russia begin its full-scale invasion of Ukraine?', opts: ['March 2014', 'February 2022', 'August 2008', 'June 2023'], a: 1,
+    why: 'Russia launched the full-scale invasion on February 24, 2022. Eight years earlier, in 2014, it had annexed Crimea.' },
+  { q: 'Which body sets the main US interest rate?', opts: ['The Treasury Department', 'Congress', 'The Federal Reserve', 'The Supreme Court'], a: 2,
+    why: 'The Federal Reserve sets the target for the federal funds rate, which steers borrowing costs across the economy.' }
+];
+var REVIEW = { q: 'In what year did euro banknotes and coins enter circulation?', opts: ['1992', '1999', '2002', '2008'], a: 2,
+  why: 'The euro launched for banks in 1999, and the cash followed on January 1, 2002.' };
+
+function freshQuiz() {
+  return { qstep: 'intro', tl: { placed: ['a'], idx: 0, reveal: null, results: [] }, mc: { idx: 0, picked: null, results: [] }, copied: false };
+}
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = Object.assign({ tab: 'today', topic: null, open: null, rv: null }, freshQuiz());
+  }
+
+  sortedPlaced() {
+    var all = [ANCHOR].concat(CARDS);
+    return this.state.tl.placed.map(function (id) { return all.find(function (c) { return c.id === id; }); })
+      .sort(function (a, b) { return a.day - b.day; });
+  }
+
+  place(gap) {
+    var tl = this.state.tl;
+    var sorted = this.sortedPlaced();
+    var card = CARDS[tl.idx];
+    var prev = sorted[gap - 1], next = sorted[gap];
+    var ok = (!prev || prev.day < card.day) && (!next || card.day < next.day);
+    this.setState({ tl: Object.assign({}, tl, { placed: tl.placed.concat(card.id), reveal: { id: card.id, ok: ok, why: card.why, date: card.date }, results: tl.results.concat(ok) }) });
+  }
+
+  nextCard() {
+    var tl = this.state.tl;
+    var idx = tl.idx + 1;
+    var patch = { tl: Object.assign({}, tl, { idx: idx, reveal: null }) };
+    if (idx >= CARDS.length) patch.qstep = 'mc';
+    this.setState(patch);
+  }
+
+  pickMc(i) {
+    var mc = this.state.mc;
+    if (mc.picked !== null) return;
+    this.setState({ mc: Object.assign({}, mc, { picked: i, results: mc.results.concat(i === MC[mc.idx].a) }) });
+  }
+
+  nextMc() {
+    var mc = this.state.mc;
+    var idx = mc.idx + 1;
+    if (idx >= MC.length) this.setState({ qstep: 'results', mc: Object.assign({}, mc, { picked: null }) });
+    else this.setState({ mc: Object.assign({}, mc, { idx: idx, picked: null }) });
+  }
+
+  options(item, picked, onPick, q) {
+    return item.opts.map(function (text, i) {
+      var o = { text: text, bg: q.surface, border: q.soft, label: '', labelColor: q.ink, disabled: picked !== null, pick: function () { onPick(i); } };
+      if (picked !== null && i === item.a) { o.bg = q.okBg; o.border = q.ok; o.label = 'Correct'; o.labelColor = q.ok; }
+      else if (picked !== null && i === picked) { o.bg = q.badBg; o.border = q.bad; o.label = 'Your answer'; o.labelColor = q.badText; }
+      o.hasLabel = !!o.label;
+      return o;
+    });
+  }
+
+  highlight(h, n) {
+    var self = this;
+    var open = this.state.open === h.id;
+    var leanings = [];
+    h.outlets.forEach(function (o) { if (leanings.indexOf(o.l) < 0) leanings.push(o.l); });
+    return {
+      title: h.title, summary: h.summary, topic: h.topic, hasTopic: !!h.topic, outlets: h.outlets,
+      isOpen: open,
+      sourcesLabel: (open ? 'Hide ' : 'Show ') + h.outlets.length + ' outlets · ' + leanings.join(', '),
+      toggle: function () { self.setState({ open: open ? null : h.id }); }
+    };
+  }
+
+  renderVals() {
+    var self = this;
+    var s = this.state;
+    var look = this.props.look === 'friendly' ? 'friendly' : 'calm';
+    var L = LOOKS[look];
+    var n = L.n, q = QUIZ_THEME;
+    var onQuiz = s.tab === 'quiz';
+    var inactive = '#71717A';
+
+    var rv = s.rv;
+    var review = {
+      q: REVIEW.q,
+      opts: this.options(REVIEW, rv, function (i) { if (self.state.rv === null) self.setState({ rv: i }); }, q),
+      done: rv !== null,
+      msg: rv === REVIEW.a ? 'Nice. This comes back in 1 week.' : 'Not quite. This comes back in 3 days.',
+      msgColor: rv === REVIEW.a ? q.ok : q.badText,
+      why: REVIEW.why
+    };
+
+    var tl = s.tl;
+    var current = CARDS[tl.idx] || null;
+    var asking = !!current && !tl.reveal;
+    var rows = [];
+    var sorted = this.sortedPlaced();
+    sorted.forEach(function (c, i) {
+      if (asking) rows.push({ isGap: true, isCard: false, label: i === 0 ? 'Place here (earliest)' : 'Place here', place: function () { self.place(i); } });
+      var isNew = tl.reveal && tl.reveal.id === c.id;
+      rows.push({ isGap: false, isCard: true, date: c.date, title: c.title,
+        bg: isNew ? (tl.reveal.ok ? q.okBg : q.badBg) : q.surface,
+        border: isNew ? (tl.reveal.ok ? q.ok : q.bad) : q.soft });
+    });
+    if (asking) rows.push({ isGap: true, isCard: false, label: 'Place here (latest)', place: function () { self.place(sorted.length); } });
+    var rev = tl.reveal;
+    var tlVals = {
+      asking: asking, revealing: !!rev, current: current || {}, rows: rows,
+      progress: 'Card ' + Math.min(tl.idx + 1, CARDS.length) + ' of ' + CARDS.length,
+      revealTitle: rev ? (rev.ok ? 'Correct! It happened ' + rev.date + '.' : 'Not quite. It happened ' + rev.date + ', so it moved to its spot.') : '',
+      revealWhy: rev ? rev.why : '',
+      revealColor: rev && rev.ok ? q.ok : q.badText,
+      revealBg: rev && rev.ok ? q.okBg : q.badBg,
+      revealBorder: rev && rev.ok ? q.ok : q.bad,
+      next: function () { self.nextCard(); }
+    };
+
+    var mc = s.mc;
+    var item = MC[Math.min(mc.idx, MC.length - 1)];
+    var mcVals = {
+      q: item.q,
+      progress: 'Question ' + (Math.min(mc.idx, MC.length - 1) + 1) + ' of ' + MC.length,
+      opts: this.options(item, mc.picked, function (i) { self.pickMc(i); }, q),
+      done: mc.picked !== null,
+      msg: mc.picked === item.a ? 'Correct!' : 'Not quite.',
+      msgColor: mc.picked === item.a ? q.ok : q.badText,
+      why: item.why,
+      nextLabel: mc.idx + 1 >= MC.length ? 'See results' : 'Next question',
+      next: function () { self.nextMc(); }
+    };
+
+    var all = tl.results.concat(mc.results);
+    var right = all.filter(function (x) { return x; }).length;
+    var missed = all.length - right;
+    var res = {
+      score: right + ' / ' + all.length,
+      caption: right === all.length ? 'Perfect week!' : 'Nice work this week.',
+      squares: all.map(function (ok) { return { bg: ok ? q.ok : q.bad }; }),
+      squaresLabel: right + ' of ' + all.length + ' right',
+      shareLabel: s.copied ? 'Copied! Paste it anywhere' : 'Share result',
+      share: function () { self.setState({ copied: true }); },
+      reviewNote: missed === 0 ? 'Nothing to review. Everything stuck!' : (missed === 1 ? 'The 1 question you missed' : 'The ' + missed + ' questions you missed') + ' will come back on your Today page for review, starting Nov 2.',
+      restart: function () { self.setState(freshQuiz()); }
+    };
+
+    var topic = TOPICS.find(function (t) { return t.id === s.topic; }) || TOPICS[0];
+    var topicDates = topic.dates.length ? topic.dates : [{ d: '[Dates]', t: '[Key dates for this topic are written in build step 5.]' }];
+
+    return {
+      n: n, q: q,
+      screenBg: onQuiz ? q.bg : n.bg,
+      tabBg: L.tabBg,
+      onToday: s.tab === 'today',
+      onTopicList: s.tab === 'topics' && !s.topic,
+      onTopicDetail: s.tab === 'topics' && !!s.topic,
+      onQuiz: onQuiz,
+      showReview: true,
+      review: review,
+      world: WORLD.map(function (h) { return self.highlight(h, n); }),
+      us: US.map(function (h) { return self.highlight(h, n); }),
+      topics: TOPICS.map(function (t) { return { name: t.name, updated: t.updated, open: function () { self.setState({ topic: t.id }); } }; }),
+      topic: { name: topic.name, dates: topicDates },
+      backToTopics: function () { self.setState({ topic: null }); },
+      qIntro: s.qstep === 'intro', qTimeline: s.qstep === 'timeline', qMc: s.qstep === 'mc', qResults: s.qstep === 'results',
+      startQuiz: function () { self.setState({ qstep: 'timeline' }); },
+      tl: tlVals, mc: mcVals, res: res,
+      tabs: {
+        today: s.tab === 'today' ? n.accent : inactive,
+        topics: s.tab === 'topics' ? n.accent : inactive,
+        quiz: onQuiz ? q.accent : inactive,
+        todayCurrent: s.tab === 'today' ? 'page' : 'false',
+        topicsCurrent: s.tab === 'topics' ? 'page' : 'false',
+        quizCurrent: onQuiz ? 'page' : 'false'
+      },
+      goToday: function () { self.setState({ tab: 'today' }); },
+      goTopics: function () { self.setState({ tab: 'topics', topic: null }); },
+      goQuiz: function () { self.setState({ tab: 'quiz' }); }
+    };
+  }
+}
+</script>
+</body>
+</html>

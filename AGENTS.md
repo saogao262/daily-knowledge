@@ -65,7 +65,7 @@ See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for 
 - Respects light and dark mode.
 
 **Security basics**
-- No secrets, API keys, or personal data in the repo, ever. News API keys live only in GitHub Actions secrets and is used only by the scheduled job, never in browser code.
+- No secrets, API keys, or personal data in the repo, ever. News API keys live only in GitHub Actions secrets and are used only by the scheduled job, never in browser code.
 - Treat news API responses as untrusted text: validate them against the schema and render them as plain text.
 - Render content with `textContent` or DOM APIs, never `innerHTML` with content strings.
 - `localStorage` holds only game progress (streak, past results). Wrap reads in try/catch so the game still works when storage is blocked.
