@@ -23,7 +23,7 @@ It should feel like a game or a conversation, not an article.
 
 **First milestone: news, topics, quiz, and review, live.** All four parts work on the live GitHub Pages site, with cross-checked daily headlines updating automatically, 4–6 approved topic pages, one week's quiz, and the review schedule working. The steps are listed in `PLAN.md` under Next.
 
-See `PLAN.md` for status and the reasons behind the project, and `IDEAS.md` for parked ideas.
+See `PLAN.md` for status and the reasons behind the project, `docs/design.md` for the approved screens and look (build to it), `docs/research.md` for the survey of similar sites, and `IDEAS.md` for parked ideas.
 
 ## Student Preferences
 

@@ -14,7 +14,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Done
 
-- 2026-10-30: Design step 2: clickable sketches of every screen in two looks, described in `docs/design.md` (source in `docs/sketches/`). Look 1 chosen. The screens still need Amy's approval.
+- 2026-10-30: Design step 2: clickable sketches of every screen in two looks, described in `docs/design.md` (source in `docs/sketches/`). Look 1 chosen and all screens approved, so the design phase is done.
 - 2026-10-27: Added cross-checking to the first milestone: headlines must be reported by 2 or more outlets with different leanings.
 - 2026-10-27: Rethought the first milestone around the news ideas (daily highlights, topic pages, weekly quiz, spaced repetition), replacing the daily timeline game.
 - 2026-10-27: Design step 1: surveyed 12 similar sites for effectiveness, engagement, speed, and usage data. Written up in `docs/research.md`.

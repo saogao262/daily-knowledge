@@ -2,7 +2,7 @@
 
 Design step 2, 2026-10-30. Clickable sketches: https://claude.ai/artifact/7LgmLShzdeMWfMo43M4pCB (private to Amy). The source is in `docs/sketches/`. `Main.dc.html` has every screen, and its `look` setting switches between the two styles. Those files only run inside the claude.ai design canvas, so read them for layout and wording.
 
-**Status:** the look is chosen. The screens are waiting for Amy's review. Nothing here is approved until it's listed under Approved below.
+**Status: approved 2026-10-30.** The look and all screens are approved as sketched. Build to this document. Any change to a screen gets recorded under Changes requested first.
 
 ## Look (decided 2026-10-30: look 1)
 
@@ -54,6 +54,7 @@ Everything marked [Sample] is made up, and "Outlet A–D" are placeholders, not 
 
 ## Approved
 
+- 2026-10-30: All screens as sketched: Today (with the review card and outlet list), Topics, the topic page, and the quiz intro, timeline round, multiple-choice round, and results. The bottom tab bar is approved too.
 - 2026-10-30: Look 1, calm news + playful quiz.
 
 ## Changes requested
