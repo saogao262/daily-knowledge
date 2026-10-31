@@ -13,7 +13,8 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 It should feel like a game or a conversation, not an article.
 
 **Content.**
-- Daily headlines are fetched automatically from 6–8 outlets by a scheduled GitHub Action. Headlines about the same story are grouped, and only groups that pass the cross-check are committed as dated JSON files.
+- Daily headlines are fetched automatically from the RSS feeds of the 8 approved outlets in `data/sources.json` (reasons in `docs/sources.md`) by a scheduled GitHub Action. Changing the outlet list needs Amy's approval.
+- **Feed terms:** the site stays non-commercial (no ads or payments). Show only the headline, a link to the original story, and the outlet's name, and mark paywalled links. Never show article text, feed descriptions, or logos. Summaries are written in our own words. Headlines about the same story are grouped, and only groups that pass the cross-check are committed as dated JSON files.
 - **The cross-check rule:** a story needs 2 or more outlets, and at least two different leanings (left, center, or right) among them. Leanings come from AllSides and Ad Fontes Media and are saved in the repo's source list. Never show a story from a single source to fill space. Show fewer highlights instead.
 - The weekly quiz and topic updates are written by the agent, and Amy skims them before they go live.
 - The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly.

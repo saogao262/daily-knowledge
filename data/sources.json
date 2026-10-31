@@ -1,0 +1,146 @@
+{
+  "status": "approved",
+  "approved": "2026-10-31",
+  "checked": "2026-10-31",
+  "display": "Show only the headline, a link to the original story, and the outlet name. No article text, no logos, no ads. Summaries are written in our own words.",
+  "leaningRule": "AllSides Left or Lean Left = left, Center = center, Lean Right or Right = right. A story needs 2+ outlets covering at least two different leanings.",
+  "credibilityRule": "Ad Fontes Media reliability score of 32 or higher (Generally Reliable or better) where a score is published.",
+  "sources": [
+    {
+      "id": "npr",
+      "name": "NPR",
+      "leaning": "left",
+      "allsides": "Lean Left",
+      "adFontes": {
+        "bias": -4.36,
+        "reliability": 42.69,
+        "label": "Middle / Reliable"
+      },
+      "feeds": {
+        "world": "https://feeds.npr.org/1004/rss.xml",
+        "us": "https://feeds.npr.org/1003/rss.xml"
+      },
+      "attribution": "NPR",
+      "paywall": false
+    },
+    {
+      "id": "nyt",
+      "name": "The New York Times",
+      "leaning": "left",
+      "allsides": "Lean Left (news)",
+      "adFontes": {
+        "bias": -7.8,
+        "reliability": 40.87,
+        "label": "Skews Left / Reliable"
+      },
+      "feeds": {
+        "world": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "us": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml"
+      },
+      "attribution": "The New York Times",
+      "paywall": true
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "leaning": "left",
+      "allsides": "Lean Left (medium confidence)",
+      "adFontes": {
+        "bias": -3.05,
+        "reliability": 41.37,
+        "label": "Middle / Reliable"
+      },
+      "feeds": {
+        "world": "https://www.economist.com/international/rss.xml",
+        "us": "https://www.economist.com/united-states/rss.xml"
+      },
+      "attribution": "The Economist",
+      "paywall": true
+    },
+    {
+      "id": "bbc",
+      "name": "BBC News",
+      "leaning": "center",
+      "allsides": "Center",
+      "adFontes": {
+        "bias": -1.42,
+        "reliability": 44.6,
+        "label": "Middle / Reliable"
+      },
+      "feeds": {
+        "world": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "us": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+      },
+      "attribution": "BBC News",
+      "paywall": false
+    },
+    {
+      "id": "hill",
+      "name": "The Hill",
+      "leaning": "center",
+      "allsides": "Center",
+      "adFontes": {
+        "bias": -1.54,
+        "reliability": 41.59,
+        "label": "Middle / Reliable"
+      },
+      "feeds": {
+        "world": "https://thehill.com/policy/international/feed/",
+        "us": "https://thehill.com/news/feed/"
+      },
+      "attribution": "The Hill",
+      "paywall": false
+    },
+    {
+      "id": "csm",
+      "name": "The Christian Science Monitor",
+      "leaning": "center",
+      "allsides": "Center",
+      "adFontes": {
+        "bias": -2.52,
+        "reliability": 44.23,
+        "label": "Middle / Reliable"
+      },
+      "feeds": {
+        "world": "https://rss.csmonitor.com/feeds/world",
+        "us": "https://rss.csmonitor.com/feeds/usa"
+      },
+      "attribution": "The Christian Science Monitor",
+      "paywall": false
+    },
+    {
+      "id": "fox",
+      "name": "Fox News",
+      "leaning": "right",
+      "allsides": "Right (Fox News Digital)",
+      "adFontes": {
+        "bias": 11.43,
+        "reliability": 33.83,
+        "label": "Skews Right / Generally Reliable"
+      },
+      "feeds": {
+        "world": "https://moxie.foxnews.com/google-publisher/world.xml",
+        "us": "https://moxie.foxnews.com/google-publisher/us.xml"
+      },
+      "attribution": "Fox News",
+      "paywall": false
+    },
+    {
+      "id": "examiner",
+      "name": "Washington Examiner",
+      "leaning": "right",
+      "allsides": "Lean Right",
+      "adFontes": {
+        "bias": 11.15,
+        "reliability": 34.19,
+        "label": "Skews Right / Generally Reliable"
+      },
+      "feeds": {
+        "world": "https://www.washingtonexaminer.com/news/world/feed/",
+        "us": "https://www.washingtonexaminer.com/section/news/feed/"
+      },
+      "attribution": "Washington Examiner",
+      "paywall": false
+    }
+  ]
+}
