@@ -21,7 +21,10 @@
         "us": "https://feeds.npr.org/1003/rss.xml"
       },
       "attribution": "NPR",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "npr.org"
+      ]
     },
     {
       "id": "nyt",
@@ -38,7 +41,10 @@
         "us": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml"
       },
       "attribution": "The New York Times",
-      "paywall": true
+      "paywall": true,
+      "domains": [
+        "nytimes.com"
+      ]
     },
     {
       "id": "economist",
@@ -55,7 +61,10 @@
         "us": "https://www.economist.com/united-states/rss.xml"
       },
       "attribution": "The Economist",
-      "paywall": true
+      "paywall": true,
+      "domains": [
+        "economist.com"
+      ]
     },
     {
       "id": "bbc",
@@ -72,7 +81,11 @@
         "us": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
       },
       "attribution": "BBC News",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
     },
     {
       "id": "hill",
@@ -89,7 +102,10 @@
         "us": "https://thehill.com/news/feed/"
       },
       "attribution": "The Hill",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "thehill.com"
+      ]
     },
     {
       "id": "csm",
@@ -106,7 +122,10 @@
         "us": "https://rss.csmonitor.com/feeds/usa"
       },
       "attribution": "The Christian Science Monitor",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "csmonitor.com"
+      ]
     },
     {
       "id": "fox",
@@ -123,7 +142,10 @@
         "us": "https://moxie.foxnews.com/google-publisher/us.xml"
       },
       "attribution": "Fox News",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "foxnews.com"
+      ]
     },
     {
       "id": "examiner",
@@ -140,7 +162,11 @@
         "us": "https://www.washingtonexaminer.com/section/news/feed/"
       },
       "attribution": "Washington Examiner",
-      "paywall": false
+      "paywall": false,
+      "domains": [
+        "washingtonexaminer.com"
+      ]
     }
-  ]
+  ],
+  "domainsRule": "Story links are only kept when they point to one of the outlet's own domains."
 }

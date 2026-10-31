@@ -26,7 +26,7 @@ The bottom tab bar has **Today**, **Topics**, and **Quiz**. Topic pages open fro
 **Today**
 - Date and streak at the top.
 - A **review card** with one due question. You answer it and then see what was right, a short explanation, and when the question comes back (3 days if missed, 1 week if right).
-- **World** and **United States** highlights. Each one shows an optional topic tag, a headline, and a one-line summary.
+- **World** and **United States** highlights. Each one shows an optional topic tag and the headline from the most central outlet that covered it (changed 2026-10-31, see Changes requested).
 - A "Show N outlets · Left, Center, Right" button opens the list of outlets that covered the story. Each outlet has its leaning and a link.
 
 **Topics**
@@ -59,4 +59,4 @@ Everything marked [Sample] is made up, and "Outlet A–D" are placeholders, not 
 
 ## Changes requested
 
-(none yet)
+- 2026-10-31 (Amy, approved): replace the one-line summary under each highlight with a headline comparison. The card shows the most central outlet's headline, and "Show outlets" lists every outlet's own headline, its leaning, a link, and a paywall mark where needed. An automatic job can't write summaries in our own words without AI, and comparing headlines also shows how each side framed the story.

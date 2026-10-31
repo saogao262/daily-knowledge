@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "headlines": "node scripts/news/fetch-headlines.ts"
   },
   "devDependencies": {
+    "@types/node": "^24.19.2",
+    "fast-xml-parser": "^5.11.2",
     "typescript": "^7.0.2",
     "vite": "^8.3.5",
     "vitest": "^5.0.5"

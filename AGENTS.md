@@ -5,7 +5,7 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 ## Project
 
 **Vision.** A daily news and knowledge site that Amy comes back to every day and that makes them *remember*, not just read. It has four parts:
-- **Daily highlights.** Short World and US lists of up to about 5 items each. A story appears only when 2 or more credible outlets with different political leanings report it. Each item has a one-line summary and lists every outlet that covered it, with its leaning and a link.
+- **Daily highlights.** Short World and US lists of up to about 5 items each. A story appears only when 2 or more credible outlets with different political leanings report it. Each item leads with the most central outlet's headline. "Show outlets" lists every outlet that covered it, with that outlet's own headline, its leaning, and a link, so readers can compare how each side framed the story.
 - **Topic pages.** 4–6 major ongoing stories (for example the Ukraine war and Israel–Palestine), each with a "how we got here" background, a key-dates timeline, and the latest tagged highlights.
 - **Weekly quiz.** A timeline round where you put the week's events in order, plus a few multiple-choice questions, each followed by a short explanation, a score, and a share button.
 - **Spaced repetition.** Missed questions come back as a short review on the home page after 3 days, 1 week, 2 weeks, and 1 month.
@@ -13,8 +13,8 @@ Instructions for any coding agent working in this repo (Codex, Claude Code, or o
 It should feel like a game or a conversation, not an article.
 
 **Content.**
-- Daily headlines are fetched automatically from the RSS feeds of the 8 approved outlets in `data/sources.json` (reasons in `docs/sources.md`) by a scheduled GitHub Action. Changing the outlet list needs Amy's approval.
-- **Feed terms:** the site stays non-commercial (no ads or payments). Show only the headline, a link to the original story, and the outlet's name, and mark paywalled links. Never show article text, feed descriptions, or logos. Summaries are written in our own words. Headlines about the same story are grouped, and only groups that pass the cross-check are committed as dated JSON files.
+- Daily headlines are fetched automatically from the RSS feeds of the 8 approved outlets in `data/sources.json` (reasons in `docs/sources.md`) by a scheduled GitHub Action (`.github/workflows/headlines.yml`, 11:00 UTC daily, code in `scripts/news/`). Headlines about the same story are grouped, and only groups that pass the cross-check are saved to `public/data/headlines/<date>.json`. Changing the outlet list needs Amy's approval.
+- **Feed terms:** the site stays non-commercial (no ads or payments). Show only the headline, a link to the original story, and the outlet's name, and mark paywalled links. Never show article text, feed descriptions, or logos. There are no automatic summaries. Any summary we add later must be in our own words.
 - **The cross-check rule:** a story needs 2 or more outlets, and at least two different leanings (left, center, or right) among them. Leanings come from AllSides and Ad Fontes Media and are saved in the repo's source list. Never show a story from a single source to fill space. Show fewer highlights instead.
 - The weekly quiz and topic updates are written by the agent, and Amy skims them before they go live.
 - The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly.

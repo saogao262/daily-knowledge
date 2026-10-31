@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T20:24:48.742Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 63
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 43
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 25
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 18
+    }
+  ],
+  "world": [
+    {
+      "id": "1ge7p8z",
+      "section": "world",
+      "headline": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Evacuees Arrive to Safety From Besieged Ukrainian City of Oleshky",
+          "url": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T19:44:20.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-31T17:53:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire",
+          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T17:22:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "p3ww9m",
+      "section": "world",
+      "headline": "France seethes again as youth-led protests sweep Europe",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "France seethes again as youth-led protests sweep Europe",
+          "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+          "paywall": false,
+          "publishedAt": "2026-10-31T19:30:19.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Why Are There Protests in France?",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T11:48:56.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
+          "url": "https://www.foxnews.com/world/france-deploys-70000-police-officers-prepare-new-wave-protests-halloween",
+          "paywall": false,
+          "publishedAt": "2026-10-31T14:27:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "js7n5c",
+      "section": "world",
+      "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+          "paywall": false,
+          "publishedAt": "2026-10-30T13:01:22.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-31T16:32:08.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Binance recovers 90 percent of stolen assets from hack",
+          "url": "https://thehill.com/policy/technology/6186304-binance-replenishes-ninety-percent-hack/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T19:08:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1v9y4tx",
+      "section": "world",
+      "headline": "Pope Leo XIV becomes first pontiff to vote in a US election",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope Leo XIV becomes first pontiff to vote in a US election",
+          "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-30T14:48:22.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Leo XIV becomes first pope ever to vote in US general election",
+          "url": "https://thehill.com/homenews/campaign/6183683-pope-leo-xiv-votes-early-midterms-historical/",
+          "paywall": false,
+          "publishedAt": "2026-10-30T15:25:33.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Pope Leo XIV requested a ballot to vote by mail in 2026 elections",
+          "url": "https://www.washingtonexaminer.com/news/world/4785687/pope-leo-requested-ballot-vote-by-mail-vatican-2026-elections/",
+          "paywall": false,
+          "publishedAt": "2026-10-30T13:37:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "q8oqz",
+      "section": "world",
+      "headline": "Police deployed during stand-off over control of top Poland court",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
+          "url": "https://www.nytimes.com/2026/10/31/world/europe/poland-court-police-president.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T18:06:13.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Police deployed during stand-off over control of top Poland court",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-31T01:11:43.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "4zz3c8",
+      "section": "us",
+      "headline": "El-Sayed drops Stevens from campaign event",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "El-Sayed’s Campaign Doesn’t Want Haley Stevens at His Events",
+          "url": "https://www.nytimes.com/2026/10/31/us/elections/el-sayed-haley-stevens-democrats-tension.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T19:29:29.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "El-Sayed drops Stevens from campaign event",
+          "url": "https://thehill.com/homenews/campaign/6186206-el-sayed-disinvites-stevens/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T17:30:42.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "El Sayed asks Haley Stevens to stay away from campaign events in dramatic 11th-hour feud escalation",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787103/el-sayed-haley-stevens-stay-away-campaign-event-feud/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T16:08:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "mq2rv5",
+      "section": "us",
+      "headline": "DC, Virginia sue to block Trump's triumphal arch",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump’s Arch Faces New Legal Challenge From Virginia and D.C.",
+          "url": "https://www.nytimes.com/2026/10/31/us/politics/trump-arch-virginia-dc.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T19:11:06.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "DC, Virginia sue to block Trump's triumphal arch",
+          "url": "https://thehill.com/homenews/administration/6186090-trump-triumphal-arch-lawsuit/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T14:43:19.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "DC and Virginia sue to block Trump’s Triumphal Arch in latest legal challenge",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4787084/dc-virginia-sue-block-trump-triumph-arch/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T15:24:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1bflxne",
+      "section": "us",
+      "headline": "What's at stake for Trump in the US midterms?",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump and GOP Close Midterms With Ugly Personal Attacks",
+          "url": "https://www.nytimes.com/2026/10/31/us/politics/trump-republicans-personal-attacks-midterms.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T09:05:21.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What's at stake for Trump in the US midterms?",
+          "url": "https://www.bbc.co.uk/news/videos/cq77pm2jmmd5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-30T10:19:48.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "As Trump seeks influence in midterms, election officials focus on security",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1030/midterms-elections-security-trump?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-30T18:32:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "puqspx",
+      "section": "us",
+      "headline": "Shooting at Spirit Halloween in California Leaves at Least One Dead",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Shooting at Spirit Halloween in California Leaves at Least One Dead",
+          "url": "https://www.nytimes.com/2026/10/31/us/shooting-spirit-halloween-california.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T19:59:03.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "California police investigate deadly shooting at Spirit Halloween store",
+          "url": "https://www.foxnews.com/us/california-police-investigate-deadly-shooting-spirit-halloween-store",
+          "paywall": false,
+          "publishedAt": "2026-10-31T11:00:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1l48ylp",
+      "section": "us",
+      "headline": "Ricketts leads independent candidate Osborn by 6 points in latest Nebraska Senate poll",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Pete Ricketts Leads Dan Osborn in Nebraska Senate Race, Poll Finds",
+          "url": "https://www.nytimes.com/2026/10/31/us/politics/nebraska-senate-poll.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T09:05:31.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Ricketts leads independent candidate Osborn by 6 points in latest Nebraska Senate poll",
+          "url": "https://thehill.com/homenews/campaign/6186054-ricketts-osborn-nebraska-senate/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T14:03:52.000Z"
+        }
+      ]
+    }
+  ]
+}

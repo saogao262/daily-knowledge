@@ -1,0 +1,47 @@
+# Every morning: read the approved outlets' feeds, keep the cross-checked stories,
+# commit the day's file, and republish the site.
+name: Daily headlines
+
+on:
+  schedule:
+    # 11:00 UTC is 6 am Central in daylight time and 5 am in standard time,
+    # so the file is ready before 6 am all year. GitHub may start it a few minutes late.
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: headlines
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run headlines
+      - name: Commit the day's headlines
+        run: |
+          git config user.name "daily-headlines-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/headlines
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update headlines for $(TZ=America/Chicago date +%F)"
+            git push
+          fi
+
+  deploy:
+    needs: fetch
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
