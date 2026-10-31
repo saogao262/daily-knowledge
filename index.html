@@ -2,46 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="Daily news and knowledge that helps you remember what you read." />
     <title>Daily Knowledge</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:wght@700;800;900&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
     />
   </head>
   <body>
     <main class="page">
-      <header>
-        <p class="eyebrow" id="today-date"></p>
-        <h1>Today</h1>
-      </header>
-      <p class="notice" id="notice" hidden></p>
+      <div id="view-today">
+        <header>
+          <p class="eyebrow" id="today-date"></p>
+          <h1>Today</h1>
+        </header>
+        <p class="notice" id="notice" hidden></p>
 
-      <section aria-labelledby="world-heading">
-        <h2 id="world-heading">World</h2>
-        <div class="stories" id="world" aria-live="polite">
-          <p class="status">Loading headlines…</p>
-        </div>
-      </section>
+        <section aria-labelledby="world-heading">
+          <h2 id="world-heading">World</h2>
+          <div class="stories" id="world" aria-live="polite">
+            <p class="status">Loading headlines…</p>
+          </div>
+        </section>
 
-      <section aria-labelledby="us-heading">
-        <h2 id="us-heading">United States</h2>
-        <div class="stories" id="us" aria-live="polite">
-          <p class="status">Loading headlines…</p>
-        </div>
-      </section>
+        <section aria-labelledby="us-heading">
+          <h2 id="us-heading">United States</h2>
+          <div class="stories" id="us" aria-live="polite">
+            <p class="status">Loading headlines…</p>
+          </div>
+        </section>
 
-      <footer class="about">
-        <p>
-          A story appears only when at least two outlets with different political leanings report it. Headlines come
-          from NPR, The New York Times, The Economist, BBC News, The Hill, The Christian Science Monitor, Fox News, and
-          the Washington Examiner, and every link goes to the original outlet.
+        <footer class="about">
+          <p>
+            A story appears only when at least two outlets with different political leanings report it. Headlines come
+            from NPR, The New York Times, The Economist, BBC News, The Hill, The Christian Science Monitor, Fox News, and
+            the Washington Examiner, and every link goes to the original outlet.
+          </p>
+        </footer>
+      </div>
+
+      <div id="view-topics" hidden>
+        <h1>Topics</h1>
+        <p class="lede">The biggest ongoing stories, with the background you need to follow the daily headlines.</p>
+        <ul class="topic-list" id="topic-list"></ul>
+      </div>
+
+      <div id="view-topic" hidden></div>
+
+      <div id="view-quiz" class="quiz" hidden>
+        <p class="quiz-eyebrow">Weekly quiz</p>
+        <h1>Coming soon</h1>
+        <p class="lede">
+          Each week you'll put the week's events in order on a timeline and answer a few quick questions. Questions you
+          miss will come back for review until they stick.
         </p>
-      </footer>
+      </div>
     </main>
+
+    <nav class="tabbar" aria-label="Main">
+      <a class="tab" href="#/" data-tab="today">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <span>Today</span>
+      </a>
+      <a class="tab" href="#/topics" data-tab="topics">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"></path></svg>
+        <span>Topics</span>
+      </a>
+      <a class="tab" href="#/quiz" data-tab="quiz">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z"></path></svg>
+        <span>Quiz</span>
+      </a>
+    </nav>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

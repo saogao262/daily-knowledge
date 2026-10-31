@@ -1,8 +1,11 @@
+import { topicHref } from '../router';
+import { topicsForStory } from '../topics/tag';
+import type { Topic } from '../topics/types';
 import { leaningName, outletsLabel } from './day';
 import type { Coverage, Story } from './types';
 
 // Every piece of feed text goes in through textContent, never innerHTML.
-function el<K extends keyof HTMLElementTagNameMap>(tag: K, className?: string, text?: string): HTMLElementTagNameMap[K] {
+export function el<K extends keyof HTMLElementTagNameMap>(tag: K, className?: string, text?: string): HTMLElementTagNameMap[K] {
   const node = document.createElement(tag);
   if (className) node.className = className;
   if (text !== undefined) node.textContent = text;
@@ -25,11 +28,23 @@ function renderOutlet(outlet: Coverage): HTMLLIElement {
   return item;
 }
 
-function renderStory(story: Story): HTMLElement {
+function renderStory(story: Story, topics: Topic[], keyPrefix: string): HTMLElement {
   const article = el('article', 'story');
+
+  const tags = topicsForStory(story, topics);
+  if (tags.length) {
+    const tagRow = el('p', 'topic-tags');
+    for (const topic of tags) {
+      const a = el('a', 'topic-tag', topic.name);
+      a.href = topicHref(topic.id);
+      tagRow.append(a);
+    }
+    article.append(tagRow);
+  }
+
   article.append(el('h3', 'story-headline', story.headline));
 
-  const listId = `outlets-${story.section}-${story.id}`;
+  const listId = `outlets-${keyPrefix}-${story.section}-${story.id}`;
   const toggle = el('button', 'outlets-toggle', outletsLabel(story, false));
   toggle.type = 'button';
   toggle.setAttribute('aria-expanded', 'false');
@@ -51,8 +66,9 @@ function renderStory(story: Story): HTMLElement {
   return article;
 }
 
-export function renderStories(container: HTMLElement, stories: Story[], emptyMessage: string): void {
-  container.replaceChildren(...(stories.length ? stories.map(renderStory) : [el('p', 'status', emptyMessage)]));
+// `topics` adds topic tags to each card; pass [] on a topic's own page.
+export function renderStories(container: HTMLElement, stories: Story[], emptyMessage: string, topics: Topic[] = [], keyPrefix = 'today'): void {
+  container.replaceChildren(...(stories.length ? stories.map((s) => renderStory(s, topics, keyPrefix)) : [el('p', 'status', emptyMessage)]));
 }
 
 export function renderStatus(container: HTMLElement, message: string): void {

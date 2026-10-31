@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { centralToday, longDate, outletsLabel, pickDate, readDayFile } from './day';
+import { centralToday, longDate, outletsLabel, pickDate, readDayFile, recentDates } from './day';
 import type { Story } from './types';
 
 const story: Story = {
@@ -26,6 +26,17 @@ describe('pickDate', () => {
   it('ignores future dates and handles no files', () => {
     expect(pickDate(['2026-11-02'], '2026-10-31')).toBeNull();
     expect(pickDate([], '2026-10-31')).toBeNull();
+  });
+});
+
+describe('recentDates', () => {
+  it('keeps the last 7 days up to today, newest first', () => {
+    const dates = ['2026-10-24', '2026-10-25', '2026-10-30', '2026-10-31', '2026-11-01'];
+    expect(recentDates(dates, '2026-10-31')).toEqual(['2026-10-31', '2026-10-30', '2026-10-25']);
+  });
+
+  it('works across a month boundary', () => {
+    expect(recentDates(['2026-10-27', '2026-11-02'], '2026-11-02')).toEqual(['2026-11-02', '2026-10-27']);
   });
 });
 

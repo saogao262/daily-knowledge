@@ -8,6 +8,7 @@
   --chip-bg: #f4f4f5;
   --notice-bg: #fef3c7;
   --notice-ink: #78350f;
+  --tab-inactive: #71717a;
   --font-head: 'Source Serif 4', Georgia, serif;
   --font-ui: 'Inter', system-ui, sans-serif;
   color-scheme: light dark;
@@ -23,6 +24,7 @@
     --chip-bg: #232328;
     --notice-bg: #3a2a0c;
     --notice-ink: #fde68a;
+    --tab-inactive: #a1a1aa;
   }
 }
 
@@ -171,4 +173,249 @@ h2 {
 
 .about p {
   margin: 0;
+}
+
+/* Room for the fixed tab bar at the bottom. */
+body {
+  padding-bottom: calc(72px + env(safe-area-inset-bottom));
+}
+
+.lede {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Tab bar (docs/design.md: Today, Topics, Quiz). */
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background: var(--bg);
+  border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tab {
+  flex: 1;
+  max-width: 214px;
+  min-height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--tab-inactive);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tab[aria-current='page'] {
+  color: var(--accent);
+}
+
+.tab:focus-visible,
+.topic-card:focus-visible,
+.topic-tag:focus-visible,
+.back-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Topic tags on story cards. */
+.topic-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 0 0 4px;
+}
+
+.topic-tag {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Topics list. */
+.topic-list {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topic-card {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.topic-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.topic-card-name {
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.topic-card-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.topic-card-arrow {
+  font-size: 1.6rem;
+  color: var(--muted);
+}
+
+/* Topic page. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-bottom: 4px;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.topic-section {
+  margin-top: 8px;
+}
+
+.topic-paragraph {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.topic-sources {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.topic-sources summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.topic-sources ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.topic-sources li {
+  margin: 6px 0;
+}
+
+.topic-sources a {
+  color: var(--accent);
+}
+
+.timeline {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 18px 26px;
+  border-left: 2px solid var(--line);
+  margin-left: 6px;
+}
+
+.timeline-item:last-child {
+  border-left-color: transparent;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.timeline-date {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.timeline-text {
+  margin: 2px 0 0;
+  line-height: 1.45;
+}
+
+/* Quiz screens use the playful look (Nunito, cream, orange). */
+body.playful {
+  --bg: #fff7ed;
+  --accent: #c2410c;
+  background: var(--bg);
+}
+
+.quiz {
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+.quiz h1 {
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+}
+
+.quiz-eyebrow {
+  margin: 0;
+  color: #9a3412;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quiz .lede {
+  color: #57534e;
+  font-size: 1.05rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body.playful {
+    --bg: #1c1410;
+    --accent: #fb923c;
+  }
+
+  .quiz-eyebrow {
+    color: #fdba74;
+  }
+
+  .quiz .lede {
+    color: #d6d3d1;
+  }
 }

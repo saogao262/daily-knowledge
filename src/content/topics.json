@@ -1,0 +1,126 @@
+{
+  "approved": "2026-10-31",
+  "topics": [
+    {
+      "id": "russia-ukraine",
+      "name": "Russia–Ukraine war",
+      "updated": "2026-10-31",
+      "background": [
+        "Russia annexed Ukraine's Crimean peninsula in March 2014, and fighting broke out that year in eastern Ukraine between Ukrainian forces and Russian-backed separatists.",
+        "On February 24, 2022, Russia launched a full-scale invasion. Moscow calls it a \"special military operation\"; Kyiv and most Western governments call it an unprovoked war of aggression.",
+        "In 2026 the United States has pushed both sides toward peace talks. Short truces have come and gone, and a local ceasefire around the Russian-occupied city of Oleshky began on October 27 so civilians could get food and medicine.",
+        "The two sides remain far apart: Kyiv supports freezing the current front lines and then negotiating, while Russia has kept attacking as talks are discussed. The next round of U.S.-brokered talks is expected in November."
+      ],
+      "sources": [
+        { "title": "NPR: Local ceasefire brokered by Melania Trump starts in southern Ukraine (Oct 27, 2026)", "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war" },
+        { "title": "MPR News: Ukraine and Russia eye new peace talks, but steep obstacles remain (Oct 24, 2026)", "url": "https://www.mprnews.org/story/2026/10/24/ukraine-and-russia-eye-new-peace-talks-but-steep-obstacles-remain" },
+        { "title": "CNN: Ceasefire takes effect around Russian-occupied Oleshky (Oct 27, 2026)", "url": "https://www.cnn.com/2026/10/27/europe/russia-ukraine-melania-trump-ceasefire-intl-hnk" },
+        { "title": "Wikipedia: Russian invasion of Ukraine", "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine" }
+      ],
+      "dates": [
+        { "date": "2014-03-18", "text": "Russia formally annexes Crimea after a referendum that Ukraine and most of the world do not recognize.", "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation" },
+        { "date": "2022-02-24", "text": "Russia begins its full-scale invasion of Ukraine.", "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine" },
+        { "date": "2022-11-11", "text": "Ukrainian forces retake the city of Kherson after Russia withdraws across the Dnipro River.", "source": "https://en.wikipedia.org/wiki/2022_Kherson_counteroffensive" },
+        { "date": "2026-10-27", "text": "A local ceasefire begins around Russian-occupied Oleshky so aid can reach about 2,000 remaining residents.", "source": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war" }
+      ],
+      "keywords": ["ukraine", "ukrainian", "ukrainians", "kyiv", "zelensky", "zelenskyy", "putin", "kremlin", "donbas", "crimea", "kherson", "oleshky", "zaporizhzhia", "russia-occupied", "russian-occupied"]
+    },
+    {
+      "id": "israel-palestine",
+      "name": "Israel–Palestine",
+      "updated": "2026-10-31",
+      "background": [
+        "Israel declared independence on May 14, 1948, and war followed. Hundreds of thousands of Palestinians fled or were driven from their homes, an event Palestinians call the Nakba (\"catastrophe\"). In the 1967 war, Israel took control of the West Bank, East Jerusalem, and Gaza.",
+        "On October 7, 2023, Hamas-led militants attacked southern Israel, killing about 1,200 people and taking about 250 hostages, according to Israeli figures. Israel's military campaign in Gaza followed, and tens of thousands of Palestinians have been killed, according to Gaza's Hamas-run Health Ministry.",
+        "A U.S.-backed ceasefire took effect on October 10, 2025. Its second phase has stalled: Israel says its troops won't pull back until Hamas disarms, while Hamas has tied disarmament to reconstruction and Israeli withdrawal.",
+        "Israeli strikes in Gaza have continued during the ceasefire, and each side accuses the other of violating it."
+      ],
+      "sources": [
+        { "title": "Wikipedia: Gaza ceasefire", "url": "https://en.wikipedia.org/wiki/Gaza_ceasefire" },
+        { "title": "Wikipedia: Gaza war", "url": "https://en.wikipedia.org/wiki/Gaza_war" },
+        { "title": "Wikipedia: October 7 attacks", "url": "https://en.wikipedia.org/wiki/October_7_attacks" },
+        { "title": "Wikipedia: Israeli Declaration of Independence", "url": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence" }
+      ],
+      "dates": [
+        { "date": "1948-05-14", "text": "Israel declares independence; war with neighboring Arab states follows.", "source": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence" },
+        { "date": "1967-06", "text": "In the Six-Day War, Israel takes the West Bank, East Jerusalem, Gaza, the Golan Heights, and the Sinai.", "source": "https://en.wikipedia.org/wiki/Six-Day_War" },
+        { "date": "1993-09-13", "text": "Israel and the Palestine Liberation Organization sign the first Oslo Accord at the White House.", "source": "https://en.wikipedia.org/wiki/Oslo_I_Accord" },
+        { "date": "2005-09", "text": "Israel completes its withdrawal of troops and settlers from Gaza.", "source": "https://en.wikipedia.org/wiki/Israeli_disengagement_from_Gaza" },
+        { "date": "2023-10-07", "text": "Hamas-led militants attack southern Israel; Israel declares war on Hamas.", "source": "https://en.wikipedia.org/wiki/October_7_attacks" },
+        { "date": "2025-10-10", "text": "A U.S.-backed ceasefire takes effect in Gaza.", "source": "https://en.wikipedia.org/wiki/Gaza_ceasefire" }
+      ],
+      "keywords": ["israel", "israeli", "israelis", "gaza", "hamas", "palestinian", "palestinians", "west bank", "netanyahu", "jerusalem"]
+    },
+    {
+      "id": "us-midterms",
+      "name": "2026 US midterms",
+      "updated": "2026-10-31",
+      "background": [
+        "On Tuesday, November 3, 2026, Americans vote for all 435 House seats, 35 of the 100 Senate seats, and 36 governors. These are called midterms because they fall halfway through a president's term.",
+        "Republicans hold the House 218–214 and the Senate 53–47. Democrats would need to gain 3 House seats or a net 4 Senate seats to take control of either chamber. A 50–50 Senate stays Republican because Vice President JD Vance breaks ties.",
+        "Control of Congress decides which bills reach President Trump and who leads investigations of his administration. The new Congress is sworn in on January 3, 2027."
+      ],
+      "sources": [
+        { "title": "Al Jazeera: US midterms 2026 in maps and charts (Oct 26, 2026)", "url": "https://www.aljazeera.com/news/2026/10/26/us-midterm-elections-2026-in-maps-and-charts" },
+        { "title": "NPR: All of the competitive Senate races in the midterms, ranked (Oct 30, 2026)", "url": "https://www.npr.org/2026/10/30/g-s1-149975/2026-midterms-senate-map" },
+        { "title": "Wikipedia: 2026 United States elections", "url": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+      ],
+      "dates": [
+        { "date": "2024-11-05", "text": "Donald Trump wins the presidency, and Republicans win control of both the House and the Senate.", "source": "https://en.wikipedia.org/wiki/2024_United_States_elections" },
+        { "date": "2025-01-03", "text": "The 119th Congress is sworn in with Republican majorities in both chambers.", "source": "https://en.wikipedia.org/wiki/119th_United_States_Congress" },
+        { "date": "2026-11-03", "text": "Election Day for the 2026 midterms.", "source": "https://en.wikipedia.org/wiki/2026_United_States_elections" },
+        { "date": "2027-01-03", "text": "The newly elected 120th Congress is sworn in.", "source": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+      ],
+      "keywords": ["midterm", "midterms", "ballot", "ballots", "campaign", "senate race", "house race", "governor's race", "poll", "polls", "voters", "voting", "election", "elections", "early vote", "gop", "democrats", "republicans"],
+      "sections": ["us"]
+    },
+    {
+      "id": "us-economy",
+      "name": "US economy",
+      "updated": "2026-10-31",
+      "background": [
+        "U.S. inflation peaked at 9.1% in June 2022, the fastest rise in prices in about 40 years. The Federal Reserve raised interest rates sharply in 2022 and 2023 to cool it, then began cutting in September 2024.",
+        "In 2025 the Trump administration put broad new tariffs on imports. Supporters say they protect U.S. industry; critics say they raise prices for consumers and businesses.",
+        "In September 2026 the Fed raised its benchmark rate by a quarter point, its first increase since 2023. On October 28 it held the rate at 3.75%–4%, saying \"inflation remains elevated.\""
+      ],
+      "sources": [
+        { "title": "CNBC: Fed holds rates steady (Oct 28, 2026)", "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html" },
+        { "title": "Fox Business: Federal Reserve holds rates steady ahead of election (Oct 28, 2026)", "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026" },
+        { "title": "Wikipedia: 2021–2023 inflation surge", "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge" },
+        { "title": "Federal Reserve: Press release, September 18, 2024", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm" }
+      ],
+      "dates": [
+        { "date": "2022-03-16", "text": "The Fed raises interest rates for the first time since 2018, starting its fight against inflation.", "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm" },
+        { "date": "2022-06", "text": "Inflation peaks at 9.1% over the previous year.", "source": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge" },
+        { "date": "2024-09-18", "text": "The Fed cuts rates for the first time since 2020.", "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm" },
+        { "date": "2025-04-02", "text": "President Trump announces broad tariffs on imports from most countries.", "source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs" },
+        { "date": "2026-09", "text": "The Fed raises rates by a quarter point, its first increase since 2023.", "source": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html" },
+        { "date": "2026-10-28", "text": "The Fed holds its benchmark rate at 3.75%–4%.", "source": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html" }
+      ],
+      "keywords": ["inflation", "interest rate", "interest rates", "federal reserve", "the fed", "fed", "tariff", "tariffs", "jobs report", "unemployment", "recession", "economy", "economic", "stocks", "wall street", "gdp", "prices", "warsh"]
+    },
+    {
+      "id": "ai-tech",
+      "name": "AI and tech policy",
+      "updated": "2026-10-31",
+      "background": [
+        "OpenAI released ChatGPT on November 30, 2022, setting off a race among tech companies to build more powerful AI systems and the chips and data centers that run them.",
+        "The European Union passed the AI Act, the first broad AI law from a major government; it took effect in August 2024, with rules phasing in over several years.",
+        "The U.S. has no broad federal AI law. States such as California and Colorado have passed their own rules, and a December 2025 executive order set up a Justice Department task force to challenge state AI laws. Congress is still debating whether to override them."
+      ],
+      "sources": [
+        { "title": "The Regulatory Review: The hidden costs of AI preemption (Oct 7, 2026)", "url": "https://www.theregreview.org/2026/10/07/knapp-the-hidden-costs-of-ai-preemption/" },
+        { "title": "White House: Ensuring a National Policy Framework for Artificial Intelligence (Dec 11, 2025)", "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" },
+        { "title": "European Commission: AI Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" },
+        { "title": "Wikipedia: Artificial Intelligence Act", "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act" }
+      ],
+      "dates": [
+        { "date": "2022-10-07", "text": "The U.S. restricts exports of advanced computer chips and chipmaking tools to China.", "source": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples" },
+        { "date": "2022-11-30", "text": "OpenAI releases ChatGPT.", "source": "https://en.wikipedia.org/wiki/ChatGPT" },
+        { "date": "2024-08-01", "text": "The EU AI Act enters into force.", "source": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act" },
+        { "date": "2025-12-11", "text": "President Trump signs an executive order aimed at overriding state AI laws.", "source": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" }
+      ],
+      "keywords": ["ai", "artificial intelligence", "openai", "chatgpt", "anthropic", "nvidia", "chip", "chips", "chipmaker", "semiconductor", "semiconductors", "deepfake", "deepfakes", "data center", "data centers", "big tech", "antitrust", "crypto", "cryptocurrency"]
+    }
+  ]
+}

@@ -12,6 +12,13 @@ export function pickDate(dates: string[], today: string): string | null {
   return usable.length ? usable[usable.length - 1] : null;
 }
 
+// The saved days from the last `days` days up to today, newest first (for topic pages' "This week").
+export function recentDates(dates: string[], today: string, days = 7): string[] {
+  const [y, m, d] = today.split('-').map(Number);
+  const start = new Date(Date.UTC(y, m - 1, d - (days - 1))).toISOString().slice(0, 10);
+  return dates.filter((date) => date >= start && date <= today).sort().reverse();
+}
+
 // Label for the button that opens a story's outlet list, e.g. "Show 3 outlets · Left, Center, Right".
 export function outletsLabel(story: Story, open: boolean): string {
   const count = story.outlets.length;

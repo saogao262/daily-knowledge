@@ -17,7 +17,7 @@ It should feel like a game or a conversation, not an article.
 - **Feed terms:** the site stays non-commercial (no ads or payments). Show only the headline, a link to the original story, and the outlet's name, and mark paywalled links. Never show article text, feed descriptions, or logos. There are no automatic summaries. Any summary we add later must be in our own words.
 - **The cross-check rule:** a story needs 2 or more outlets, and at least two different leanings (left, center, or right) among them. Leanings come from AllSides and Ad Fontes Media and are saved in the repo's source list. Never show a story from a single source to fill space. Show fewer highlights instead.
 - The weekly quiz and topic updates are written by the agent, and Amy skims them before they go live.
-- The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly.
+- The agent proposes the topics with reasons, Amy approves them, and the list is reviewed monthly. Approved topics live in `src/content/topics.json` (checked by `src/content/topics.content.test.ts`). Highlights are tagged by each topic's keywords in `src/topics/tag.ts`.
 - Every item and question has a source link.
 
 **Platform.** TypeScript + Vite, a static site hosted on GitHub Pages and deployed by GitHub Actions on push to `main`. No backend, no accounts. Player progress (streak, quiz results, review schedule) lives in `localStorage`.
