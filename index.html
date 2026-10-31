@@ -16,20 +16,31 @@
     <main class="page">
       <header>
         <p class="eyebrow" id="today-date"></p>
-        <h1>Daily Knowledge</h1>
+        <h1>Today</h1>
       </header>
-      <p class="lede">
-        A daily news and knowledge site that helps you remember what you read. The first version is being built.
-      </p>
-      <section aria-labelledby="coming-heading">
-        <h2 id="coming-heading">Coming soon</h2>
-        <ul class="parts">
-          <li><strong>Today:</strong> World and US highlights, each reported by outlets across the political spectrum.</li>
-          <li><strong>Topics:</strong> the biggest ongoing stories, with background and key dates.</li>
-          <li><strong>Weekly quiz:</strong> put the week's events in order and answer a few questions.</li>
-          <li><strong>Review:</strong> questions you miss come back until they stick.</li>
-        </ul>
+      <p class="notice" id="notice" hidden></p>
+
+      <section aria-labelledby="world-heading">
+        <h2 id="world-heading">World</h2>
+        <div class="stories" id="world" aria-live="polite">
+          <p class="status">Loading headlines…</p>
+        </div>
       </section>
+
+      <section aria-labelledby="us-heading">
+        <h2 id="us-heading">United States</h2>
+        <div class="stories" id="us" aria-live="polite">
+          <p class="status">Loading headlines…</p>
+        </div>
+      </section>
+
+      <footer class="about">
+        <p>
+          A story appears only when at least two outlets with different political leanings report it. Headlines come
+          from NPR, The New York Times, The Economist, BBC News, The Hill, The Christian Science Monitor, Fox News, and
+          the Washington Examiner, and every link goes to the original outlet.
+        </p>
+      </footer>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
