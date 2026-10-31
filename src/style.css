@@ -1,0 +1,86 @@
+/* Look 1 from docs/design.md: calm news screens (Source Serif 4 + Inter, navy accent). */
+:root {
+  --bg: #ffffff;
+  --ink: #18181b;
+  --muted: #52525b;
+  --line: #e4e4e7;
+  --accent: #1e40af;
+  --font-head: 'Source Serif 4', Georgia, serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111113;
+    --ink: #f4f4f5;
+    --muted: #a1a1aa;
+    --line: #2e2e33;
+    --accent: #93b4ff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1,
+h2 {
+  font-family: var(--font-head);
+  font-weight: 700;
+}
+
+h1 {
+  margin: 4px 0 0;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+h2 {
+  margin: 32px 0 8px;
+  font-size: 1.4rem;
+}
+
+.lede {
+  margin: 16px 0 0;
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+.parts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.parts li {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.parts strong {
+  color: var(--accent);
+}

@@ -14,6 +14,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Done
 
+- 2026-10-31: Step 1: the Vite + TypeScript app is set up with Vitest (first test: the Today date header), and a GitHub Actions workflow tests, builds, and deploys every push to `main`. A placeholder page in look 1 is at https://saogao262.github.io/daily-knowledge/.
 - 2026-10-30: Design step 2: clickable sketches of every screen in two looks, described in `docs/design.md` (source in `docs/sketches/`). Look 1 chosen and all screens approved, so the design phase is done.
 - 2026-10-27: Added cross-checking to the first milestone: headlines must be reported by 2 or more outlets with different leanings.
 - 2026-10-27: Rethought the first milestone around the news ideas (daily highlights, topic pages, weekly quiz, spaced repetition), replacing the daily timeline game.
@@ -23,7 +24,6 @@ So the app should push toward the first group. Amy should actually learn and rem
 ## Next
 
 First milestone: **news, topics, quiz, and review, live** (about 4–5 sessions; something useful is live after each step)
-1. Scaffold the Vite + TypeScript app with Vitest, and add a GitHub Actions workflow that deploys to GitHub Pages.
 2. Pick the sources. Choose 6–8 credible outlets that cover left, center, and right, each with a free API or RSS feed (candidates: The Guardian, NYT, NPR, BBC, The Hill, WSJ, Fox News, Washington Examiner). Rate each outlet's leaning (left, center, or right) using AllSides and Ad Fontes Media, and save the list with its ratings in the repo. Check that each outlet's terms allow showing headlines and links on a public site.
 3. Daily headlines job: a scheduled GitHub Action fetches the World and US stories from every source, groups headlines that describe the same story, and keeps only groups reported by 2 or more outlets with different leanings. It commits the result as a dated JSON file. API keys are stored as GitHub secrets. Grouping starts with simple word matching between headlines from the same day. Tests cover parsing each feed, grouping, and the 2-or-more-outlets, different-leanings rule.
 4. Home page: today's World and US highlights (up to about 5 each). Each highlight has a one-line summary and lists every outlet that covered the story, with its leaning and a link. There's a friendly fallback when today's file is missing or no story passes the check. **First live checkpoint.**
@@ -34,6 +34,7 @@ First milestone: **news, topics, quiz, and review, live** (about 4–5 sessions;
 
 ## Decisions
 
+- 2026-10-31: **Tool versions are Vite 8, Vitest 5, and TypeScript 7, with Node 24 in CI.** These are the current releases, and all three are dev tools only, so nothing ships to the browser except our own code. The deploy runs `npm test` and the type check before publishing, so a failing test blocks the deploy.
 - 2026-10-30: **The look is calm news + playful quiz.** The Today and Topics screens look like a clean newspaper (Source Serif 4 and Inter, white background, navy accent). The quiz and review screens are game-like (Nunito, cream background, orange accent, rounded cards). This keeps serious topics like wars feeling trustworthy while keeping the recall part fun. The alternative considered was a friendly game style everywhere.
 - 2026-10-27: **Headlines are cross-checked.** A story appears only when 2 or more credible outlets with different leanings (left, center, or right, using AllSides and Ad Fontes Media ratings) report it, and every outlet is shown and linked. This cuts down on one newsroom's slant and on thinly sourced stories. If no story passes, the page shows fewer highlights rather than a single-source one. Grouping starts with word matching, and an AI step could be added later if matching proves too weak. Replaces the single news API in the decision below.
 - 2026-10-27: **Topics: the agent proposes 4–6 major ongoing stories with reasons, and Amy approves or swaps them.** The list is reviewed monthly. Alternatives considered: Amy picks every topic, or topics are chosen automatically by how often they appear in headlines.
