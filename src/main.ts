@@ -4,6 +4,10 @@ import { formatHeaderDate } from './date';
 import { centralToday, longDate, pickDate, readDayFile, recentDates } from './news/day';
 import { el, renderStatus, renderStories } from './news/render';
 import type { DayFile, Story } from './news/types';
+import quizContent from './content/quizzes.json';
+import { currentQuiz } from './quiz/logic';
+import { mountQuiz } from './quiz/screens';
+import type { QuizList } from './quiz/types';
 import { parseRoute } from './router';
 import { renderTopicList, renderTopicPage } from './topics/render';
 import type { TopicList } from './topics/types';
@@ -121,6 +125,9 @@ window.addEventListener('hashchange', () => {
   if (location.hash !== lastHash) window.scrollTo(0, 0);
   lastHash = location.hash;
 });
+
+const { quizzes } = quizContent as QuizList;
+mountQuiz(views.quiz, quizzes, currentQuiz(quizzes, centralToday(new Date())), new URL(import.meta.env.BASE_URL, location.origin).href);
 
 render();
 loadHeadlines();

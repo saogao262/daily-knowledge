@@ -1,0 +1,105 @@
+{
+  "quizzes": [
+    {
+      "id": "2026-10-31",
+      "weekStart": "2026-10-24",
+      "weekEnd": "2026-10-30",
+      "anchor": {
+        "id": "fed-holds",
+        "date": "2026-10-28",
+        "title": "The Federal Reserve holds interest rates at 3.75%–4%",
+        "why": "The Fed kept rates where they've been since September's increase, saying inflation \"remains elevated.\"",
+        "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      "cards": [
+        {
+          "id": "intel-plunge",
+          "date": "2026-10-30",
+          "title": "Intel's stock plunges about 29% in one day",
+          "why": "It fell on Friday, the day after disappointing results from Intel and Amazon added to worries about how much tech companies are spending on AI.",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html"
+        },
+        {
+          "id": "lula-wins",
+          "date": "2026-10-25",
+          "title": "Lula wins Brazil's presidential runoff against Flávio Bolsonaro",
+          "why": "Brazil voted on Sunday, the first event of the week. Lula won about 51.7% of the vote, and Bolsonaro refused to accept the result.",
+          "source": "https://www.newsofbahrain.com/en/article/lula-wins-re-election-in-brazil-as-bolsonaro-rejects-run-off-result"
+        },
+        {
+          "id": "oleshky-ceasefire",
+          "date": "2026-10-27",
+          "title": "A local ceasefire begins around Russian-occupied Oleshky, Ukraine",
+          "why": "It started on Tuesday so food and medicine could reach about 2,000 residents still in the city. It's local, not a ceasefire for the whole war.",
+          "source": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
+        },
+        {
+          "id": "lagarde-exit",
+          "date": "2026-10-29",
+          "title": "ECB President Christine Lagarde announces she'll step down early",
+          "why": "She announced it on Thursday, the day after the Fed's decision, as the European Central Bank held its rates at 2.5%. She'll leave on February 7, 2027.",
+          "source": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe"
+        },
+        {
+          "id": "anthropic-ipo",
+          "date": "2026-10-26",
+          "title": "AI company Anthropic makes its plan to go public official",
+          "why": "Its IPO paperwork became public on Monday, the day after Brazil's vote. Going public means anyone can buy shares in the company.",
+          "source": "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "israel-election",
+          "prompt": "Israel held a national election on October 27. What did the count show?",
+          "options": [
+            "Netanyahu's bloc won a clear majority",
+            "The opposition won a clear majority",
+            "No bloc reached the 61 seats needed for a majority",
+            "The election was postponed"
+          ],
+          "answer": 2,
+          "explanation": "With over 99% counted, Netanyahu's bloc had 53 of 120 seats and the opposition bloc 48, so both sides now need coalition partners.",
+          "source": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+        },
+        {
+          "id": "fed-dissent",
+          "prompt": "Two Fed officials voted against holding rates steady on October 28. What did they want instead?",
+          "options": [
+            "A quarter-point rate cut",
+            "A quarter-point rate increase",
+            "A half-point rate cut",
+            "To end the Fed's inflation goal"
+          ],
+          "answer": 1,
+          "explanation": "Lisa Cook and Beth Hammack wanted a quarter-point increase, because inflation is still well above the Fed's 2% goal.",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        },
+        {
+          "id": "binance-hack",
+          "prompt": "About how much cryptocurrency was stolen in the Binance hack this week?",
+          "options": ["$63 million", "$630 million", "$6.3 billion", "$63 billion"],
+          "answer": 2,
+          "explanation": "Analysts at TRM Labs and Chainalysis estimate about $6.3–6.4 billion and link the attack to a North Korean state-backed hacking group.",
+          "source": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
+        },
+        {
+          "id": "world-series",
+          "prompt": "Which team won its first-ever World Series on October 28?",
+          "options": ["Tampa Bay Rays", "Milwaukee Brewers", "Seattle Mariners", "Los Angeles Dodgers"],
+          "answer": 1,
+          "explanation": "The Brewers beat the Rays 4–1 in Game 5. Neither team had ever won a World Series before.",
+          "source": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+        },
+        {
+          "id": "midterms-house",
+          "prompt": "Going into the November 3 midterms, how many seats would Democrats need to gain to win control of the House?",
+          "options": ["3", "10", "18", "35"],
+          "answer": 0,
+          "explanation": "Republicans hold the House 218–214, so a net gain of just 3 seats would give Democrats the majority.",
+          "source": "https://www.aljazeera.com/news/2026/10/26/us-midterm-elections-2026-in-maps-and-charts"
+        }
+      ]
+    }
+  ]
+}
