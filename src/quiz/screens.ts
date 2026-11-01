@@ -74,7 +74,7 @@ export function mountQuiz(root: HTMLElement, quizzes: Quiz[], quiz: Quiz | null,
     return [
       header(`Week of ${weekLabel(q)}`),
       title,
-      el('p', 'lede', 'How much of this week’s news stuck? About 4 minutes.'),
+      el('p', 'lede', `How much of this week’s news stuck? About ${Math.round((q.cards.length + q.questions.length) / 2)} minutes.`),
       rounds,
       button('Start quiz', 'quiz-primary', () => set({ stage: 'timeline' })),
     ];
@@ -208,7 +208,7 @@ export function mountQuiz(root: HTMLElement, quizzes: Quiz[], quiz: Quiz | null,
     const note = el(
       'p',
       'quiz-note',
-      missed === 0 ? 'Nothing to review. Everything stuck!' : `You missed ${missed}. They're saved so they can come back for review.`,
+      missed === 0 ? 'Nothing to review. Everything stuck!' : `You missed ${missed}. They'll come back on your Today page for review in 3 days.`,
     );
 
     const share = button(state.shared ?? 'Share result', 'quiz-primary', async () => {

@@ -7,6 +7,7 @@ import type { DayFile, Story } from './news/types';
 import quizContent from './content/quizzes.json';
 import { currentQuiz } from './quiz/logic';
 import { mountQuiz } from './quiz/screens';
+import { mountReview } from './review/card';
 import type { QuizList } from './quiz/types';
 import { parseRoute } from './router';
 import { renderTopicList, renderTopicPage } from './topics/render';
@@ -97,6 +98,8 @@ function render(): void {
     else link.removeAttribute('aria-current');
   }
   document.body.classList.toggle('playful', route.view === 'quiz');
+  // Coming back to Today after a quiz picks up anything just missed.
+  if (route.view === 'today') review?.refresh();
 
   let title = 'Daily Knowledge';
   if (route.view === 'topics') {
@@ -128,6 +131,7 @@ window.addEventListener('hashchange', () => {
 
 const { quizzes } = quizContent as QuizList;
 mountQuiz(views.quiz, quizzes, currentQuiz(quizzes, centralToday(new Date())), new URL(import.meta.env.BASE_URL, location.origin).href);
+const review = mountReview(document.getElementById('review')!, quizzes);
 
 render();
 loadHeadlines();

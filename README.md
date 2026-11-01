@@ -2,7 +2,7 @@
 
 A daily news and knowledge site that helps you remember what you read. Each day it shows short World and US highlights. Topic pages follow the biggest ongoing stories. A weekly quiz has you put the week's events in order, and questions you miss come back for review until they stick.
 
-**Live:** https://saogao262.github.io/daily-knowledge/ (daily World and US highlights, topic pages, and a weekly quiz; review is coming). See [PLAN.md](PLAN.md) for progress.
+**Live:** https://saogao262.github.io/daily-knowledge/ (daily World and US highlights, topic pages, a weekly quiz, and review of missed questions). See [PLAN.md](PLAN.md) for progress.
 
 ## Tech
 

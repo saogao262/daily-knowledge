@@ -788,3 +788,52 @@ body.playful {
   text-align: center;
   font-size: 15px;
 }
+
+/* Review card on Today: the playful quiz look in a contained card (docs/design.md). */
+.review {
+  margin-top: 20px;
+  padding: 18px;
+  border: 2px solid var(--q-soft);
+  border-radius: 18px;
+  background: var(--q-surface);
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+.review .quiz-eyebrow {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.review-from {
+  margin: 4px 0 0;
+  color: var(--q-muted);
+  font-size: 13px;
+}
+
+.review-prompt {
+  margin: 8px 0 0;
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.review-prompt:focus,
+.review-done:focus,
+.review .quiz-reveal-title:focus {
+  outline: none;
+}
+
+.review-options .quiz-option {
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.review-done {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+}
