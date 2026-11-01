@@ -32,6 +32,12 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 First milestone: **done** (2026-11-01). The next milestone is Amy's call: pick from `IDEAS.md` or add new ideas there first.
 
+- 2026-11-01: Amy uses the site for about a week (until around Nov 8) and writes ideas in `IDEAS.md` as they come up. After that, plan the next milestone together.
+- Ongoing content work that keeps the site running (not new features):
+  - Write each Saturday's quiz and list it in chat for Amy's OK. Next one: Saturday, Nov 7, covering Oct 31–Nov 6.
+  - After the Nov 3 election, update the "2026 US midterms" topic with the results.
+  - Check that the daily headlines job runs on time (see Problems).
+
 ## Decisions
 
 - 2026-11-01: **How review works.** The waits are 3 days, then 1 week, 2 weeks, and 1 month. Any wrong answer starts over at 3 days, and a right answer at the 1-month review retires the item. Review items count from the date the quiz was finished (Central time). The card shows all due items oldest first, with no daily cap for now because there are only up to 10 misses a week. Timeline cards are reviewed as "When did this happen?" using the 3 nearest dates from the same week, so the choices are close and you have to actually remember. The alternative was re-placing the card on a timeline, which is more work for a short daily review.
