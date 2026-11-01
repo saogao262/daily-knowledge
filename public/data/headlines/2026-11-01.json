@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T14:15:49.501Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 53
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 24
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 17
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 12
+    }
+  ],
+  "world": [
+    {
+      "id": "188lt7a",
+      "section": "world",
+      "headline": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter",
+          "paywall": false,
+          "publishedAt": "2026-11-01T08:20:19.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-01T00:41:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e8uvok",
+      "section": "world",
+      "headline": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ukrainian Evacuees From Oleshky Tell Survival Stories",
+          "url": "https://www.nytimes.com/2026/10/31/world/europe/ukraine-evacuees-oleshky.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T21:43:34.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire",
+          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T17:22:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1fe5bk7",
+      "section": "world",
+      "headline": "Iran's Supreme Leader threatens US with response if strikes are launched after midterms",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Iran's Supreme Leader threatens US with response if strikes are launched after midterms",
+          "url": "https://thehill.com/policy/international/6186134-khamenei-warns-iran-strikes/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T15:51:26.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Iranian supreme leader vows ‘unrestricted response’ to any US or Israeli strikes",
+          "url": "https://www.washingtonexaminer.com/news/world/4787117/iran-supreme-leader-vow-unrestricted-response-strike/",
+          "paywall": false,
+          "publishedAt": "2026-10-31T16:51:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1jybrd5",
+      "section": "world",
+      "headline": "Spain train disaster clouds Sánchez chances of re-election",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Train Disaster Is Blow to Spain’s Leader, Already Election Underdog",
+          "url": "https://www.nytimes.com/2026/10/31/world/europe/spain-train-crash-politics.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T14:14:19.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Spain train disaster clouds Sánchez chances of re-election",
+          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-10-31T05:44:21.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1xwhqce",
+      "section": "us",
+      "headline": "Judge orders Trump administration to stop threatening US election officials",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Newsom Issues Warning to Judges About Election Interference From Trump Administration",
+          "url": "https://www.nytimes.com/2026/10/31/us/newsom-california-election-interference.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T21:50:29.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Judge orders Trump administration to stop threatening US election officials",
+          "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-01T00:27:33.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Where has Trump traveled the most ahead of the November election?",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4786483/where-trump-traveled-the-most-midterms/",
+          "paywall": false,
+          "publishedAt": "2026-11-01T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "17q6mcg",
+      "section": "us",
+      "headline": "Advisor to Clyburn says El-Sayed can't disinvite Stevens from unity event",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "El-Sayed’s Campaign Doesn’t Want Haley Stevens at His Events",
+          "url": "https://www.nytimes.com/2026/10/31/us/elections/el-sayed-haley-stevens-democrats-tension.html",
+          "paywall": true,
+          "publishedAt": "2026-11-01T03:05:39.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Advisor to Clyburn says El-Sayed can't disinvite Stevens from unity event",
+          "url": "https://thehill.com/homenews/campaign/6186552-clyburn-rally-el-sayed-stevens/",
+          "paywall": false,
+          "publishedAt": "2026-11-01T00:20:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "puqspx",
+      "section": "us",
+      "headline": "Shooting at Spirit Halloween in California Kills Pregnant Mother of 4",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Shooting at Spirit Halloween in California Kills Pregnant Mother of 4",
+          "url": "https://www.nytimes.com/2026/10/31/us/shooting-spirit-halloween-california.html",
+          "paywall": true,
+          "publishedAt": "2026-10-31T22:22:15.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "California police investigate deadly shooting at Spirit Halloween store",
+          "url": "https://www.foxnews.com/us/california-police-investigate-deadly-shooting-spirit-halloween-store",
+          "paywall": false,
+          "publishedAt": "2026-10-31T11:00:19.000Z"
+        }
+      ]
+    }
+  ]
+}
