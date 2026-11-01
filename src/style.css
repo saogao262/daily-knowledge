@@ -156,7 +156,9 @@ h2 {
 }
 
 .outlet-headline {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
   padding: 4px 0;
   color: var(--accent);
   font-size: 0.95rem;
@@ -220,6 +222,9 @@ body {
 
 .tab:focus-visible,
 .topic-card:focus-visible,
+.timeline-date:focus-visible,
+.topic-sources a:focus-visible,
+.topic-sources summary:focus-visible,
 .topic-tag:focus-visible,
 .back-link:focus-visible {
   outline: 2px solid var(--accent);
@@ -235,6 +240,10 @@ body {
 }
 
 .topic-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin: -12px 0 -8px;
   color: var(--accent);
   font-size: 0.8rem;
   font-weight: 600;
@@ -327,12 +336,14 @@ body {
   padding-left: 18px;
 }
 
-.topic-sources li {
-  margin: 6px 0;
+.topic-sources a {
+  display: inline-block;
+  padding: 12px 0;
+  color: var(--accent);
 }
 
-.topic-sources a {
-  color: var(--accent);
+.topic-sources li {
+  margin: 0;
 }
 
 .timeline {
@@ -364,6 +375,10 @@ body {
 }
 
 .timeline-date {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin: -14px 0 -12px;
   color: var(--accent);
   font-size: 0.85rem;
   font-weight: 700;
@@ -441,7 +456,7 @@ body.playful {
     --q-surface: #2a1f19;
     --q-ink: #fafaf9;
     --q-muted: #d6d3d1;
-    --q-accent: #ea580c;
+    --q-accent: #c2410c;
     --q-accent-text: #fdba74;
     --q-soft: #7c2d12;
     --q-ok: #93c5fd;
@@ -613,6 +628,10 @@ body.playful {
 }
 
 .quiz-source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin: -8px 0;
   align-self: flex-start;
   color: var(--q-accent-text);
   font-size: 14px;
@@ -836,4 +855,9 @@ body.playful {
   margin: 6px 0 0;
   font-size: 16px;
   font-weight: 700;
+}
+
+/* Each screen's heading takes focus when you switch screens, so screen readers announce it. */
+h1:focus {
+  outline: none;
 }

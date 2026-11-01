@@ -14,6 +14,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Done
 
+- 2026-11-01: Step 8 and **the first milestone are done**. I checked every screen at 320px wide in light and dark mode and found no sideways scroll and no unnamed controls. Small links (topic tags, timeline dates, sources, outlet headlines) now have 44px tap targets. Keyboard order is logical, and switching screens now moves focus to the new screen's heading so screen readers announce it. Every text color was measured: the only failure, white on orange quiz buttons in dark mode (3.56:1), was fixed (5.18:1). I also removed the "wall street" economy keyword after it tagged a story about the Wall Street Journal lawsuit (a test was added). 91 tests pass.
 - 2026-11-01: Step 7: spaced-repetition review is live. Every missed quiz item becomes a review item due 3 days after the quiz. A review card on Today (playful look, above the headlines) shows due items one at a time. A right answer moves an item to 1 week, then 2 weeks, then 1 month, then "learned". A wrong answer sends it back to 3 days. Missed timeline cards come back as "When did this happen?" with 4 dates from that week. When everything due is done, the card says "All caught up" with the next review date, and it's hidden on days with nothing due. Progress is saved in `localStorage` (`dk.review.v1`), built from the saved quiz results, so items missed before this step are included too. The quiz intro's time is now worked out from the number of items (about 5 minutes). 90 tests pass. Checked at phone width with a review made due on purpose.
 - 2026-10-31: Step 6: the weekly quiz is live with the first quiz (week of Oct 24–30), approved by Amy. The timeline round has an anchor plus 5 cards, placed by tapping a gap, with an instant reveal showing the date and why. A wrong card moves to its correct spot. Then come 5 multiple-choice questions with explanations and sources, and a results screen with the score, blue/orange squares, the weekly streak, a share button (the phone's share sheet, or copy), and play again. The first finish of each week is saved in `localStorage`, including missed item ids for step 7. Content is in `src/content/quizzes.json` with a content check test. 78 tests pass. Played through at phone width in light and dark mode.
 - 2026-10-31: Step 5: 5 topics approved and live: Russia–Ukraine war, Israel–Palestine, 2026 US midterms, US economy, and AI and tech policy. The content is in `src/content/topics.json`. Each topic has a neutral background (3–4 paragraphs, 3–4 sources), 4–6 key dates each linked to a source, and keywords for tagging. The site now has the tab bar (Today, Topics, Quiz) with hash routes. Today's cards show topic tags that link to the topic page, the Topics list shows how many stories each topic had this week, and each topic page shows its background, key-dates timeline, and the past 7 days' tagged highlights. The Quiz tab shows a "coming soon" screen in the playful look. A content check test validates every topic. 62 tests pass. Checked at phone width in light and dark mode, and every source link was confirmed to load.
@@ -29,8 +30,7 @@ So the app should push toward the first group. Amy should actually learn and rem
 
 ## Next
 
-First milestone: **news, topics, quiz, and review, live** (about 4–5 sessions; something useful is live after each step)
-8. Phone-width and keyboard pass, then open the live link.
+First milestone: **done** (2026-11-01). The next milestone is Amy's call: pick from `IDEAS.md` or add new ideas there first.
 
 ## Decisions
 
@@ -59,4 +59,5 @@ First milestone: **news, topics, quiz, and review, live** (about 4–5 sessions;
 
 ## Problems
 
+- 2026-11-01: Section mix-ups. A story can land in World even when it's about the US (for example, the WSJ lawsuit story on Nov 1), because the section comes from which feeds carried it. Possible fix: count US-specific words, or trust the US feeds more. Low priority.
 - 2026-11-01: The scheduled headlines job didn't run at 11:00 UTC on its first day. GitHub can delay or skip scheduled runs, especially for a new workflow. It was run by hand at about 14:15 UTC. Next: watch whether Nov 2 runs on time. If scheduled runs keep slipping, add a second cron time as a backup (the job is safe to run twice a day).

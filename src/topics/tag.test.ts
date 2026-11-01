@@ -43,6 +43,11 @@ describe('topic tagging', () => {
     expect(storyMatchesTopic(story(['New AI rules proposed']), byId('ai-tech'))).toBe(true);
   });
 
+  it("doesn't tag a story just for naming the Wall Street Journal", () => {
+    const s = story(["Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book"]);
+    expect(storyMatchesTopic(s, byId('us-economy'))).toBe(false);
+  });
+
   it('checks every outlet headline, not just the lead', () => {
     const s = story(['Police deployed during stand-off', 'Netanyahu responds to standoff']);
     expect(storyMatchesTopic(s, byId('israel-palestine'))).toBe(true);

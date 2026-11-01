@@ -125,7 +125,16 @@ let lastHash = location.hash;
 window.addEventListener('hashchange', () => {
   render();
   // Opening a new screen starts at the top; the outlet toggles don't change the hash, so they keep their place.
-  if (location.hash !== lastHash) window.scrollTo(0, 0);
+  if (location.hash !== lastHash) {
+    window.scrollTo(0, 0);
+    // Move focus to the new screen's heading so keyboard and screen-reader users land on it.
+    const view = Object.values(views).find((v) => !v.hidden);
+    const heading = view?.querySelector<HTMLElement>('h1');
+    if (heading) {
+      heading.tabIndex = -1;
+      heading.focus({ preventScroll: true });
+    }
+  }
   lastHash = location.hash;
 });
 
