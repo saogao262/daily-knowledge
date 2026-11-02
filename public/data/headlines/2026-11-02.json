@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T20:39:29.377Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 67
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 44
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 21
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 13
+    }
+  ],
+  "world": [
+    {
+      "id": "w0oqcb",
+      "section": "world",
+      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Removes South Africa From the African Growth and Opportunity Act Trade Program",
+          "url": "https://www.nytimes.com/2026/11/02/world/africa/trump-south-africa-trade-program-agoa.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T19:14:50.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-02T19:33:10.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump says aides have 'concept' of Canada trade deal",
+          "url": "https://thehill.com/homenews/administration/6188730-trump-canada-trade-deal-concept/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T16:01:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bxoj0j",
+      "section": "world",
+      "headline": "Iran offers to open Strait of Hormuz on several conditions",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
+          "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T20:25:33.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Iran offers to open Strait of Hormuz on several conditions",
+          "url": "https://thehill.com/policy/international/6189852-iran-offers-strait-hormuz-opening/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T20:13:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1m6g9u1",
+      "section": "world",
+      "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Russian Strike on Ukraine Humanitarian Hub Kills Dozens",
+          "url": "https://www.nytimes.com/2026/11/02/world/europe/russian-strike-zaporizhzhia-ukraine.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T19:51:44.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-02T20:23:12.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1fl7jwh",
+      "section": "us",
+      "headline": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "20-Year-Old Nathalia Filgueiras Was a Pilot on Learjet That Crashed in Florida",
+          "url": "https://www.nytimes.com/2026/11/02/us/nathalia-filgueiras-florida-plane-crash-pilot.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T19:44:31.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+          "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-02T19:58:34.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Woman identifies daughter, 20, as one of the pilots on jet that crashed in Florida",
+          "url": "https://thehill.com/policy/transportation/6189823-florida-plane-crash-jet-copilot/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T20:01:39.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Florida plane crash investigators say weather conditions a 'major focus,' plane may have started to break up",
+          "url": "https://www.foxnews.com/us/florida-plane-crash-investigators-weather-conditions-major-focus-plane-may-have-started-break",
+          "paywall": false,
+          "publishedAt": "2026-11-02T18:29:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1su4a2d",
+      "section": "us",
+      "headline": "'Despicable': Haley Stevens blasted by Dems after endorsing Mike Rogers",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
+          "paywall": false,
+          "publishedAt": "2026-11-02T12:19:54.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Who Is Jason Turkish, Haley Stevens’s Fiancé?",
+          "url": "https://www.nytimes.com/2026/11/02/us/politics/jason-turkish-haley-stevens-fiance.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T18:25:44.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "'Despicable': Haley Stevens blasted by Dems after endorsing Mike Rogers",
+          "url": "https://thehill.com/opinion/lindseys-lens/6189565-haley-stevens-abandons-el-sayed/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T18:42:41.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Staff exodus ensues after Dem Haley Stevens flips on own party and endorses GOP rival and more top headlines",
+          "url": "https://www.foxnews.com/us/staff-exodus-after-dem-haley-stevens-party-endorses-gop-rival-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-02T11:40:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "jpovmt",
+      "section": "us",
+      "headline": "Live updates: Trump touts Reflecting Pool rehab in remarks there",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Returns to Reflecting Pool, Now Refilled After Botched Renovation",
+          "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-reflecting-pool-refilled-botched-repairs.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T16:31:11.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump touts Reflecting Pool rehab in remarks there",
+          "url": "https://thehill.com/homenews/administration/6187464-stevens-rogers-endorsement-backlash/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T19:09:57.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump spends nearly half of his midterm closing pitch talking about Reflecting Pool renovations",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4788445/trump-midterm-closing-pitch-reflecting-pool-renovations/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T20:26:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "126xqtc",
+      "section": "us",
+      "headline": "Judge dismisses Trump administration's lawsuit over two Dan Sullivans in Alaska election",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Judge Dismisses Trump Lawsuit Demanding Harvard Admissions Data",
+          "url": "https://www.nytimes.com/2026/11/02/us/harvard-admissions-trump-lawsuit-dismissed.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T20:13:41.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Judge dismisses Trump administration's lawsuit over two Dan Sullivans in Alaska election",
+          "url": "https://www.bbc.co.uk/news/articles/cv4g1y02jejro?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-01T23:43:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "u3qj7b",
+      "section": "us",
+      "headline": "A ‘Pugnacious’ Vance Leans Into Personal Attacks on the Campaign Trail",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "A ‘Pugnacious’ Vance Leans Into Personal Attacks on the Campaign Trail",
+          "url": "https://www.nytimes.com/2026/11/02/us/politics/vance-campaign-trail-personas.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T13:17:44.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Vance heads home to ‘O-H-I-O’ to close out 2026 campaign trail",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4788242/vance-ohio-close-out-2026-campaign-trail/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T19:32:30.000Z"
+        }
+      ]
+    }
+  ]
+}
