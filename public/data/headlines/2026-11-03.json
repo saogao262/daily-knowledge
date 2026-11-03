@@ -1,0 +1,441 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T18:16:15.861Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 17
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 76
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 47
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 24
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 12
+    }
+  ],
+  "world": [
+    {
+      "id": "1opomxa",
+      "section": "world",
+      "headline": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "paywall": false,
+          "publishedAt": "2026-11-03T11:01:14.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Russian Strike on Ukraine Humanitarian Hub Kills Dozens",
+          "url": "https://www.nytimes.com/2026/11/02/world/europe/russian-strike-zaporizhzhia-ukraine.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T20:50:14.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T16:57:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "w0oqcb",
+      "section": "world",
+      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Removes South Africa From the African Growth and Opportunity Act Trade Program",
+          "url": "https://www.nytimes.com/2026/11/02/world/africa/trump-south-africa-trade-program-agoa.html",
+          "paywall": true,
+          "publishedAt": "2026-11-02T21:01:03.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T13:28:30.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump says aides have 'concept' of Canada trade deal",
+          "url": "https://thehill.com/homenews/administration/6188730-trump-canada-trade-deal-concept/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T16:01:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1kj58pf",
+      "section": "world",
+      "headline": "Seven flights across Europe targeted by suspected bomb threats",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Bomb Threats Disrupt Several Flights Across Europe",
+          "url": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
+          "paywall": true,
+          "publishedAt": "2026-11-03T16:22:42.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Seven flights across Europe targeted by suspected bomb threats",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T17:56:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bxoj0j",
+      "section": "world",
+      "headline": "Iran offers to open Strait of Hormuz on several conditions",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
+          "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
+          "paywall": true,
+          "publishedAt": "2026-11-03T16:32:56.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Iran offers to open Strait of Hormuz on several conditions",
+          "url": "https://thehill.com/policy/international/6189852-iran-offers-strait-hormuz-opening/",
+          "paywall": false,
+          "publishedAt": "2026-11-02T20:13:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ud9v9w",
+      "section": "world",
+      "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+          "paywall": false,
+          "publishedAt": "2026-11-03T15:54:39.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-02T17:33:19.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "15h5rgy",
+      "section": "us",
+      "headline": "US strikes Iranian island ahead of midterm elections",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Four types of House races to watch on election night to know how it might go",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch",
+          "paywall": false,
+          "publishedAt": "2026-11-03T11:00:00.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "US midterms 2026: live results",
+          "url": "https://www.economist.com/interactive/2026/us-midterms/results/summary",
+          "paywall": true,
+          "publishedAt": "2026-11-03T12:47:03.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Latinos are now America’s most important swing voters.",
+          "url": "https://www.nytimes.com/live/2026/11/03/us/midterms-2026-election-day-trump/latinos-are-now-americas-most-important-swing-voters",
+          "paywall": true,
+          "publishedAt": "2026-11-03T17:49:59.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US strikes Iranian island ahead of midterm elections",
+          "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T11:33:33.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Election Day arrives: Here’s the best of our midterms coverage",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1103/midterm-election-house-senate-highlights?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T10:00:10.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Montana live results: 2026 Senate election",
+          "url": "https://thehill.com/homenews/senate/6116036-montana-live-results-2026-senate-election/",
+          "paywall": false,
+          "publishedAt": "2026-11-03T17:00:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "DeSantis calls out issues with GOP ahead of the midterm elections as 2028 looms in distance",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4789332/desantis-call-out-gop-midterm-2028/",
+          "paywall": false,
+          "publishedAt": "2026-11-03T17:51:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "j7m0zv",
+      "section": "us",
+      "headline": "What are Americans voting for in this election?",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Control of Congress is at stake today. And, judge to consider motion in Clancy case",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151445/up-first-newsletter-midterms-election-day-iran-war-lindsay-clancy",
+          "paywall": false,
+          "publishedAt": "2026-11-03T11:43:49.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What’s at Stake in Today’s Elections",
+          "url": "https://www.nytimes.com/video/us/politics/100000011228221/whats-at-stake-in-todays-elections.html",
+          "paywall": true,
+          "publishedAt": "2026-11-03T16:23:33.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What are Americans voting for in this election?",
+          "url": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-02T09:22:55.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "What's at stake on Election Day in the battle for Congress and more top headlines",
+          "url": "https://www.foxnews.com/us/whats-stake-election-day-battle-congress-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-03T11:33:14.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Where weather could complicate Election Day voting",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4789131/where-weather-could-complicate-election-day-voting/",
+          "paywall": false,
+          "publishedAt": "2026-11-03T15:08:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "117nqx1",
+      "section": "us",
+      "headline": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
+          "paywall": false,
+          "publishedAt": "2026-11-02T12:19:54.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Who Is Jason Turkish, Haley Stevens’s Fiancé?",
+          "url": "https://www.nytimes.com/2026/11/02/us/politics/jason-turkish-haley-stevens-fiance.html",
+          "paywall": true,
+          "publishedAt": "2026-11-03T04:06:50.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Staff exodus ensues after Dem Haley Stevens flips on own party and endorses GOP rival and more top headlines",
+          "url": "https://www.foxnews.com/us/staff-exodus-after-dem-haley-stevens-party-endorses-gop-rival-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-02T11:40:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1kvqz39",
+      "section": "us",
+      "headline": "Trump Says U.S. to End $4 Billion in Aid to Israel at End of Year",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Says U.S. to End $4 Billion in Aid to Israel at End of Year",
+          "url": "https://www.nytimes.com/2026/11/03/us/politics/trump-israel-aid-netanyahu.html",
+          "paywall": true,
+          "publishedAt": "2026-11-03T17:22:57.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump to end all military funding to Israel by end of the year: ‘They don’t need it’",
+          "url": "https://www.washingtonexaminer.com/news/world/4789202/trump-end-all-military-funding-israel-end-of-year/",
+          "paywall": false,
+          "publishedAt": "2026-11-03T15:02:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1514k7c",
+      "section": "us",
+      "headline": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-03T13:44:44.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Texas family of 4, 20-year-old copilot among 9 killed in fiery Florida jet crash",
+          "url": "https://www.foxnews.com/us/co-pilot-killed-fiery-florida-learjet-crash-identified-20-year-old-learned-fly-before-driving",
+          "paywall": false,
+          "publishedAt": "2026-11-02T15:51:46.000Z"
+        }
+      ]
+    }
+  ]
+}
