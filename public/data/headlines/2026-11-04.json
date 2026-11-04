@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T18:30:21.429Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 48
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 25
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 12
+    }
+  ],
+  "world": [
+    {
+      "id": "10gx7uh",
+      "section": "world",
+      "headline": "Israel’s President Will Start Talks on Whether Netanyahu or Eisenkot Can Form a Government",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Israel’s President Will Start Talks on Whether Netanyahu or Eisenkot Can Form a Government",
+          "url": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-herzog-netanyahu-government.html",
+          "paywall": true,
+          "publishedAt": "2026-11-04T16:13:09.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Netanyahu faces coalition showdown as rivals maneuver to form Israel's next government",
+          "url": "https://www.foxnews.com/world/netanyahu-faces-coalition-showdown-rivals-maneuver-form-israels-next-government",
+          "paywall": false,
+          "publishedAt": "2026-11-04T05:45:04.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1ec0bqy",
+      "section": "us",
+      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations",
+          "paywall": false,
+          "publishedAt": "2026-11-04T17:38:36.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "A landslide for Democrats. A rebuke to Donald Trump",
+          "url": "https://www.economist.com/united-states/2026/11/04/a-landslide-for-democrats-a-rebuke-to-donald-trump",
+          "paywall": true,
+          "publishedAt": "2026-11-04T06:05:41.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
+          "url": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
+          "paywall": true,
+          "publishedAt": "2026-11-04T17:51:20.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-04T18:01:31.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Democrats take the House and Senate, with sweeping victories on GOP turf",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1104/midterm-house-senate-democrats-wave?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-04T06:28:15.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Republicans annihilated in midterms: Anti-war MAGA was right",
+          "url": "https://thehill.com/opinion/robbys-radar/6198584-democrats-annihilate-gop-midterms/",
+          "paywall": false,
+          "publishedAt": "2026-11-04T18:03:53.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Blue wave sweeps Democrats into power and more top headlines",
+          "url": "https://www.foxnews.com/us/blue-wave-sweeps-democrats-power-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-04T11:07:04.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Embattled House Democrat Jimmy Gomez loses reelection",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4765919/jimmy-gomez-lose-reelection-angela-gonzales-torres/",
+          "paywall": false,
+          "publishedAt": "2026-11-04T18:18:26.000Z"
+        }
+      ]
+    }
+  ]
+}
