@@ -1,0 +1,516 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T18:34:28.909Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 17
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 80
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 25
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "1pvj4sj",
+      "section": "world",
+      "headline": "More than a dozen flights in Europe receive bomb threats that an official calls 'malicious' hoaxes",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What to Know About the Bomb Threats Disrupting Flights in Europe",
+          "url": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T17:51:09.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "More than a dozen flights in Europe receive bomb threats that an official calls 'malicious' hoaxes",
+          "url": "https://thehill.com/policy/transportation/bomb-threats-flight-disruptions-europe/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T18:30:59.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Multiple flights in Europe diverted because of bomb threats",
+          "url": "https://www.foxnews.com/world/multiple-flights-europe-diverted-bomb-threats",
+          "paywall": false,
+          "publishedAt": "2026-11-05T11:33:26.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Flights diverted in Europe after multiple bomb threats",
+          "url": "https://www.washingtonexaminer.com/news/world/4793684/flights-diverted-europe-multiple-bomb-threats/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T13:13:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "qlt0lo",
+      "section": "world",
+      "headline": "Melania Trump hosting Russian and Ukrainian delegations at the White House",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "How Melania Trump Became a Dark Horse Diplomat on Ukraine",
+          "url": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T17:39:24.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Melania Trump hosting Russian and Ukrainian delegations at the White House",
+          "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T13:09:12.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Watch live: Melania Trump hosts Russian, Ukrainian officials at White House",
+          "url": "https://thehill.com/video-clips/6200577-watch-live-melania-trump-russia-ukraine-officials-white-house-localized-ceasefire/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T15:18:10.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Melania Trump: Oleshky ceasefire is a ‘spark’ for 'more enduring' peace between Ukraine, Russia",
+          "url": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia",
+          "paywall": false,
+          "publishedAt": "2026-11-05T17:26:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "g0z29i",
+      "section": "world",
+      "headline": "El-Sayed backs Trump plan to end Israel aid: 'I agree with him on that'",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028702/abdul-el-sayed-michigan-senate-israel-aid",
+          "paywall": false,
+          "publishedAt": "2026-11-04T13:38:09.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "Hero or liability? The debate over Abdul El-Sayed",
+          "url": "https://www.economist.com/united-states/2026/11/05/hero-or-liability-the-debate-over-abdul-el-sayed",
+          "paywall": true,
+          "publishedAt": "2026-11-05T09:50:08.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Abdul El-Sayed’s Senate Win Is Big to Muslim Americans, but Not Because of Faith",
+          "url": "https://www.nytimes.com/2026/11/04/us/muslim-americans-el-sayed.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T09:15:36.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "El-Sayed backs Trump plan to end Israel aid: 'I agree with him on that'",
+          "url": "https://thehill.com/policy/international/6200755-el-sayed-supports-trump-israel-aid/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T15:34:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1286wx2",
+      "section": "world",
+      "headline": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+          "paywall": false,
+          "publishedAt": "2026-11-05T05:29:56.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
+          "url": "https://www.nytimes.com/2026/11/04/world/asia/joshua-wong-hong-kong-sentenced.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T06:56:25.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T13:51:03.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Top Republican condemns sentencing of 'hero' Hong Kong activist Joshua Wong",
+          "url": "https://thehill.com/homenews/house/6200253-john-moolenar-joshua-wong-activist-china-sentencing-2026/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T13:47:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xc72tf",
+      "section": "world",
+      "headline": "Pope Leo hosts Bob Dylan at official residence in Rome",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Bob Dylan comes knockin' on pope's door as Leo welcomes legend to Vatican",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+          "paywall": false,
+          "publishedAt": "2026-11-05T07:02:12.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Bob Dylan Meets With Pope Leo",
+          "url": "https://www.nytimes.com/2026/11/04/world/europe/bob-dylan-pope-leo.html",
+          "paywall": true,
+          "publishedAt": "2026-11-04T23:14:39.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope Leo hosts Bob Dylan at official residence in Rome",
+          "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T02:09:23.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "c1juae",
+      "section": "us",
+      "headline": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Sen. Gillibrand says Democrats must end Iran war, hold Trump accountable. But how?",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6028837/kirsten-gillibrand-democrats-congress-priorities",
+          "paywall": false,
+          "publishedAt": "2026-11-05T11:45:30.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The Democrats have won the biggest congressional landslide in 50 years",
+          "url": "https://www.economist.com/united-states/2026/11/05/the-democrats-have-won-the-biggest-congressional-landslide-in-50-years",
+          "paywall": true,
+          "publishedAt": "2026-11-05T11:14:34.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "How Democrats Won Across the South",
+          "url": "https://www.nytimes.com/2026/11/05/us/politics/midterms-southern-democrats.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T18:18:12.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T03:47:56.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Does MAGA have a future? After anti-Trump backlash in midterms, it may not.",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1104/trump-maga-future-vance-desantis-rubio?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-04T22:45:05.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Nikki Haley is wrong! Democrats won midterms, Republicans didn't just lose",
+          "url": "https://thehill.com/opinion/lindseys-lens/6201623-democratic-victories-not-republican-failures/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T18:15:38.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Blue wave sweeps Democrats into power and more top headlines",
+          "url": "https://www.foxnews.com/us/blue-wave-sweeps-democrats-power-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-04T11:07:04.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump’s foreign foes bask in Republican midterm defeat",
+          "url": "https://www.washingtonexaminer.com/news/world/4792607/trump-republican-midterms-defeat-world-reaction/",
+          "paywall": false,
+          "publishedAt": "2026-11-04T20:48:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "dj3er4",
+      "section": "us",
+      "headline": "Democrat concedes in open race for Golden House seat in Maine",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Sam Forstag, a Smoke Jumper, Flips a House Seat for Democrats in Montana",
+          "url": "https://www.nytimes.com/2026/11/05/us/forstag-flint-montana-first-house-district.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T17:34:14.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Democrats have a majority of governors. That could have political ripple effects.",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1104/democrats-governors-midterms?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-04T23:15:09.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Democrat concedes in open race for Golden House seat in Maine",
+          "url": "https://thehill.com/homenews/campaign/6201704-democrat-concedes-in-open-race-for-golden-house-seat-in-maine/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T18:30:04.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Here’s the caucus breakdown of Democrats’ new House majority",
+          "url": "https://www.washingtonexaminer.com/news/house/4793763/caucus-breakdown-democrats-new-house-majority/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T16:45:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "z3djq7",
+      "section": "us",
+      "headline": "When to expect Senate results from the tight race in Mississippi",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Mississippi’s Senate Race Is Close. The State Has No Vote Recount Law.",
+          "url": "https://www.nytimes.com/2026/11/04/us/mississippi-senate-election-recount-law.html",
+          "paywall": true,
+          "publishedAt": "2026-11-04T23:54:31.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "When to expect Senate results from the tight race in Mississippi",
+          "url": "https://www.bbc.co.uk/news/videos/c6j9kx8j1x2yo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T01:21:45.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "GOP pins hopes in Mississippi Senate race on late-arriving ballots it asked Supreme Court to strike down",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4794101/gop-pins-hopes-mississippi-senate-race-mail-in-ballots/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T18:25:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "14yfaws",
+      "section": "us",
+      "headline": "Live updates: Trump stands up for Hegseth; DC arch could get final approval",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump's arch is on the verge of federal approval. But a judge could block construction",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction",
+          "paywall": false,
+          "publishedAt": "2026-11-05T10:02:00.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Why Trump’s Planned Arch Is Controversial",
+          "url": "https://www.nytimes.com/video/us/politics/100000011226304/trump-triumphal-arch-dc.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T11:58:12.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump stands up for Hegseth; DC arch could get final approval",
+          "url": "https://thehill.com/homenews/administration/6199942-live-updates-trump-arch-midterm-elections-russia-ukraine/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T17:17:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1sda0i8",
+      "section": "us",
+      "headline": "At Least 3 Are Injured in Shooting at Des Moines Post Office",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "At Least 3 Are Injured in Shooting at Des Moines Post Office",
+          "url": "https://www.nytimes.com/2026/11/05/us/des-moines-post-office-shooting-iowa.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T18:05:36.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "3 injured in shooting at Des Moines, Iowa post office, suspect detained: Police",
+          "url": "https://www.foxnews.com/us/multiple-people-shot-united-states-postal-service-office-des-moines-suspect-detained",
+          "paywall": false,
+          "publishedAt": "2026-11-05T15:04:59.000Z"
+        }
+      ]
+    }
+  ]
+}
