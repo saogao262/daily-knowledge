@@ -1,0 +1,470 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T17:50:35.811Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 88
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 27
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 22
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 13
+    }
+  ],
+  "world": [
+    {
+      "id": "7hnq8r",
+      "section": "world",
+      "headline": "New wave of bomb threats hit European airlines",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "European air traffic is targeted by new threats after a week of hoaxes",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:21:31.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Bomb Threats in Europe Probably a Coordinated Campaign, Ireland Says",
+          "url": "https://www.nytimes.com/2026/11/06/world/europe/bomb-threats-flights-campaign-ireland.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T17:16:56.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "New wave of bomb threats hit European airlines",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:25:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "More than a dozen flights in Europe receive bomb threats that an official calls 'malicious' hoaxes",
+          "url": "https://thehill.com/policy/transportation/bomb-threats-flight-disruptions-europe/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T21:56:29.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Multiple flights in Europe diverted because of bomb threats",
+          "url": "https://www.foxnews.com/world/multiple-flights-europe-diverted-bomb-threats",
+          "paywall": false,
+          "publishedAt": "2026-11-05T11:33:26.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Flights diverted in Europe after multiple bomb threats",
+          "url": "https://www.washingtonexaminer.com/news/world/4793684/flights-diverted-europe-multiple-bomb-threats/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T13:13:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1a5g1f9",
+      "section": "world",
+      "headline": "Watch live: Melania Trump hosts Russian, Ukrainian officials at White House",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
+          "url": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
+          "paywall": true,
+          "publishedAt": "2026-11-05T23:47:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Watch live: Melania Trump hosts Russian, Ukrainian officials at White House",
+          "url": "https://thehill.com/video-clips/6200577-watch-live-melania-trump-russia-ukraine-officials-white-house-localized-ceasefire/",
+          "paywall": false,
+          "publishedAt": "2026-11-05T15:18:10.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Melania Trump hails Oleshky ceasefire as potential ‘spark’ for progress amid Ukraine-Russia war",
+          "url": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia",
+          "paywall": false,
+          "publishedAt": "2026-11-05T17:26:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1rdsdre",
+      "section": "world",
+      "headline": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "The leader of a Kenyan doomsday cult is sentenced to 200 years in prison",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
+          "paywall": false,
+          "publishedAt": "2026-11-06T14:53:46.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Kenya Cult Leader Handed 200 Year Prison Sentence for Mass Murder",
+          "url": "https://www.nytimes.com/2026/11/06/world/africa/kenya-cult-leader-prison-sentence-mass-murder-paul-mackenzie.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T13:53:33.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T14:46:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "iy68u8",
+      "section": "world",
+      "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "After cancer surgery, Pope Leo embarks on Latin America trip",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
+          "paywall": false,
+          "publishedAt": "2026-11-06T09:19:57.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
+          "url": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T14:35:42.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T00:02:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1yd2zfq",
+      "section": "world",
+      "headline": "Paraguay President Santiago Peña resigns after bank collapse",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+          "paywall": false,
+          "publishedAt": "2026-11-05T18:30:16.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Paraguay’s President, Santiago Peña, Quits Amid Ueno Bank Scandal",
+          "url": "https://www.nytimes.com/2026/11/05/world/americas/paraguay-santiago-pena-resigns.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T05:49:51.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Paraguay President Santiago Peña resigns after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T17:40:40.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1y6kuvz",
+      "section": "us",
+      "headline": "Democrats can’t heal the US-Canada bond Trump destroyed",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Sen. Gillibrand says Democrats must end Iran war, hold Trump accountable. But how?",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6028837/kirsten-gillibrand-democrats-congress-priorities",
+          "paywall": false,
+          "publishedAt": "2026-11-05T11:45:30.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The Democrats have won the biggest congressional landslide in 50 years",
+          "url": "https://www.economist.com/united-states/2026/11/05/the-democrats-have-won-the-biggest-congressional-landslide-in-50-years",
+          "paywall": true,
+          "publishedAt": "2026-11-05T11:14:34.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Gina Hinojosa Will Be Texas’s First Democratic Governor in Decades. Republicans Won’t Make It Easy.",
+          "url": "https://www.nytimes.com/2026/11/06/us/texas-governor-democrat-gina-hinojosa.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T10:03:37.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Democrats can’t heal the US-Canada bond Trump destroyed",
+          "url": "https://thehill.com/opinion/international/6202256-canadas-strategic-autonomy-goal/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T17:00:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump may be tempted to negotiate with congressional Democrats",
+          "url": "https://www.washingtonexaminer.com/premium/4793484/trump-temptation-negotiate-congressional-democrats-legislative-compromise/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:42:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "kz09l2",
+      "section": "us",
+      "headline": "Top prosecutor in office that housed Trump's 'grand conspiracy' probe resigns from DOJ",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "U.S. Attorney Who Oversaw Centerpiece of Trump’s Revenge Campaign Resigns",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/jason-reding-quinones-resigns.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T17:21:54.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Top prosecutor in office that housed Trump's 'grand conspiracy' probe resigns from DOJ",
+          "url": "https://thehill.com/regulation/court-battles/6203924-reding-quinones-doj-resignation/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:19:15.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Prosecutor overseeing Trump ‘grand conspiracy’ investigation resigns",
+          "url": "https://www.washingtonexaminer.com/news/justice/4795318/jason-reding-quinones-resignation-trump-grand-conspiracy-investigation/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T16:05:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ibjty8",
+      "section": "us",
+      "headline": "Inside Mississippi's ballot counting in tight Senate race",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Colom Leads Hyde-Smith in Mississippi Senate Race After Latest Vote Report",
+          "url": "https://www.nytimes.com/2026/11/06/us/elections/colom-hyde-smith-mississippi-senate-race.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T16:54:30.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Inside Mississippi's ballot counting in tight Senate race",
+          "url": "https://www.bbc.co.uk/news/videos/cmj477d0dyxqo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-05T20:31:38.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "'Voter apathy' toward Hyde-Smith could be factor in Mississippi Senate race: Professor",
+          "url": "https://thehill.com/homenews/campaign/6204220-mississippi-senate-race-colom-hyde-smith/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T16:22:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3lc011",
+      "section": "us",
+      "headline": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+          "url": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:02:03.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Tesla winding down Cybertruck production",
+          "url": "https://thehill.com/policy/technology/6203765-tesla-cybertruck-production-ending/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:27:24.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Musk says Tesla will wind down Cybertruck production next year",
+          "url": "https://www.washingtonexaminer.com/news/business/4795281/musk-tesla-wind-down-cybertruck-production/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T16:13:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "sd62hn",
+      "section": "us",
+      "headline": "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges",
+          "url": "https://www.nytimes.com/2026/11/06/us/thomas-markle-arrested-child-sexual-abuse.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T16:59:43.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Meghan Markle’s father arrested on federal child pornography charges",
+          "url": "https://www.washingtonexaminer.com/news/crime/4795437/meghan-markles-father-arrested-federal-child-pornography/",
+          "paywall": false,
+          "publishedAt": "2026-11-06T17:04:47.000Z"
+        }
+      ]
+    }
+  ]
+}
