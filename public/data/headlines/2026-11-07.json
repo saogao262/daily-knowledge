@@ -1,0 +1,385 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T16:46:05.332Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 68
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 37
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 14
+    }
+  ],
+  "world": [
+    {
+      "id": "7hnq8r",
+      "section": "world",
+      "headline": "New wave of bomb threats hit European airlines",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "European flights and broadcasters are targeted with another wave of bomb threats",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:21:31.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
+          "url": "https://www.nytimes.com/2026/11/07/world/europe/bomb-threats-cyberattacks-europe-uncertainty.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T10:32:52.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "New wave of bomb threats hit European airlines",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:25:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f5i75p",
+      "section": "world",
+      "headline": "Pope in 'pretty good health' as he starts Latin America tour",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
+          "paywall": false,
+          "publishedAt": "2026-11-06T19:13:06.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
+          "url": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T19:24:09.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope in 'pretty good health' as he starts Latin America tour",
+          "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-07T06:59:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96ru3p",
+      "section": "world",
+      "headline": "Judge blocks construction of Trump's massive arch after federal agency approval",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+          "url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+          "paywall": false,
+          "publishedAt": "2026-11-06T12:24:52.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump’s D.C. Construction Blitz May Be About to Get Tougher",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/trump-construction-projects-washington.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T03:08:58.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Judge blocks construction of Trump's massive arch after federal agency approval",
+          "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T15:30:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1rdsdre",
+      "section": "world",
+      "headline": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "The leader of a Kenyan doomsday cult is sentenced to 200 years in prison",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
+          "paywall": false,
+          "publishedAt": "2026-11-06T14:53:46.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Kenya Cult Leader Handed 200 Year Prison Sentence for Mass Murder",
+          "url": "https://www.nytimes.com/2026/11/06/world/africa/kenya-cult-leader-prison-sentence-mass-murder-paul-mackenzie.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T21:13:25.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T14:46:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1z0w4te",
+      "section": "world",
+      "headline": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges",
+          "url": "https://www.nytimes.com/2026/11/06/us/thomas-markle-arrested-child-sexual-abuse.html",
+          "paywall": true,
+          "publishedAt": "2026-11-06T21:59:44.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-07T07:27:44.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "nue065",
+      "section": "us",
+      "headline": "With Stephen Miller pick, Trump readies for a battle",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What to Know About Stephen Miller, Trump’s New Chief of Staff",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/stephen-miller-white-house-chief-staff.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T02:56:14.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "With Stephen Miller pick, Trump readies for a battle",
+          "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T23:24:15.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Miller calls chief of staff promotion 'honor of my life' at Mar-a-Lago event",
+          "url": "https://thehill.com/homenews/administration/6206000-stephen-miller-white-house-promotion-speech/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T15:33:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1gyzqt4",
+      "section": "us",
+      "headline": "Live updates: Melania Trump hits Baton Rouge for LSU-Alabama game; Peltola's campaign sues Alaska",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Melania Trump hits Baton Rouge for LSU-Alabama game; Peltola's campaign sues Alaska",
+          "url": "https://thehill.com/homenews/administration/6205796-live-melania-trump-football-mar-a-lago/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T14:00:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Peltola campaign sues for access to blocked Alaska absentee ballots",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4796455/peltola-sue-access-block-alaska-absentee-ballot/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T16:05:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3eznz5",
+      "section": "us",
+      "headline": "DOJ dismisses lawsuit over California's 20,000 disputed ballots",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Justice Dept. Dismisses Suit Against California Over 20,000 Ballots",
+          "url": "https://www.nytimes.com/2026/11/06/us/elections/justice-dept-dismisses-california-suit.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T04:09:32.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "DOJ dismisses lawsuit over California's 20,000 disputed ballots",
+          "url": "https://thehill.com/blogs/ballot-box/6205747-doj-dismisses-california-ballot-lawsuit/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T02:32:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "pr5git",
+      "section": "us",
+      "headline": "Meet Fu Shuang and Ping Ping: New giant pandas in Atlanta",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Zoo Atlanta Unveils Its New Pandas: Fu Shuang and Ping Ping",
+          "url": "https://www.nytimes.com/2026/11/06/us/atlanta-pandas.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T03:02:09.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Meet Fu Shuang and Ping Ping: New giant pandas in Atlanta",
+          "url": "https://www.bbc.co.uk/news/videos/cwm244x9dzy2o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-06T18:27:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1bkv91p",
+      "section": "us",
+      "headline": "Prosecutors Vow to Keep Pursuing Death Penalty in California",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Prosecutors Vow to Keep Pursuing Death Penalty in California",
+          "url": "https://www.nytimes.com/2026/11/06/us/california-prosecutors-death-penalty.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T00:57:32.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "MICHAEL RUIZ: California prosecutors revolt after Newsom orders state's worst killers off death row",
+          "url": "https://www.foxnews.com/us/michael-ruiz-california-prosecutors-revolt-newsom-orders-states-worst-killers-off-death-row",
+          "paywall": false,
+          "publishedAt": "2026-11-06T16:49:57.000Z"
+        }
+      ]
+    }
+  ]
+}
