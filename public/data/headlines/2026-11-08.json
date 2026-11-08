@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T16:56:36.206Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 44
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 22
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "rom4vn",
+      "section": "world",
+      "headline": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Israeli president invites Netanyahu's opposition leader to broker new government",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government",
+          "paywall": false,
+          "publishedAt": "2026-11-07T22:12:09.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
+          "url": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
+          "paywall": true,
+          "publishedAt": "2026-11-08T16:39:19.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Israel's president tasks opposition leader Eisenkot with forming government",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-07T22:19:59.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Israeli president picks Netanyahu's rival Eisenkot to form new government",
+          "url": "https://thehill.com/policy/international/6206234-herzog-appoints-eisenkot-form-government/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T21:13:06.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Israeli president taps Netanyahu rival to form government as coalition battle looms",
+          "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
+          "paywall": false,
+          "publishedAt": "2026-11-07T22:17:37.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Slotkin vows to oppose Schumer ‘until I see a plan,’ won’t rule out leadership challenge",
+          "url": "https://www.washingtonexaminer.com/news/senate/4796722/elissa-slotkin-schumer-senate-majority-leader/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T15:41:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "11h2cd",
+      "section": "world",
+      "headline": "Paraguay's former president charged after bank collapse",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Ousted Paraguayan president appears before prosecutors",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+          "paywall": false,
+          "publishedAt": "2026-11-07T17:14:36.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Prosecutors Charge Paraguay’s Former President With Corruption",
+          "url": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T20:17:15.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Paraguay's former president charged after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-07T19:17:22.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ukraine’s anti-corruption agencies are undermining Trump’s peace efforts, former top prosecutor alleges",
+          "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4795394/ukraine-anti-corruption-agencies-undermining-trump-peace-efforts-kravchenko/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1jjsm9",
+      "section": "world",
+      "headline": "Italian foreign minister says hackers leaked his personal data",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Italian foreign minister says hackers leaked his personal data",
+          "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-07T16:50:06.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Giorgia Meloni blames pro-Russian hackers for leaking foreign minister's personal data to dark web",
+          "url": "https://thehill.com/policy/international/6206505-meloni-blames-russian-hackers-tajani/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T14:27:07.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Meloni blames pro-Russian hackers for leaking Italian foreign minister’s personal data",
+          "url": "https://www.washingtonexaminer.com/news/world/4796453/meloni-blame-russia-hacker-leak-italy-foreign-minister/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T15:30:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1mepjrq",
+      "section": "world",
+      "headline": "At Least 6 Dead in Poland After Gunman Opens Fire in Krakow, Police Say",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "At Least 6 Dead in Poland After Gunman Opens Fire in Krakow, Police Say",
+          "url": "https://www.nytimes.com/2026/11/07/world/europe/krakow-poland-shooting.html",
+          "paywall": true,
+          "publishedAt": "2026-11-07T23:36:18.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Gunman opens fire from moving car in European tourist hot spot, leaving 6 dead and at least 15 wounded",
+          "url": "https://www.foxnews.com/world/gunman-opens-fire-moving-car-european-tourist-hotspot-leaving-5-dead-12-wounded",
+          "paywall": false,
+          "publishedAt": "2026-11-07T17:37:33.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Gunman opens fire in Polish city of Krakow, killing 5 people and injuring at least 12",
+          "url": "https://www.washingtonexaminer.com/news/world/4796525/gunman-poland-krakow-mass-shooting/",
+          "paywall": false,
+          "publishedAt": "2026-11-07T17:12:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "scjkck",
+      "section": "world",
+      "headline": "What we know so far after Krakow gun attack",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What to Know About the Mass Shooting in Krakow, Poland",
+          "url": "https://www.nytimes.com/2026/11/08/world/europe/poland-krakow-mass-shooting.html",
+          "paywall": true,
+          "publishedAt": "2026-11-08T13:09:09.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What we know so far after Krakow gun attack",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-08T14:32:52.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "sg3wij",
+      "section": "us",
+      "headline": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+          "paywall": false,
+          "publishedAt": "2026-11-08T07:35:29.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Asks Dana White of U.F.C. to Be His Press Secretary",
+          "url": "https://www.nytimes.com/2026/11/07/us/politics/trump-dana-white-ufc-press-secretary.html",
+          "paywall": true,
+          "publishedAt": "2026-11-08T00:20:00.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+          "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-08T00:31:53.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump shares cartoon of Dana White as press secretary as he mulls offer",
+          "url": "https://thehill.com/homenews/administration/6206264-live-trump-60-minutes-congress-midterms/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T16:30:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "18b1er",
+      "section": "us",
+      "headline": "Hakeem Jeffries says he's a 'hard yes' to impeach Hegseth",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Hakeem Jeffries says he's a 'hard yes' to impeach Hegseth",
+          "url": "https://thehill.com/homenews/house/6206617-jeffries-supports-hegseth-impeachment/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T16:16:22.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Jeffries a ‘hard yes’ on Hegseth impeachment ahead of expected Massie resolution",
+          "url": "https://www.washingtonexaminer.com/news/house/4796743/hakeem-jeffries-hard-yes-pete-hegseth-impeachment/",
+          "paywall": false,
+          "publishedAt": "2026-11-08T16:28:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1od7epa",
+      "section": "us",
+      "headline": "The Trump coalition is shattered - what will Republicans do now?",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Republicans Point Fingers, but Trump Does Not Appear to Be Listening",
+          "url": "https://www.nytimes.com/2026/11/08/us/politics/republican-blame-trump-midterms.html",
+          "paywall": true,
+          "publishedAt": "2026-11-08T16:04:04.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "The Trump coalition is shattered - what will Republicans do now?",
+          "url": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-08T00:52:39.000Z"
+        }
+      ]
+    }
+  ]
+}
