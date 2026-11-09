@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T21:20:26.470Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 52
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 35
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 24
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 16
+    }
+  ],
+  "world": [
+    {
+      "id": "1xdai55",
+      "section": "world",
+      "headline": "Trump: 'A lot of people didn't like' Vance comments blaming midterm losses on Iran war",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Here Are the Difficult Options Trump Is Weighing to Resolve the War in Iran",
+          "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-iran-options.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T18:36:21.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump: 'A lot of people didn't like' Vance comments blaming midterm losses on Iran war",
+          "url": "https://thehill.com/homenews/administration/6207449-donald-trump-jd-vance-iran-war-gop-midterm-losses/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T12:56:05.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Trump meets key Iran war mediator as UAE reveals major oil export surge despite conflict",
+          "url": "https://www.foxnews.com/world/trump-meets-key-iran-war-mediator-uae-reveals-major-oil-export-surge-despite-conflict",
+          "paywall": false,
+          "publishedAt": "2026-11-09T18:27:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "11rjeni",
+      "section": "world",
+      "headline": "Krakow shooting suspect has died in hospital, police say",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Suspect in Mass Shooting in Krakow, Poland, Dies in Hospital. Here’s What to Know.",
+          "url": "https://www.nytimes.com/2026/11/08/world/europe/poland-krakow-mass-shooting.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T18:12:15.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Krakow shooting suspect has died in hospital, police say",
+          "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T11:56:25.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout",
+          "url": "https://www.foxnews.com/world/poland-krakow-square-shooting-gunman-dies",
+          "paywall": false,
+          "publishedAt": "2026-11-09T09:05:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1092bcn",
+      "section": "world",
+      "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+          "paywall": false,
+          "publishedAt": "2026-11-09T00:17:43.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "The Nvidia Affair",
+          "url": "https://www.nytimes.com/2026/11/09/world/nvidia-affair-jensen-huang-russell-brand.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T20:52:03.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T19:58:01.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Top Democrat demands probe into Jensen Huang's affair with suspected Chinese spy",
+          "url": "https://thehill.com/homenews/senate/6208634-chris-coons-jensen-huang-nvidia-affair-probe/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T19:40:10.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rah6gs",
+      "section": "world",
+      "headline": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
+          "url": "https://www.nytimes.com/2026/11/09/world/africa/senegal-migrant-boat-capsize-europe.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T20:50:12.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Spanish prime minister calls meeting over ‘migration emergency’ as thousands surge into Canary Islands",
+          "url": "https://www.washingtonexaminer.com/news/world/4797200/spain-pedro-sanchez-meeting-migration-emergency-canary-islands/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T17:58:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "i24rsp",
+      "section": "world",
+      "headline": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+          "paywall": false,
+          "publishedAt": "2026-11-09T14:36:54.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Russell Brand sentenced to 10 years in prison",
+          "url": "https://www.washingtonexaminer.com/news/world/4797095/russell-brand-sentenced-10-years-prison/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T15:23:49.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "im2o70",
+      "section": "us",
+      "headline": "Supreme Court allows Big Bend border construction to continue in Texas, siding with Trump",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+          "url": "https://www.nytimes.com/2026/11/09/us/politics/supreme-court-border-wall-trump.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T20:12:15.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Supreme Court allows Big Bend border construction to continue in Texas, siding with Trump",
+          "url": "https://thehill.com/policy/energy-environment/6208853-big-bend-national-park-texas-trump-border-wall-scotus/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T20:14:20.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Supreme Court lifts block on Big Bend border wall construction lawsuit",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4797648/supreme-court-lifts-block-big-bend-border-wall-construction-lawsuit/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T20:53:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "r32z7y",
+      "section": "us",
+      "headline": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The War Room newsletter: How long will Pete Hegseth last?",
+          "url": "https://www.economist.com/united-states/2026/11/09/the-war-room-newsletter-how-long-will-pete-hegseth-last",
+          "paywall": true,
+          "publishedAt": "2026-11-09T16:36:40.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Thomas Massie Moves to Force Vote on Impeaching Pete Hegseth",
+          "url": "https://www.nytimes.com/2026/11/09/us/hegseth-impeachment-massie.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T21:11:07.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T21:04:36.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Pete Hegseth faces House impeachment vote amid controversy over Iran War",
+          "url": "https://thehill.com/homenews/house/6208854-massie-escalates-hegseth-impeachment/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T20:15:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1rqiewl",
+      "section": "us",
+      "headline": "Man Accused of Murdering Charlie Kirk to Go on Trial in 2028",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Man Accused of Murdering Charlie Kirk to Go on Trial in 2028",
+          "url": "https://www.nytimes.com/2026/11/09/us/charlie-kirk-murder-trial-date.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T21:10:01.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "MICHAEL RUIZ: Tyler Robinson judge gives long-awaited trial date ruling in assassination of Charlie Kirk",
+          "url": "https://www.foxnews.com/us/michael-ruiz-tyler-robinson-judge-give-long-awaited-trial-date-ruling-assassination-charlie-kirk",
+          "paywall": false,
+          "publishedAt": "2026-11-09T15:40:43.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Tyler Robinson will go to trial in 2028 in Charlie Kirk murder case",
+          "url": "https://www.washingtonexaminer.com/news/justice/4777878/tyler-robinson-trial-2028-charlie-kirk-murder-case/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T21:09:44.000Z"
+        }
+      ]
+    },
+    {
+      "id": "j4uouy",
+      "section": "us",
+      "headline": "Supreme Court appears wary of former inmate's quest for damages over prison medical care",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Supreme Court appears wary of former inmate's quest for damages over prison medical care",
+          "url": "https://thehill.com/regulation/court-battles/6208870-supreme-court-bivens-lawsuit/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T20:26:33.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Supreme Court tosses appeals court ruling in transgender prisoner case",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4797403/supreme-court-tosses-appeals-court-ruling-transgender-prisoner-case/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T19:49:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "jy7a97",
+      "section": "us",
+      "headline": "Trump questions midterm elections integrity after previously accepting results",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+          "url": "https://www.nytimes.com/2026/11/09/us/politics/trump-election-fraud-rigging-midterms.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T18:37:12.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump questions midterm elections integrity after previously accepting results",
+          "url": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T17:47:29.000Z"
+        }
+      ]
+    }
+  ]
+}
