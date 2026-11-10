@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T18:30:06.764Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 70
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 48
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "1c54a4n",
+      "section": "world",
+      "headline": "Trump says more US attacks on Iran 'highly unlikely'",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Iran denies it was behind cyber fridge attacks targeting France",
+          "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+          "paywall": false,
+          "publishedAt": "2026-11-09T22:30:49.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "France Blames Iran for Cyberattack on Refrigeration Systems",
+          "url": "https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T10:08:25.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump says more US attacks on Iran 'highly unlikely'",
+          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T09:40:31.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump signals no Iran strikes coming after meeting Qatari leader",
+          "url": "https://thehill.com/homenews/administration/6209247-trump-downplays-iran-military-action/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T22:31:34.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Trump meets key Iran war mediator as UAE reveals major oil export surge despite conflict",
+          "url": "https://www.foxnews.com/world/trump-meets-key-iran-war-mediator-uae-reveals-major-oil-export-surge-despite-conflict",
+          "paywall": false,
+          "publishedAt": "2026-11-09T18:27:23.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "France blames Iran for supermarket refrigerator cyberattack",
+          "url": "https://www.washingtonexaminer.com/news/world/4798313/france-blames-iran-supermarket-refrigerator-cyberattack/",
+          "paywall": false,
+          "publishedAt": "2026-11-10T13:35:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2slg84",
+      "section": "world",
+      "headline": "First day of Ukraine peace talks constructive, Zelensky says",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-10T10:58:18.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
+          "url": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T03:39:35.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "First day of Ukraine peace talks constructive, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T17:29:36.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Expectations low as US gives Ukraine peace talks another try",
+          "url": "https://www.csmonitor.com/USA/Foreign-Policy/2026/1110/ukraine-peace-talks-us-russia-abu-dhabi-uae-donetsk?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T10:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "i24rsp",
+      "section": "world",
+      "headline": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+          "paywall": false,
+          "publishedAt": "2026-11-09T14:36:54.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Jemima Goldsmith, Russell Brand’s Ex-Partner, Accuses Him of Abuse",
+          "url": "https://www.nytimes.com/2026/11/10/world/europe/jemima-goldsmith-russell-brand-assault.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T16:27:52.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Russell Brand sentenced to 10 years in prison",
+          "url": "https://www.washingtonexaminer.com/news/world/4797095/russell-brand-sentenced-10-years-prison/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T15:23:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1727gy9",
+      "section": "world",
+      "headline": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "What Trump meant when he said the U.S. is cutting aid to Israel",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6029320/us-trump-israel-military-aid",
+          "paywall": false,
+          "publishedAt": "2026-11-09T21:58:14.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Gaza Floods Kill 4",
+          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T16:09:21.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T15:21:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "se6zwz",
+      "section": "world",
+      "headline": "The midterms gave Congress a mandate — now use it",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
+          "url": "https://www.npr.org/2026/11/09/g-s1-152627/up-first-newsletter-stephen-miller-trump-congress-nvidia-cop31",
+          "paywall": false,
+          "publishedAt": "2026-11-09T12:45:14.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "The midterms gave Congress a mandate — now use it",
+          "url": "https://thehill.com/opinion/international/6209791-congress-bipartisan-foreign-policy/",
+          "paywall": false,
+          "publishedAt": "2026-11-10T18:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "hgtcfy",
+      "section": "us",
+      "headline": "'It's a farce': Hegseth's defiant response to impeachment effort",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas",
+          "paywall": false,
+          "publishedAt": "2026-11-10T12:01:04.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Hegseth Is Defiant as Impeachment Vote Looms",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/hegseth-news-conference-impeachment-vote.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T17:18:41.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "'It's a farce': Hegseth's defiant response to impeachment effort",
+          "url": "https://www.bbc.co.uk/news/videos/cwm24249dezmo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T15:40:43.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Hegseth says impeachment 'not about me':",
+          "url": "https://thehill.com/newsletters/1230-report/6211135-hegseth-says-impeachment-not-about-me/",
+          "paywall": false,
+          "publishedAt": "2026-11-10T17:42:05.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Vance backs Hegseth as Congress prepares historic impeachment: ‘This isn’t about Iran’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4798627/jd-vance-backs-pete-hegseth-congress-prepares-historic-impeachment/",
+          "paywall": false,
+          "publishedAt": "2026-11-10T17:34:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7mw369",
+      "section": "us",
+      "headline": "Trial date of alleged Charlie Kirk killer set for June 2028",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Murder Trial for Tyler Robinson, Charlie Kirk Shooting Suspect, Scheduled for 2028",
+          "url": "https://www.nytimes.com/2026/11/09/us/charlie-kirk-murder-trial-date.html",
+          "paywall": true,
+          "publishedAt": "2026-11-09T22:13:52.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trial date of alleged Charlie Kirk killer set for June 2028",
+          "url": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T21:48:38.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "MICHAEL RUIZ: Tyler Robinson judge gives long-awaited trial date ruling in assassination of Charlie Kirk",
+          "url": "https://www.foxnews.com/us/michael-ruiz-tyler-robinson-judge-give-long-awaited-trial-date-ruling-assassination-charlie-kirk",
+          "paywall": false,
+          "publishedAt": "2026-11-09T15:40:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6jhngc",
+      "section": "us",
+      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
+          "url": "https://www.nytimes.com/2026/11/09/us/politics/trump-jensen-huang-spy.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T15:45:06.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T08:23:21.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Who is Jensen Huang, Nvidia CEO facing probe over affair with alleged spy",
+          "url": "https://thehill.com/policy/technology/6208192-jensen-huang-nvidia-ceo-chinese-spy-affair/",
+          "paywall": false,
+          "publishedAt": "2026-11-09T16:26:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "80tk4k",
+      "section": "us",
+      "headline": "Californians reject wealth tax for billionaires",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "California voters defeat billionaire tax proposal that divided Democrats",
+          "url": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+          "paywall": false,
+          "publishedAt": "2026-11-10T03:05:39.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "California Voters Reject Prop. 40 Billionaire Tax Measure",
+          "url": "https://www.nytimes.com/2026/11/09/us/california-billionaire-tax-prop-40.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T14:18:57.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Californians reject wealth tax for billionaires",
+          "url": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T03:34:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "15r6rkd",
+      "section": "us",
+      "headline": "Biden says Trump should carry weight of US Capitol riot 'to his grave' in new book",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What Trump Said in His Letter to Biden in 2021",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/biden-trump-letter.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T17:00:05.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Biden says Trump should carry weight of US Capitol riot 'to his grave' in new book",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0yqwz925o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-09T20:53:57.000Z"
+        }
+      ]
+    }
+  ]
+}
