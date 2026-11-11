@@ -1,0 +1,422 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T18:27:13.042Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 74
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 41
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 28
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 27
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 20
+    }
+  ],
+  "world": [
+    {
+      "id": "1yi2hnk",
+      "section": "world",
+      "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-11T13:30:00.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Seeking to Broaden Ukraine Talks, U.S. Urges Russia to Include Europe",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/russia-ukraine-talks-abu-dhabi.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T17:40:41.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T18:04:58.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Russia, Ukraine agree to large prisoner swap after Abu Dhabi talks",
+          "url": "https://thehill.com/policy/international/6213290-russia-ukraine-prisoner-swap-abu-dhabi-talks/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T15:26:50.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Russia and Ukraine settle on large prisoner swap after no major developments from talks",
+          "url": "https://www.washingtonexaminer.com/news/world/4799883/russia-ukraine-prisoner-swap-peace-talks/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T14:09:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "jqmamu",
+      "section": "world",
+      "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Bessent Is Moved From D.C.-Area Home to Military Base Amid Iranian Threats",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/bessent-moved-base-iran-threats.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T00:31:56.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:45:11.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Iran war: US moves military aircraft from a second British air base",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1110/iran-british-airbase-american-military-aircraft?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T20:14:28.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Bessent moved to military base after Iranian threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:51:44.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Secretary Scott Bessent moved to military base over Iran threats and more top headlines",
+          "url": "https://www.foxnews.com/us/secretary-scott-bessent-moved-military-base-iran-threats-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-11T12:15:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1d5kw6w",
+      "section": "world",
+      "headline": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
+          "paywall": false,
+          "publishedAt": "2026-11-11T10:02:54.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:59:34.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
+          "url": "https://thehill.com/policy/national-security/3-charged-plotting-terror-attacks-uk-air-base/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T17:34:06.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Iran-backed terror suspects plotted attack on US troops using vans packed with fuel, DOJ says",
+          "url": "https://www.foxnews.com/us/iran-backed-terror-suspects-plotted-attack-us-troops-vans-packed-fuel-doj-says",
+          "paywall": false,
+          "publishedAt": "2026-11-10T20:25:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1syw8sw",
+      "section": "world",
+      "headline": "US Army soldier suspected of spying for Russia arrested in UK",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "US Soldier Is Arrested in UK on Suspicion of Spying for Russia",
+          "url": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T22:24:05.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US Army soldier suspected of spying for Russia arrested in UK",
+          "url": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-10T20:20:04.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "US soldier suspected of Russia-related espionage arrested in UK",
+          "url": "https://thehill.com/policy/international/6211589-us-army-soldier-arrested-espionage/",
+          "paywall": false,
+          "publishedAt": "2026-11-10T20:19:36.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Senior US Army soldier arrested in UK on suspicion of spying for Russia",
+          "url": "https://www.foxnews.com/world/senior-us-army-soldier-arrested-uk-suspicion-spying-russia",
+          "paywall": false,
+          "publishedAt": "2026-11-10T21:51:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9r1z3z",
+      "section": "world",
+      "headline": "Spain sees widespread disruption in first general strike for 14 years",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Spain's first general strike in 14 years demands solutions to housing crisis",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+          "paywall": false,
+          "publishedAt": "2026-11-11T09:54:54.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T15:54:22.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Spain sees widespread disruption in first general strike for 14 years",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T17:44:32.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1e8gflw",
+      "section": "us",
+      "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases",
+          "paywall": false,
+          "publishedAt": "2026-11-11T12:21:59.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Republicans Turn Back Effort to Impeach Hegseth",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/house-hegseth-impeachment-vote.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T03:08:02.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T11:47:22.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "House effort to impeach Hegseth fails, largely along party lines",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1110/hegseth-impeachment-iran-war?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T01:52:28.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Byron York bashes Hegseth impeachment articles as Thomas Massie’s ‘last shot’",
+          "url": "https://www.washingtonexaminer.com/news/house/4800127/byron-york-hegseth-impeachment-articles-massie-last-shot/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T17:06:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5e8cau",
+      "section": "us",
+      "headline": "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:59:32.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Kennedys Join Suit to Block Trump’s Arch, Saying It Would Mar J.F.K. Gravesite",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/kennedy-trump-arch-lawsuit.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T02:59:12.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvpmzp2p4o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T03:44:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "199jqlz",
+      "section": "us",
+      "headline": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Release of Meghan Markle’s Father Is Revoked After Ankle Monitor Removal",
+          "url": "https://www.nytimes.com/2026/11/10/us/thomas-markle-ankle-monitor-jail.html",
+          "paywall": true,
+          "publishedAt": "2026-11-10T23:19:20.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+          "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T02:41:16.000Z"
+        }
+      ]
+    }
+  ]
+}
