@@ -1,0 +1,481 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T18:44:16.891Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 63
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 48
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 18
+    }
+  ],
+  "world": [
+    {
+      "id": "pqwrjx",
+      "section": "world",
+      "headline": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-12T15:26:34.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "In Moscow, Witkoff and Kushner Ask Putin to Include Europe in Peace Talks",
+          "url": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+          "paywall": true,
+          "publishedAt": "2026-11-12T16:54:22.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-12T18:28:59.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "US envoys meet with Putin in Moscow on Ukraine talks, then head for Dublin to see Zelenskyy",
+          "url": "https://thehill.com/policy/international/donald-trump-steve-witkoff-jared-kushner-vladimir-putin-moscow/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T18:17:34.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Russia and Ukraine settle on large prisoner swap after no major developments from talks",
+          "url": "https://www.washingtonexaminer.com/news/world/4799883/russia-ukraine-prisoner-swap-peace-talks/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T14:09:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "14k3zn8",
+      "section": "world",
+      "headline": "Russia announces sudden death of ambassador to US",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Former U.S. Ambassador William Taylor discusses the latest Russia-Ukraine talks",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037526/former-u-s-ambassador-william-taylor-discusses-the-latest-russia-ukraine-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-12T09:39:39.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Alexander Darchiev, Russia’s Ambassador to the U.S., Dies at 66",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/russian-ambassador-darchiev-dead.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T21:14:46.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Russia announces sudden death of ambassador to US",
+          "url": "https://thehill.com/policy/international/6213787-alexander-darchiev-russian-ambassador-us-death/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T18:11:49.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Russian Ambassador to US Alexander Darchiev dies suddenly at 66",
+          "url": "https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66",
+          "paywall": false,
+          "publishedAt": "2026-11-11T19:02:20.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Russian ambassador to US ‘suddenly’ dead at 66",
+          "url": "https://www.washingtonexaminer.com/news/world/4800214/russian-ambassador-us-darchiev-suddenly-dead-66-known-as-vigorous-defender/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T17:47:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9r1z3z",
+      "section": "world",
+      "headline": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+          "paywall": true,
+          "publishedAt": "2026-11-12T07:30:40.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T22:07:37.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Fiery chaos erupts across Spain as protesters clash with police during massive nationwide strike",
+          "url": "https://www.foxnews.com/world/fiery-chaos-erupts-spain-protesters-clash-police-massive-nationwide-strike",
+          "paywall": false,
+          "publishedAt": "2026-11-11T21:46:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1gxve4z",
+      "section": "world",
+      "headline": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Canadian Authorities Kill 4 Bears Involved in Deadly Attack on Hikers",
+          "url": "https://www.nytimes.com/2026/11/10/world/canada/british-columbia-bear-attack.html",
+          "paywall": true,
+          "publishedAt": "2026-11-11T07:32:18.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T13:24:29.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "DNA links 4 grizzly bears to deadly attack on mother and daughter in Canada, officials say",
+          "url": "https://www.foxnews.com/world/dna-links-4-grizzly-bears-deadly-attack-mother-daughter-canada-officials-say",
+          "paywall": false,
+          "publishedAt": "2026-11-11T20:59:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2ppy5z",
+      "section": "world",
+      "headline": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+          "paywall": false,
+          "publishedAt": "2026-11-12T09:29:30.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+          "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+          "paywall": true,
+          "publishedAt": "2026-11-12T17:38:27.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-12T16:54:12.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1wrnrzp",
+      "section": "us",
+      "headline": "Trump says 'we won' Iran war during Veterans Day service",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "Democrats’ strategy for ending the war in Iran",
+          "url": "https://www.economist.com/united-states/2026/11/11/democrats-strategy-for-ending-the-war-in-iran",
+          "paywall": true,
+          "publishedAt": "2026-11-11T21:01:49.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump says 'we won' Iran war during Veterans Day service",
+          "url": "https://www.bbc.co.uk/news/videos/cke89dqmlp2eo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T19:30:48.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Jeffries refuses to rule out government shutdown over Iran war",
+          "url": "https://www.washingtonexaminer.com/news/house/4801564/hakeem-jeffries-government-shutdown-iran-war/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T18:04:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1jjwcn0",
+      "section": "us",
+      "headline": "Survivor pulled from rubble of deadly building collapse in New York",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Crews search for survivors after deadly Brooklyn building collapse",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038673/crews-search-for-survivors-after-deadly-brooklyn-building-collapse",
+          "paywall": false,
+          "publishedAt": "2026-11-12T16:26:59.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Survivor pulled from rubble of deadly building collapse in New York",
+          "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-12T02:33:12.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "NYC building collapse: Timeline of deadly disaster as rescuers race to pull survivors from rubble",
+          "url": "https://www.foxnews.com/us/nyc-building-collapse-timeline-deadly-disaster-rescuers-race-pull-survivors-rubble",
+          "paywall": false,
+          "publishedAt": "2026-11-12T15:31:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "jqmamu",
+      "section": "us",
+      "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:45:11.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Bessent moved to military base after Iranian threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/",
+          "paywall": false,
+          "publishedAt": "2026-11-11T16:51:44.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Secretary Scott Bessent moved to military base over Iran threats and more top headlines",
+          "url": "https://www.foxnews.com/us/secretary-scott-bessent-moved-military-base-iran-threats-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-11T12:15:25.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "‘Unprecedented’ for Treasury secretary to leave home over Iranian threat: Joe Concha",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4801678/unprecedented-for-treasury-secretary-to-leave-home-over-iranian-threat-joe-concha/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T18:15:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "12ucg3p",
+      "section": "us",
+      "headline": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Soldier Shouts Toward Hegseth to Show ‘Respect’ at Tomb of the Unknown Soldier",
+          "url": "https://www.nytimes.com/2026/11/11/us/politics/hegseth-tomb-unknown-soldier-shout.html",
+          "paywall": true,
+          "publishedAt": "2026-11-12T00:53:15.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-11T21:43:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Sentinel at Tomb of the Unknown Soldier awarded medal by Hegseth",
+          "url": "https://thehill.com/policy/defense/6216510-hegseth-awards-sentinel-medal/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T17:09:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4javsz",
+      "section": "us",
+      "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+          "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
+          "paywall": false,
+          "publishedAt": "2026-11-12T12:15:48.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Colom’s Victory Adds to Democrats’ Majority in the Senate",
+          "url": "https://www.nytimes.com/2026/11/11/us/elections/colom-mississippi-senate-democrats.html",
+          "paywall": true,
+          "publishedAt": "2026-11-12T16:01:54.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-12T14:12:55.000Z"
+        }
+      ]
+    }
+  ]
+}
