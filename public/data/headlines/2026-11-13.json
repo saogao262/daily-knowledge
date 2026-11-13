@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T18:26:37.942Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 49
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 43
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 27
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 24
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "woylzm",
+      "section": "world",
+      "headline": "Kushner: Russia has agreed to include Europe in Ukraine war talks",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Former U.S. Ambassador William Taylor discusses the latest Russia-Ukraine talks",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037526/former-u-s-ambassador-william-taylor-discusses-the-latest-russia-ukraine-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-12T09:39:39.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Europe Haggles Over Who Will Represent It in Talks With Russia",
+          "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T12:33:19.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Kushner: Russia has agreed to include Europe in Ukraine war talks",
+          "url": "https://thehill.com/policy/international/6218870-russia-ukraine-negotiations-europe/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:19:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1d0zug7",
+      "section": "world",
+      "headline": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Microsoft’s Global Outage and Fixes: What We Know",
+          "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T17:52:16.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Why is Microsoft's outage lasting so long and will emails be lost?",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T17:12:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "47hj33",
+      "section": "world",
+      "headline": "US envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+          "paywall": false,
+          "publishedAt": "2026-11-12T15:26:34.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "US envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
+          "url": "https://thehill.com/policy/international/donald-trump-steve-witkoff-jared-kushner-vladimir-putin-moscow/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T02:09:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "q3qn4w",
+      "section": "world",
+      "headline": "Witkoff, Kushner to meet with Zelensky as Ukraine reports Starshield restrictions for second time",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Witkoff, Kushner to meet with Zelensky as Ukraine reports Starshield restrictions for second time",
+          "url": "https://thehill.com/policy/international/6217022-witkoff-kushner-zelensky-meeting-starshield-update/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T20:24:47.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "SpaceX denies latest Zelensky Starshield claims",
+          "url": "https://www.washingtonexaminer.com/news/world/4801571/spacex-denies-latest-volodymyr-zelensky-starshield-interference-claims-ukraine/",
+          "paywall": false,
+          "publishedAt": "2026-11-12T18:12:54.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1qut04v",
+      "section": "us",
+      "headline": "Democratic Senate leader Schumer set to face leadership challenge",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+          "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+          "paywall": false,
+          "publishedAt": "2026-11-13T12:07:12.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+          "url": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T04:11:39.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Democratic Senate leader Schumer set to face leadership challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T15:48:07.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Van Hollen gains support in challenge to Schumer; Outlook starts bouncing back",
+          "url": "https://thehill.com/homenews/administration/6217922-live-updates-trump-senate-midterm-elections/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:58:51.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Schumer's Senate leadership fight intensifies as key progressive backs challenger and more top headlines",
+          "url": "https://www.foxnews.com/us/schumers-senate-leadership-fight-intensifies-progressive-backs-challenger-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-13T12:41:25.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Colom dings Schumer influence as Senate Democrat leader faces rising challenges",
+          "url": "https://www.washingtonexaminer.com/news/senate/4802792/colom-dings-schumer-influence-recruiting-prosecutor-leadership-challenge/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T17:11:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3i1gtu",
+      "section": "us",
+      "headline": "What we know about Brooklyn building collapse that killed eight people",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Investigation into what cause deadly Brooklyn building collapse continues",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6038959/investigation-into-what-cause-deadly-brooklyn-building-collapse-continues",
+          "paywall": false,
+          "publishedAt": "2026-11-13T11:46:55.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+          "url": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T01:11:13.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What we know about Brooklyn building collapse that killed eight people",
+          "url": "https://www.bbc.co.uk/news/articles/cm20v66jq611o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T03:26:47.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Video from inside Brooklyn apartment captures moment New York City building collapsed, killing 8",
+          "url": "https://www.foxnews.com/us/video-inside-brooklyn-apartment-captures-moment-new-york-city-building-collapsed-killing-8",
+          "paywall": false,
+          "publishedAt": "2026-11-13T18:12:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rg6o4y",
+      "section": "us",
+      "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Asian Americans Share Disappointment and Fear After Jensen Huang Scandal",
+          "url": "https://www.nytimes.com/2026/11/13/us/jensen-huang-nvidia-asian-americans.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T17:05:47.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T03:57:01.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "How Jensen Huang's resignation from Nvidia is threatening AI-powered economy",
+          "url": "https://thehill.com/business/6217149-ai-industry-stability-threatened-nvidia-huang/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T11:00:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "White House report card: Who had the worst week out of Trump, Vance, and Jensen Huang?",
+          "url": "https://www.washingtonexaminer.com/news/washington-secrets/4802503/white-house-report-card-who-had-the-worst-week-trump-vance-jensen-huang/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:24:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4javsz",
+      "section": "us",
+      "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+          "url": "https://www.nytimes.com/2026/11/13/us/politics/scott-colom-mississippi-democrat-defied-odds.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T15:01:10.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-12T14:12:55.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Scott Colom win means Senate Democrats now have four identical twins in their ranks",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4802720/senate-democrats-four-identical-twins/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T17:18:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1305n1o",
+      "section": "us",
+      "headline": "White House staff to need prior approval to meet with lobbyists, under Stephen Miller memo",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "After Influence Peddling Claims, White House Restricts Lobbyist Meetings",
+          "url": "https://www.nytimes.com/2026/11/13/us/politics/stephen-miller-memo-wiles.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T15:20:00.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "White House staff to need prior approval to meet with lobbyists, under Stephen Miller memo",
+          "url": "https://thehill.com/homenews/administration/6218907-trump-staffers-require-approval-meetings/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:20:29.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Stephen Miller clamps down on lobbyist meetings for White House staff",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4802519/stephen-miller-clamps-down-on-lobbyist-meetings-white-house-staff/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:04:22.000Z"
+        }
+      ]
+    }
+  ]
+}
