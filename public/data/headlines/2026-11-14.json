@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T16:52:47.793Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 14
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 70
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 36
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 12
+    }
+  ],
+  "world": [
+    {
+      "id": "woylzm",
+      "section": "world",
+      "headline": "Kushner: Russia has agreed to include Europe in Ukraine war talks",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Europe Agrees on a Team to Represent It in Talks With Russia",
+          "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T22:47:13.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Kushner: Russia has agreed to include Europe in Ukraine war talks",
+          "url": "https://thehill.com/policy/international/6218870-russia-ukraine-negotiations-europe/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T16:19:49.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Europe squabbles over who will attend Ukraine-Russia talks as US asks for ‘one person to speak on their behalf’",
+          "url": "https://www.washingtonexaminer.com/news/world/4802784/europe-squabbles-attend-ukraine-russia-talks/",
+          "paywall": false,
+          "publishedAt": "2026-11-13T18:59:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "t4bbem",
+      "section": "world",
+      "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda",
+          "url": "https://www.nytimes.com/2026/11/13/us/politics/trump-putin-xi-china-nuclear-proliferation.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T02:24:24.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-14T15:53:55.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump, Putin and Xi to meet in first trilateral meeting between leaders",
+          "url": "https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/",
+          "paywall": false,
+          "publishedAt": "2026-11-14T01:30:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1cr5o3l",
+      "section": "world",
+      "headline": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Meet the Fans Who Traveled to Bangkok for Eurovision Asia",
+          "url": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-fans.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T15:27:30.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn0ky2pgdo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T19:01:36.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1cmop2d",
+      "section": "us",
+      "headline": "What we know about the ground stop and what to do if you're affected",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Stuck on the tarmac without information: Travelers share their ground stop experiences",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences",
+          "paywall": false,
+          "publishedAt": "2026-11-13T22:36:45.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
+          "url": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T16:36:36.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What we know about the ground stop and what to do if you're affected",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-14T14:20:57.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "FAA ground stop leads to multiple delays, postponements in college football",
+          "url": "https://thehill.com/policy/sports-gaming/6220667-faa-ground-stop-college-football-delays/",
+          "paywall": false,
+          "publishedAt": "2026-11-14T15:19:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1qq9r41",
+      "section": "us",
+      "headline": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The Jensen Huang scandal reaches Donald Trump’s cabinet",
+          "url": "https://www.economist.com/united-states/2026/11/13/the-jensen-huang-scandal-reaches-donald-trumps-cabinet",
+          "paywall": true,
+          "publishedAt": "2026-11-13T21:12:16.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "What’s Behind the Trump-Huang Relationship?",
+          "url": "https://www.nytimes.com/video/us/politics/100000011272223/whats-behind-the-trump-huang-relationship.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T13:27:10.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-13T23:00:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ggfgei",
+      "section": "us",
+      "headline": "Trump says the Iran war 'effectively over.’ It’s still costing the US billions",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "What's Trump's strategy now with Iran? To keep things as they are",
+          "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+          "paywall": false,
+          "publishedAt": "2026-11-13T19:02:04.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Signals New Strategy on Iran: A Waiting Game",
+          "url": "https://www.nytimes.com/2026/11/13/us/politics/trump-iran-strategy.html",
+          "paywall": true,
+          "publishedAt": "2026-11-13T18:20:50.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump says the Iran war 'effectively over.’ It’s still costing the US billions",
+          "url": "https://thehill.com/policy/defense/6214685-us-military-costs-iran-conflict/",
+          "paywall": false,
+          "publishedAt": "2026-11-14T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1tsuih2",
+      "section": "us",
+      "headline": "Democrat flips Alaska governor's office",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+          "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+          "paywall": false,
+          "publishedAt": "2026-11-14T05:12:43.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "‘Democrat’ in Alaska’s House Race Is Doing Time in a New York Prison",
+          "url": "https://www.nytimes.com/2026/11/14/us/elections/alaska-house-race-felon-eric-hafner.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T10:02:13.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Democrat flips Alaska governor's office",
+          "url": "https://thehill.com/homenews/campaign/6182120-democrat-kreiss-tomkins-wins-alaska/",
+          "paywall": false,
+          "publishedAt": "2026-11-14T05:05:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1y3plqt",
+      "section": "us",
+      "headline": "Alaska Senate Race Between Dan Sullivan and Mary Peltola Still Counting Votes",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Alaska Senate Race Between Dan Sullivan and Mary Peltola Still Counting Votes",
+          "url": "https://www.nytimes.com/2026/11/14/us/alaska-senate-race-ranked-choice-tabulation.html",
+          "paywall": true,
+          "publishedAt": "2026-11-14T13:30:56.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Peltola again claims victory in Alaska Senate race as vote count drags on",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4803912/peltola-again-claim-victory-alaska-senate-race/",
+          "paywall": false,
+          "publishedAt": "2026-11-14T15:43:40.000Z"
+        }
+      ]
+    }
+  ]
+}
