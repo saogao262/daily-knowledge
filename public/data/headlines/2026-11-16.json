@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T20:50:23.475Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 43
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 33
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 27
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "1lcx5hd",
+      "section": "world",
+      "headline": "Bahrain intercepts Iranian strikes on US airbase",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Iran Attacks Bahrain for the Second Time in Days",
+          "url": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
+          "paywall": true,
+          "publishedAt": "2026-11-15T15:55:09.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Bahrain intercepts Iranian strikes on US airbase",
+          "url": "https://thehill.com/policy/international/6221436-iran-drone-attack-bahrain/",
+          "paywall": false,
+          "publishedAt": "2026-11-15T17:57:41.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks",
+          "url": "https://www.foxnews.com/world/blinken-warns-us-ground-invasion-iran-would-be-disaster-tehran-escalates-attacks",
+          "paywall": false,
+          "publishedAt": "2026-11-16T00:17:38.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Bahrain intercepts Iranian drone attack on US air base",
+          "url": "https://www.washingtonexaminer.com/news/world/4804290/bahrain-intercepts-iranian-drone-attack/",
+          "paywall": false,
+          "publishedAt": "2026-11-15T22:13:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "kry0pq",
+      "section": "world",
+      "headline": "Pope Leo rides in helicopter cockpit during Peru trip",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope Leo rides in helicopter cockpit during Peru trip",
+          "url": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-15T18:38:11.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Pope Leo XIV hit in the face by flying rosary during farewell Mass in Peru, video shows",
+          "url": "https://www.foxnews.com/world/pope-leo-xiv-hit-face-flying-rosary-farewell-mass-peru-video-shows",
+          "paywall": false,
+          "publishedAt": "2026-11-16T20:33:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1su0zgk",
+      "section": "world",
+      "headline": "Hillary Clinton: Carney 'maybe' now 'leader of the free world'",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Hillary Clinton: Carney 'maybe' now 'leader of the free world'",
+          "url": "https://thehill.com/policy/international/6222881-hillary-clinton-mark-carney-leader-free-world/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T16:39:39.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Hillary Clinton declares Canada’s Mark Carney ‘maybe’ world’s democratic leader in jab at Trump",
+          "url": "https://www.washingtonexaminer.com/news/world/4804980/hillary-clinton-canada-mark-carner-world-democratic-leader-trump-jab/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T20:00:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h974b2",
+      "section": "world",
+      "headline": "Five EU countries announce migrant deportation centre in Rwanda",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Five European Countries Plan to Deport Migrants to Rwanda",
+          "url": "https://www.nytimes.com/2026/11/16/world/europe/deport-rwanda-asylum-migration.html",
+          "paywall": true,
+          "publishedAt": "2026-11-16T17:36:21.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Five EU countries announce migrant deportation centre in Rwanda",
+          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T16:27:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "18vftmc",
+      "section": "world",
+      "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T14:58:12.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ukraine strikes Crimea’s Kerch Bridge in historic attacks",
+          "url": "https://www.washingtonexaminer.com/news/world/4804403/ukraine-strikes-crimeas-kerch-bridge-historic-attacks/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T13:42:21.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "s9n7bq",
+      "section": "us",
+      "headline": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
+          "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip",
+          "paywall": false,
+          "publishedAt": "2026-11-16T12:08:14.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+          "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
+          "paywall": true,
+          "publishedAt": "2026-11-16T20:34:14.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:16:52.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump en route to Asia; Nvidia scandal, national ground stop fallout loom large",
+          "url": "https://thehill.com/policy/transportation/6221658-live-updates-duffy-faa-outage-nvidia-trump-democrats-senate-leadership-battle/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T20:10:58.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Duffy: Investigators examining 2 routers after nationwide FAA ground stop, no signs of foreign cyberattack",
+          "url": "https://www.foxnews.com/us/duffy-investigators-examining-2-routers-nationwide-faa-ground-stop-no-signs-foreign-cyberattack",
+          "paywall": false,
+          "publishedAt": "2026-11-15T18:20:11.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump administration cracks down on China-Nvidia chips loophole",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4804944/trump-administration-cracks-down-on-china-nvidia-chips-loophole/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T20:04:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "14alx4a",
+      "section": "us",
+      "headline": "Lindsay Clancy to face retrial next year for deaths of her three children",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Lindsay Clancy to face a new trial in spring of 2027 over children's killing",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-5983473/clancy-trial-retrial-murder-charges",
+          "paywall": false,
+          "publishedAt": "2026-11-16T16:28:19.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Judge Sets Spring Retrial for Lindsay Clancy",
+          "url": "https://www.nytimes.com/2026/11/16/us/lindsay-clancy-trial-hearing.html",
+          "paywall": true,
+          "publishedAt": "2026-11-16T18:52:44.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Lindsay Clancy to face retrial next year for deaths of her three children",
+          "url": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:30:30.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Judge sets retrial date for Lindsay Clancy",
+          "url": "https://thehill.com/regulation/court-battles/6222591-lindsey-clancy-massachusetts-case-retrial-set-march-2027/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:50:33.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Lindsay Clancy to be retried for murder in killing of three children",
+          "url": "https://www.foxnews.com/us/lindsay-clancy-retried-murder-killing-three-children",
+          "paywall": false,
+          "publishedAt": "2026-11-16T15:42:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1dwcaqg",
+      "section": "us",
+      "headline": "US flights returning to normal levels after weekend of disruption",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Flight disruptions expected to last into Monday",
+          "url": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday",
+          "paywall": false,
+          "publishedAt": "2026-11-16T01:19:28.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US flights returning to normal levels after weekend of disruption",
+          "url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T17:34:22.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "America hits a tech wall as outages cripple email, ground flights and disrupt major banks",
+          "url": "https://www.foxnews.com/us/america-hits-tech-wall-outages-cripple-email-ground-flights-disrupt-major-banks",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:59:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ck39ci",
+      "section": "us",
+      "headline": "Khanna proposes $1,700 Iran war refund checks for Americans",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The War Room newsletter: Will America or Iran blink first?",
+          "url": "https://www.economist.com/international/2026/11/16/the-war-room-newsletter-will-america-or-iran-blink-first",
+          "paywall": true,
+          "publishedAt": "2026-11-16T17:38:50.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Khanna proposes $1,700 Iran war refund checks for Americans",
+          "url": "https://thehill.com/the-120/6223191-khanna-proposes-iran-war-refunds/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:22:45.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ro Khanna calls for $1,700 Iran war ‘refund checks’ in first week of Democratic majority",
+          "url": "https://www.washingtonexaminer.com/news/house/4804811/ro-khanna-iran-war-refund-checks-congress/",
+          "paywall": false,
+          "publishedAt": "2026-11-16T18:59:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1jh2ob3",
+      "section": "us",
+      "headline": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "‘Steering Failure’ Likely Caused Tanker’s Collision With Riverboat, N.T.S.B. Says",
+          "url": "https://www.nytimes.com/2026/11/16/us/new-orleans-cruise-ship-steering-failure.html",
+          "paywall": true,
+          "publishedAt": "2026-11-16T11:38:59.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+          "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-15T22:57:27.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "NTSB details warning whistles and emergency orders before tanker collision capsized New Orleans riverboat",
+          "url": "https://www.foxnews.com/us/ntsb-details-warning-whistles-emergency-orders-before-tanker-collision-capsized-new-orleans-riverboat",
+          "paywall": false,
+          "publishedAt": "2026-11-15T23:26:19.000Z"
+        }
+      ]
+    }
+  ]
+}
