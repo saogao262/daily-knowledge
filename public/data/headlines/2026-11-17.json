@@ -1,0 +1,405 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T19:39:45.837Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 66
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 31
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 19
+    }
+  ],
+  "world": [
+    {
+      "id": "z4zfeb",
+      "section": "world",
+      "headline": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+          "paywall": false,
+          "publishedAt": "2026-11-17T12:20:57.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump’s Whirlwind Asia Trip Begins in the Philippines",
+          "url": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+          "paywall": true,
+          "publishedAt": "2026-11-17T18:01:43.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-17T12:54:32.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "What Trump, Putin and Xi want from superpower summit",
+          "url": "https://thehill.com/policy/international/6223633-trump-putin-xi-trilateral-summit/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T11:00:00.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "President Trump opens Asia trip with dealmaking on tap and more top headlines",
+          "url": "https://www.foxnews.com/us/trump-opens-asia-trip-dealmaking-on-top-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-17T11:52:01.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Convicted would-be Trump assassin claims he didn’t mean to kill president in appeals filing",
+          "url": "https://www.washingtonexaminer.com/news/crime/4805790/convicted-would-be-trump-assassin-claims-he-didnt-mean-to-kill-president-in-appeals-filing/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T18:22:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "o6v85r",
+      "section": "world",
+      "headline": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+          "paywall": false,
+          "publishedAt": "2026-11-17T09:50:45.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
+          "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T17:11:53.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-17T16:56:38.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Ukraine releases video showing damage to Putin's prized bridge following 'unprecedented operation' in Crimea",
+          "url": "https://www.foxnews.com/world/ukraine-releases-video-showing-damage-putins-prized-bridge-following-unprecedented-operation-crimea",
+          "paywall": false,
+          "publishedAt": "2026-11-17T17:15:42.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ukraine’s ‘unprecedented’ attack on Crimean bridge causes partial collapse",
+          "url": "https://www.washingtonexaminer.com/news/world/4804752/ukraine-attack-crimea-bridge-partial-collapse/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T17:22:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "120w9cl",
+      "section": "world",
+      "headline": "Is Apple down? Users report problems with iOS",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Debt Problems of the Richest Countries Are Trickling Down to the Poorest",
+          "url": "https://www.nytimes.com/2026/11/17/business/economy/global-debt-economy-world-bank.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T17:28:57.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Is Apple down? Users report problems with iOS",
+          "url": "https://thehill.com/policy/technology/6225771-users-report-apple-issues-tech-outages-us/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T19:15:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "henmr5",
+      "section": "world",
+      "headline": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Carney and Xi Announce Canada-China Trade Pact",
+          "url": "https://www.nytimes.com/2026/11/17/world/canada/carney-china-xi-trade-apec.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T17:19:20.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-17T18:58:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f59849",
+      "section": "world",
+      "headline": "Kelly: Democrats will discuss moving up date of Schumer-Van Hollen leadership vote",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Chris Van Hollen says he can beat Chuck Schumer. Here's his case",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader",
+          "paywall": false,
+          "publishedAt": "2026-11-16T11:39:14.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Kelly: Democrats will discuss moving up date of Schumer-Van Hollen leadership vote",
+          "url": "https://thehill.com/the-120/6225589-kelly-democratic-early-senate-leader-vote/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T17:59:10.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "l2jnqd",
+      "section": "us",
+      "headline": "Trump responds to dirty bomb threat",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Man Indicted in Bomb Threat at Illinois Ethanol Plant",
+          "url": "https://www.nytimes.com/2026/11/17/us/peoria-illinois-bomb-threat-indictment.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T18:05:38.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump responds to dirty bomb threat",
+          "url": "https://thehill.com/newsletters/1230-report/6225507-trump-responds-to-dirty-bomb-threat/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T17:33:33.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Criminal past of Illinois ethanol plant bomb scare suspect includes multiple felonies, 2 prison stints",
+          "url": "https://www.foxnews.com/us/criminal-past-illinois-ethanol-plant-bomb-scare-suspect-includes-multiple-felonies-2-prison-stints",
+          "paywall": false,
+          "publishedAt": "2026-11-17T16:34:32.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Iranian foreign minister blames Israel for dirty bomb reports",
+          "url": "https://www.washingtonexaminer.com/news/world/4806122/iran-blame-israel-dirty-bomb-report/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T18:01:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "14alx4a",
+      "section": "us",
+      "headline": "Lindsay Clancy to face retrial next year for deaths of her three children",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Lindsay Clancy to face a new trial in spring of 2027 over children's killing",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-5983473/clancy-trial-retrial-murder-charges",
+          "paywall": false,
+          "publishedAt": "2026-11-16T16:28:19.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Lindsay Clancy to face retrial next year for deaths of her three children",
+          "url": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-16T19:30:30.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Lindsay Clancy to be retried for murder in killing of three children",
+          "url": "https://www.foxnews.com/us/lindsay-clancy-retried-murder-killing-three-children",
+          "paywall": false,
+          "publishedAt": "2026-11-16T15:42:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1vqst3l",
+      "section": "us",
+      "headline": "Jeffries demands high-level briefing on rash of recent outages: ‘Troubling'",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Jeffries demands high-level briefing on rash of recent outages: ‘Troubling'",
+          "url": "https://thehill.com/homenews/house/6225752-jeffries-calls-trump-briefings/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T18:44:51.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Jeffries calls for Trump administration to brief Congress on recent outages",
+          "url": "https://www.washingtonexaminer.com/news/house/4806118/jeffries-congressional-briefings-outages/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T18:30:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1s2qdcu",
+      "section": "us",
+      "headline": "Victim Advocates Sue Newsom Over Attempt to Empty California’s Death Row",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Victim Advocates Sue Newsom Over Attempt to Empty California’s Death Row",
+          "url": "https://www.nytimes.com/2026/11/16/us/newsom-sued-death-penalty-commuations-california.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T00:46:54.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "California prosecutors sue to block Newsom’s plan to commute all death sentences",
+          "url": "https://www.washingtonexaminer.com/news/justice/4805948/california-sue-newsom-death-sentence-commute/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T17:45:48.000Z"
+        }
+      ]
+    }
+  ]
+}
