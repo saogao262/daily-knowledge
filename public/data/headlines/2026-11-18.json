@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T19:16:53.405Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 86
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 51
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 37
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "world": [
+    {
+      "id": "1v3da05",
+      "section": "world",
+      "headline": "New video shows explosions moments before part of Crimea Bridge collapses",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+          "paywall": false,
+          "publishedAt": "2026-11-18T11:57:10.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Arrives in China Focused on Friendship With Xi, Not Nvidia Spy Scandal",
+          "url": "https://www.nytimes.com/2026/11/18/us/politics/trump-xi-shenzhen-spy-scandal.html",
+          "paywall": true,
+          "publishedAt": "2026-11-18T18:52:04.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "New video shows explosions moments before part of Crimea Bridge collapses",
+          "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T17:09:43.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Some Filipinos, feeling ‘bullied’ by China, are reassured by Trump’s visit",
+          "url": "https://www.csmonitor.com/World/Asia-Pacific/2026/1117/asean-philippines-china-trump-security?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-17T20:55:10.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Xi, Putin condemn sanctions as Trump arrives in China",
+          "url": "https://thehill.com/homenews/administration/6227270-trump-xi-putin-asia-summit-sanctions-criticism/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T13:10:43.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China",
+          "url": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china",
+          "paywall": false,
+          "publishedAt": "2026-11-18T18:32:36.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Nearly a quarter of Trump voters expect Democrats to win the presidency in 2028",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4807333/quarter-trump-voters-expect-democratic-president-2028-elections/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T18:15:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1l1c39j",
+      "section": "world",
+      "headline": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T13:04:48.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Iran attacks US air base in Kuwait",
+          "url": "https://thehill.com/policy/defense/6227812-iran-attacks-us-air-base-kuwait/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T16:24:29.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Iran targets US air base in Kuwait after US defensive strikes amid criticism from Gulf states",
+          "url": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states",
+          "paywall": false,
+          "publishedAt": "2026-11-18T14:39:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1m3k2a0",
+      "section": "world",
+      "headline": "Rubio says US not 'under systemic attack' after series of tech outages",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Rubio says there's 'zero' information that U.S. outages are caused by a malign actor",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6045411/rubio-outages-malign-actor",
+          "paywall": false,
+          "publishedAt": "2026-11-18T08:27:50.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Rubio Says Cyberattacks Are Not the Cause of Recent Tech Outages",
+          "url": "https://www.nytimes.com/2026/11/17/world/asia/tech-outages-cyberattack-hack-rubio.html",
+          "paywall": true,
+          "publishedAt": "2026-11-18T06:46:29.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Rubio says US not 'under systemic attack' after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T04:57:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "y81ol",
+      "section": "world",
+      "headline": "US loses measles elimination status after 26 years amid record case numbers",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
+          "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
+          "paywall": true,
+          "publishedAt": "2026-11-18T03:33:29.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US loses measles elimination status after 26 years amid record case numbers",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-17T21:04:00.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "US loses measles elimination status after more than 25 years",
+          "url": "https://thehill.com/policy/healthcare/6225090-us-loses-measles-elimination-status/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T16:10:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "henmr5",
+      "section": "world",
+      "headline": "Why Carney is looking to China as Canada's car industry comes under US pressure",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Carney and Xi Announce Canada-China Trade Pact",
+          "url": "https://www.nytimes.com/2026/11/17/world/canada/carney-china-xi-trade-apec.html",
+          "paywall": true,
+          "publishedAt": "2026-11-17T17:19:21.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Why Carney is looking to China as Canada's car industry comes under US pressure",
+          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T14:35:18.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "b89x0t",
+      "section": "us",
+      "headline": "Democrats win Alaska Senate race two weeks after midterms counting began",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+          "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+          "paywall": false,
+          "publishedAt": "2026-11-18T12:14:28.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "How Mary Peltola Triumphed in Alaska’s Senate Race",
+          "url": "https://www.nytimes.com/2026/11/18/us/politics/peltola-victory-alaska-senate.html",
+          "paywall": true,
+          "publishedAt": "2026-11-18T12:28:52.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Democrats win Alaska Senate race two weeks after midterms counting began",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T10:23:57.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Democrats flip 9 Senate seats - most since 1958",
+          "url": "https://thehill.com/homenews/senate/6228009-democrats-flip-nine-senate-seats/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T17:15:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Jensen Huang will testify before House Foreign Affairs Committee, Intelligence Committee on affair with suspected Chinese spy",
+          "url": "https://www.washingtonexaminer.com/news/world/4805887/jensen-huang-to-testify-before-house-foreign-affairs-intelligence-commitees-affair-chinese-spy/",
+          "paywall": false,
+          "publishedAt": "2026-11-17T16:38:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "15qn2bx",
+      "section": "us",
+      "headline": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Democrats Nominate Hakeem Jeffries for Speaker of the House, Making History",
+          "url": "https://www.nytimes.com/2026/11/18/us/politics/hakeem-jeffries-speaker-of-the-house-democrats.html",
+          "paywall": true,
+          "publishedAt": "2026-11-18T16:42:43.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-18T17:34:23.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "These 7 newly-elected Democrats voted against Jeffries for House speaker",
+          "url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T18:23:48.000Z"
+        }
+      ]
+    }
+  ]
+}
