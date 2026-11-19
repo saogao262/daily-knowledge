@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T19:24:13.671Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 80
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 52
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 45
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 20
+    }
+  ],
+  "world": [
+    {
+      "id": "6toxti",
+      "section": "world",
+      "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump, Xi and Putin meet as global alliances hang in the balance",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+          "paywall": false,
+          "publishedAt": "2026-11-19T09:44:40.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T19:07:18.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:38:22.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "5 takeaways on Trump’s unprecedented summit with Putin, Xi",
+          "url": "https://thehill.com/homenews/administration/6231008-trump-xi-putin-summit-takeaways/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T18:29:45.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Trump, Putin, Xi issue 4-point declaration after historic summit",
+          "url": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit",
+          "paywall": false,
+          "publishedAt": "2026-11-19T18:20:42.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump, Putin, and Xi target the International Criminal Court in joint statement",
+          "url": "https://www.washingtonexaminer.com/news/world/4808463/trump-putin-xi-international-criminal-court/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T13:24:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "liniwn",
+      "section": "world",
+      "headline": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "After Bridge Attack, Putin Says He Will ‘Not Be Negotiating’ Ukraine Cease-Fire",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/putin-shenzhen-crimea-bridge.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T16:51:57.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T13:07:35.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Russia's Putin vows a response 'far more painful' after Ukraine attacks prized bridge in Crimea",
+          "url": "https://www.foxnews.com/world/russia-putin-vows-response-far-more-painful-ukraine-attacks-prized-bridge-crimea",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:48:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3h5tjb",
+      "section": "world",
+      "headline": "Florida pastor found guilty over role in assassination of Haitian president",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Florida Man Found Guilty in Plot to Kill Haiti’s President",
+          "url": "https://www.nytimes.com/2026/11/18/world/americas/haiti-pastor-assassination-moise.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T03:36:55.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Florida pastor found guilty over role in assassination of Haitian president",
+          "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T11:44:57.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Florida pastor convicted in Haitian president's assassination plot funded partly by US COVID relief money",
+          "url": "https://www.foxnews.com/us/florida-pastor-convicted-haitian-presidents-assassination-plot-funded-partly-us-covid-relief-money",
+          "paywall": false,
+          "publishedAt": "2026-11-19T13:34:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1upsan8",
+      "section": "world",
+      "headline": "China shuts out Bloomberg reporter for shouting questions at Trump",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "China Bars Bloomberg Reporter From Trilateral Talks for Asking a Question",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-summit-china-media-bloomberg-reporter-nvidia.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T12:08:19.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "China shuts out Bloomberg reporter for shouting questions at Trump",
+          "url": "https://thehill.com/homenews/media/6229710-china-blocks-bloomberg-reporter-trump-question/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T12:49:47.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "China kicks out reporter from summit after shouting question about Jensen Huang",
+          "url": "https://www.washingtonexaminer.com/news/world/4808457/china-remove-reporter-summit-shouting-question-jensen-huang/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T13:00:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "uye6mk",
+      "section": "world",
+      "headline": "Rohingya genocide: What was said in court and what happens now?",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "paywall": false,
+          "publishedAt": "2026-11-19T12:29:41.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T18:27:57.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Rohingya genocide: What was said in court and what happens now?",
+          "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:35:05.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "UN court rules that Myanmar committed genocide against Rohingya",
+          "url": "https://thehill.com/policy/international/6230965-un-international-court-of-justice-myanmar-genocide-ruling-rohingya-muslims/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T19:09:47.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "16rycs3",
+      "section": "us",
+      "headline": "Trump brushes off Musk distancing from MAGA",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump brushes off Musk distancing from MAGA",
+          "url": "https://thehill.com/homenews/administration/6231156-trump-musk-maga-distance/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T19:16:04.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump issues warning to Musk over ‘I’m not MAGA’ comments",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4808992/trump-warns-elon-musk-over-maga-comment/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T19:06:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fye8ln",
+      "section": "us",
+      "headline": "Anthropic opens at $111.50 per share after largest IPO ever",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Anthropic opens at $111.50 per share after largest IPO ever",
+          "url": "https://thehill.com/policy/technology/6230987-anthropic-sets-ipo-record/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T19:04:16.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Anthropic opens on Wall Street after largest IPO in history",
+          "url": "https://www.washingtonexaminer.com/policy/technology/4808889/anthropic-wall-street-ipo-artificial-intelligence/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:23:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xu2g55",
+      "section": "us",
+      "headline": "Trump Ally Arranged for Russian Flag to Be Displayed on an Arch in Atlanta",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Ally Arranged for Russian Flag to Be Displayed on an Arch in Atlanta",
+          "url": "https://www.nytimes.com/2026/11/18/us/atlanta-arch-russia-flag-trump.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T18:48:11.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump appointee orders hanging of large Russian flag from Atlanta triumphal arch",
+          "url": "https://www.washingtonexaminer.com/news/world/4807720/trump-appointee-hang-russian-flag-atlanta-arch/",
+          "paywall": false,
+          "publishedAt": "2026-11-18T18:57:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7peguy",
+      "section": "us",
+      "headline": "Fight Over Deportation Protections for Venezuelans Escalates With Request to Supreme Court",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Fight Over Deportation Protections for Venezuelans Escalates With Request to Supreme Court",
+          "url": "https://www.nytimes.com/2026/11/18/us/politics/supreme-court-trump-deportation-venezuelans.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T03:27:28.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Appeals court halts bid to revive Venezuelan temporary protected status after Trump goes to Supreme Court",
+          "url": "https://www.washingtonexaminer.com/news/justice/4808711/appeals-court-halts-bid-revive-venezuela-tps-trump-supreme-court/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T18:10:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1uvickr",
+      "section": "us",
+      "headline": "Susan Smith denied parole again 32 years after drowning her two sons",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Susan Smith denied parole again 32 years after drowning her two sons",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:23:34.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Susan Smith denied parole as attorney says she ‘lost touch with reality’ on day she killed her sons",
+          "url": "https://www.foxnews.com/us/susan-smith-prosecutor-fears-her-release-would-put-her-in-grieving-fathers-face-every-day",
+          "paywall": false,
+          "publishedAt": "2026-11-19T11:00:56.000Z"
+        }
+      ]
+    }
+  ]
+}
