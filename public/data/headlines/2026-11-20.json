@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T18:59:26.094Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 73
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 35
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 20
+    }
+  ],
+  "world": [
+    {
+      "id": "lzbegj",
+      "section": "world",
+      "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump touts meeting with Xi and Putin but offers little results",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+          "paywall": false,
+          "publishedAt": "2026-11-20T15:00:00.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T18:21:13.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T16:54:29.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Watch live: Trump briefs on Asia trip after Xi, Putin summit",
+          "url": "https://thehill.com/video-clips/6233321-watch-live-donald-trump-press-briefing-asia-trip-putin-xi-meeting/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T16:44:13.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Putin launches Ukraine barrage hours after Trump meeting amid alleged Russian missile breach of NATO airspace",
+          "url": "https://www.foxnews.com/world/putin-launches-ukraine-barrage-hours-after-trump-meeting-amid-alleged-russian-missile-breach-nato-airspace",
+          "paywall": false,
+          "publishedAt": "2026-11-20T15:13:39.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Poland investigating suspected Russian violation of airspace, defense minister says",
+          "url": "https://www.washingtonexaminer.com/news/world/4809740/poland-investigating-suspected-russian-violation-airspace/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T13:51:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "w3x048",
+      "section": "world",
+      "headline": "UN court rules that Myanmar committed genocide against Rohingya",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "paywall": false,
+          "publishedAt": "2026-11-19T12:29:41.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T01:37:20.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Step toward accountability: Top UN court finds Myanmar guilty of Rohingya genocide",
+          "url": "https://www.csmonitor.com/World/Asia-South-Central/2026/1119/rohingya-myanmar-genocide-ruling-un-court?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T22:35:14.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "UN court rules that Myanmar committed genocide against Rohingya",
+          "url": "https://thehill.com/policy/international/6230965-un-international-court-of-justice-myanmar-genocide-ruling-rohingya-muslims/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T19:09:47.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "ICJ rules Myanmar committed genocide against Rohingya",
+          "url": "https://www.washingtonexaminer.com/news/world/4808809/icj-rule-myanmar-genocide-rohingya/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T17:06:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1upsan8",
+      "section": "world",
+      "headline": "China shuts out Bloomberg reporter for shouting questions at Trump",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "China Bars Bloomberg Reporter From Trilateral Talks for Asking a Question",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-summit-china-media-bloomberg-reporter-nvidia.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T12:08:19.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "China shuts out Bloomberg reporter for shouting questions at Trump",
+          "url": "https://thehill.com/homenews/media/6229710-china-blocks-bloomberg-reporter-trump-question/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T12:49:47.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "China kicks out reporter from summit after shouting question about Jensen Huang",
+          "url": "https://www.washingtonexaminer.com/news/world/4808457/china-remove-reporter-summit-shouting-question-jensen-huang/",
+          "paywall": false,
+          "publishedAt": "2026-11-19T13:00:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1rpi2bt",
+      "section": "world",
+      "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "The War Is Ravaging Ukraine’s Wildlife, Too",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T16:05:55.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T00:50:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1v1scd9",
+      "section": "world",
+      "headline": "South Korea catches 111 students with new measures against exam cheating",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
+          "url": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T11:23:02.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "South Korea catches 111 students with new measures against exam cheating",
+          "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T10:16:19.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "oclzqr",
+      "section": "us",
+      "headline": "Environmental groups sue to block Army's lead detonation at Iowa ammunition plant",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+          "paywall": false,
+          "publishedAt": "2026-11-20T12:04:57.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Unexpected Fallout From the Iran War",
+          "url": "https://www.nytimes.com/2026/11/19/climate/iea-energy-transition-electric-cars.html",
+          "paywall": true,
+          "publishedAt": "2026-11-19T21:40:38.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Environmental groups sue to block Army's lead detonation at Iowa ammunition plant",
+          "url": "https://thehill.com/policy/energy-environment/6233476-iowa-ammunition-plant-lead-suit/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T17:12:28.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Army delays controlled detonation of unstable bomb-making chemical in Iowa",
+          "url": "https://www.foxnews.com/us/army-delays-controlled-detonation-unstable-bomb-making-chemical-iowa",
+          "paywall": false,
+          "publishedAt": "2026-11-20T03:04:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1wdhvlz",
+      "section": "us",
+      "headline": "Texas death-row inmate screams as execution takes more than one hour",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6048461/texas-execution-dennes-moaned-pain",
+          "paywall": false,
+          "publishedAt": "2026-11-20T12:24:40.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Texas death-row inmate screams as execution takes more than one hour",
+          "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T12:42:37.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Texas inmate's execution takes over an hour as prison staff struggle to find suitable veins",
+          "url": "https://www.foxnews.com/us/texas-inmate-execution-takes-over-hour-prison-staff-struggle-find-suitable-veins",
+          "paywall": false,
+          "publishedAt": "2026-11-20T05:56:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1dtz73a",
+      "section": "us",
+      "headline": "From premature baby to social media star - Famed hippo Fiona dies",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat",
+          "url": "https://www.nytimes.com/2026/11/19/us/fiona-hippo-dead-cincinnati-zoo.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T03:25:06.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "From premature baby to social media star - Famed hippo Fiona dies",
+          "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-19T22:54:03.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Beloved hippo Fiona dies at Cincinnati Zoo after swallowing visitor's hat",
+          "url": "https://www.foxnews.com/us/beloved-hippo-fiona-dies-cincinnati-zoo-swallowing-visitors-hat",
+          "paywall": false,
+          "publishedAt": "2026-11-19T21:30:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "k4fpww",
+      "section": "us",
+      "headline": "Trump seeks curbs on US companies building data centers overseas",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Threatens to Bar U.S. Tech Firms From Building Data Centers Abroad",
+          "url": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T18:51:22.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump seeks curbs on US companies building data centers overseas",
+          "url": "https://thehill.com/homenews/administration/6233765-trump-threatens-data-center-tax-overseas/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T18:16:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ovdhxq",
+      "section": "us",
+      "headline": "White House removes cyber-security chief after series of tech outages",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Top White House Cybersecurity Official Is Replaced",
+          "url": "https://www.nytimes.com/2026/11/19/us/politics/white-house-cyber-director-departs.html",
+          "paywall": true,
+          "publishedAt": "2026-11-20T03:31:42.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T13:28:32.000Z"
+        }
+      ]
+    }
+  ]
+}
