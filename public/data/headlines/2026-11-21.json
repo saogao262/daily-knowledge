@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T17:54:09.740Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 51
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 44
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 24
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 28
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 13
+    }
+  ],
+  "world": [
+    {
+      "id": "peptx8",
+      "section": "world",
+      "headline": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Trump touts meeting with Xi and Putin but offers few results",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+          "paywall": false,
+          "publishedAt": "2026-11-20T15:00:00.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Takeaways From Trump’s Post-Trip News Conference",
+          "url": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html",
+          "paywall": true,
+          "publishedAt": "2026-11-21T02:15:29.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-21T10:26:36.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "At China summit with a sympathetic Trump, the big winner was Putin",
+          "url": "https://www.csmonitor.com/USA/Foreign-Policy/2026/1120/putin-trump-xi-summit-ukraine-war?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T21:42:44.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Watch live: Trump briefs on Asia trip after Xi, Putin summit",
+          "url": "https://thehill.com/video-clips/6233321-watch-live-donald-trump-press-briefing-asia-trip-putin-xi-meeting/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T16:44:13.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Denmark accuses Russia of plotting to kill Ukrainian American rapper on Danish soil",
+          "url": "https://www.foxnews.com/world/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-danish-soil",
+          "paywall": false,
+          "publishedAt": "2026-11-21T14:28:35.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Poland investigating suspected Russian violation of airspace, defense minister says",
+          "url": "https://www.washingtonexaminer.com/news/world/4809740/poland-investigating-suspected-russian-violation-airspace/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T13:51:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "18wdqjn",
+      "section": "world",
+      "headline": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
+          "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html",
+          "paywall": true,
+          "publishedAt": "2026-11-21T16:30:35.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "FBI Ten Most Wanted cartel leader 'Chapo Isidro' captured by Mexico's 'elite military forces' after US help",
+          "url": "https://www.foxnews.com/world/fbi-ten-most-wanted-cartel-leader-chapo-isidro-captured-mexicos-elite-military-forces-us-help",
+          "paywall": false,
+          "publishedAt": "2026-11-21T13:17:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1jescky",
+      "section": "world",
+      "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+          "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
+          "paywall": false,
+          "publishedAt": "2026-11-21T12:30:16.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+          "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T23:08:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "get4ob",
+      "section": "world",
+      "headline": "Live updates: Trump expresses optimism on dealing with Democrats; Vance deflects on Iran war",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump expresses optimism on dealing with Democrats; Vance deflects on Iran war",
+          "url": "https://thehill.com/homenews/administration/6232240-live-updates-trump-asia-trip-putin-xi-summit-gop-reconciliation-defense-spending/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T18:27:04.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Vance declines to back Trump on Iran war: ‘The president is the one who makes the decision’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4810641/vance-decline-back-trump-iran-war/",
+          "paywall": false,
+          "publishedAt": "2026-11-20T21:58:04.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1klur92",
+      "section": "us",
+      "headline": "Man convicted of starting Palisades fire in Los Angeles",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction",
+          "paywall": false,
+          "publishedAt": "2026-11-21T13:58:33.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
+          "url": "https://www.nytimes.com/2026/11/20/us/la-fire-trial-arson.html",
+          "paywall": true,
+          "publishedAt": "2026-11-21T15:16:56.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Man convicted of starting Palisades fire in Los Angeles",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-21T04:34:00.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people",
+          "url": "https://www.foxnews.com/us/verdict-reached-los-angeles-retrial-2025-pacific-palisades-wildfire-killed-12-people",
+          "paywall": false,
+          "publishedAt": "2026-11-20T23:10:38.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Palisades Fire arsonist found guilty on all counts in deadly blaze that killed 12",
+          "url": "https://www.washingtonexaminer.com/news/crime/4810846/palisades-fire-arsonist-guilty-all-counts-california/",
+          "paywall": false,
+          "publishedAt": "2026-11-21T01:20:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1wdhvlz",
+      "section": "us",
+      "headline": "Texas death-row inmate screams as execution takes more than one hour",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6048461/texas-execution-dennes-moaned-pain",
+          "paywall": false,
+          "publishedAt": "2026-11-20T12:24:40.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Texas death-row inmate screams as execution takes more than one hour",
+          "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-20T12:42:37.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Texas inmate's execution takes over an hour as prison staff struggle to find suitable veins",
+          "url": "https://www.foxnews.com/us/texas-inmate-execution-takes-over-hour-prison-staff-struggle-find-suitable-veins",
+          "paywall": false,
+          "publishedAt": "2026-11-20T05:56:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1m984b8",
+      "section": "us",
+      "headline": "Federal Court Halts Pregnant Workers’ Protection Law",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Federal Court Halts Pregnant Workers’ Protection Law",
+          "url": "https://www.nytimes.com/2026/11/21/us/politics/federal-court-halts-pregnant-workers-protection-law.html",
+          "paywall": true,
+          "publishedAt": "2026-11-21T05:53:09.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Court overturns federal pregnant workers’ law due to Congress’s COVID-era remote voting",
+          "url": "https://www.washingtonexaminer.com/news/justice/4811197/court-overturn-pregnant-law-congresss-covid-remote-voting/",
+          "paywall": false,
+          "publishedAt": "2026-11-21T16:21:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c0fex6",
+      "section": "us",
+      "headline": "Trump limits Congress's accesses to confidential agency, contractor information",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump limits Congress's accesses to confidential agency, contractor information",
+          "url": "https://thehill.com/homenews/administration/6235181-trump-executive-privilege-congress-investigations-order/",
+          "paywall": false,
+          "publishedAt": "2026-11-21T15:37:40.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump signs order strengthening White House control over information to Congress ahead of Democrat majorities",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4811048/trump-order-white-house-control-information-congress/",
+          "paywall": false,
+          "publishedAt": "2026-11-21T14:30:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "867wns",
+      "section": "us",
+      "headline": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-21T14:02:03.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Nationwide settlement for $7 billion approved over Roundup cancer claims",
+          "url": "https://www.washingtonexaminer.com/news/justice/4810852/7-billion-dollar-settlement-roundup-weed-killer-cancer/",
+          "paywall": false,
+          "publishedAt": "2026-11-21T01:39:07.000Z"
+        }
+      ]
+    }
+  ]
+}
