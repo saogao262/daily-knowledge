@@ -1,0 +1,479 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T22:28:49.790Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 45
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 42
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 28
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 28
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 16
+    }
+  ],
+  "world": [
+    {
+      "id": "1ts297o",
+      "section": "world",
+      "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "paywall": false,
+          "publishedAt": "2026-11-23T10:16:33.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ukraine Attack Off Coast of Libya Shows Reach of Its Naval Drones",
+          "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T18:09:45.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T20:48:35.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "First Eastern Europe, now Libya: The Ukraine war expands its reach",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1123/russia-ukraine-sea-drones-missiles-libya-poland?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T22:06:53.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Ukraine was behind attack on Russian warship off Libya: Zelensky",
+          "url": "https://thehill.com/policy/defense/6237786-ukraine-drones-sink-russian-ship-zelensky/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T18:01:34.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Russia warns of 'preventive nuclear attack' as Medvedev claims Ukraine, NATO crossed line",
+          "url": "https://www.foxnews.com/world/russia-warns-preventive-nuclear-attack-medvedev-claims-ukraine-nato-crossed-line",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:11:06.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ukraine claims strike on Russian warship and cargo tanker in Libyan port",
+          "url": "https://www.washingtonexaminer.com/news/world/4811959/ukraine-strike-russian-warship-tanker-libya/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T13:51:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1rd1klo",
+      "section": "world",
+      "headline": "Three killed and dozens missing after fire at Indonesian factory",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Deadly Fire Rips Through Candy Factory in Indonesia",
+          "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T19:38:00.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Three killed and dozens missing after fire at Indonesian factory",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-22T14:05:20.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Indonesia candy factory fire leaves multiple dead, dozens missing",
+          "url": "https://www.foxnews.com/world/indonesia-candy-factory-fire-leaves-multiple-dead-dozens-missing",
+          "paywall": false,
+          "publishedAt": "2026-11-22T13:18:44.000Z"
+        }
+      ]
+    },
+    {
+      "id": "safe63",
+      "section": "world",
+      "headline": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+          "paywall": false,
+          "publishedAt": "2026-11-23T12:42:03.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "The messy breakdown of the UN’s climate conference",
+          "url": "https://www.economist.com/international/2026/11/22/the-messy-breakdown-of-the-uns-climate-conference",
+          "paywall": true,
+          "publishedAt": "2026-11-22T22:26:59.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T19:27:13.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T13:02:05.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "With 258 seats, Democrats clinch largest House majority since 1992",
+          "url": "https://www.csmonitor.com/USA/2026/1122/With-258-seats-Democrats-clinch-largest-House-majority-since-1992?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-22T20:10:48.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Governments fail to reach agreement at COP31 over fossil fuel clash",
+          "url": "https://thehill.com/policy/international/6235913-cop31-climate-talks-fail-consensus/",
+          "paywall": false,
+          "publishedAt": "2026-11-22T17:13:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "57fje8",
+      "section": "world",
+      "headline": "More than 700,000 Russian soldiers have been killed in Ukraine: Analysis",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
+          "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T19:19:23.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "More than 700,000 Russian soldiers have been killed in Ukraine: Analysis",
+          "url": "https://thehill.com/policy/defense/6238400-russian-casualties-ukraine-war-putin-zelensky/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:16:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "11e79ha",
+      "section": "world",
+      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Paolo Bulgari, Heir of Italian Jewelry Dynasty, Dies at 89",
+          "url": "https://www.nytimes.com/2026/11/23/style/paolo-bulgari-dead.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T15:39:34.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+          "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T00:33:36.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1a6yfka",
+      "section": "us",
+      "headline": "A comeback for the ages: Trump's influence on Huang's return to Nvidia",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "The Return of Jensen Huang",
+          "url": "https://www.nytimes.com/2026/11/23/world/jensen-huang-return-nvidia-ukraine.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T20:39:04.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "A comeback for the ages: Trump's influence on Huang's return to Nvidia",
+          "url": "https://www.bbc.co.uk/news/videos/ckp80d5nl586o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:40:30.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Live updates: Trump challenges Newsom's death row commutations; Nvidia makes U-turn on Jensen Huang",
+          "url": "https://thehill.com/homenews/administration/6236287-live-updates-donald-trump-goverment-spending-senate-leadership-fight-iran-war/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T22:10:02.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Trump to confront Newsom over plan to spare 548 death row inmates and more top headlines",
+          "url": "https://www.foxnews.com/us/trump-confront-newsom-plan-spare-548-death-row-inmates-more-top-headlines",
+          "paywall": false,
+          "publishedAt": "2026-11-23T12:32:00.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "WATCH LIVE: Trump speaks at DOJ to condemn Newsom’s death row clemency",
+          "url": "https://www.washingtonexaminer.com/news/justice/4812879/watch-live-trump-doj-speech-newsom-death-row/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "q87t49",
+      "section": "us",
+      "headline": "California Democrat to resign from Congress after evidence of sexual misconduct",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Rep. Jimmy Gomez Resigns After Panel Alleges Unwanted Sexual Contact With Aide",
+          "url": "https://www.nytimes.com/2026/11/23/us/politics/jimmy-gomez-democrat-resigns.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T21:00:32.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "California Democrat to resign from Congress after evidence of sexual misconduct",
+          "url": "https://www.bbc.co.uk/news/articles/cm2l5kgpw5l5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:51:23.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Democrat Gomez resigns from House after sexual misconduct report",
+          "url": "https://thehill.com/homenews/house/6238399-jimmy-gomez-congress-resignation/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:13:55.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Democratic Rep. Jimmy Gomez to resign after House Ethics finds evidence of sexual misconduct",
+          "url": "https://www.washingtonexaminer.com/news/house/4812984/house-ethics-jimmy-gomez-sexual-misconduct/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T21:33:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "lyt2ae",
+      "section": "us",
+      "headline": "Democrats will struggle with a state-level revolution",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "Democrats will struggle with a state-level revolution",
+          "url": "https://www.economist.com/united-states/2026/11/22/democrats-will-struggle-with-a-state-level-revolution",
+          "paywall": true,
+          "publishedAt": "2026-11-22T14:38:46.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Democratic Indiana Secretary of State-elect Beau Bayh invites campaign opponents to transition team",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4812602/beau-bayh-invites-republicans-transition-team-historical-democratic-secretary-of-state-elect/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T20:58:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2ie2y9",
+      "section": "us",
+      "headline": "Trump orders US military not to detonate toxic explosives in Iowa without court approval",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Army reschedules detonation of toxic explosives in Iowa for Wednesday",
+          "url": "https://www.npr.org/2026/11/23/nx-s1-6048731/army-reschedules-detonation-of-toxic-explosives-in-iowa-for-wednesday",
+          "paywall": false,
+          "publishedAt": "2026-11-23T09:43:33.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump orders US military not to detonate toxic explosives in Iowa without court approval",
+          "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T19:52:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "j5vwlm",
+      "section": "us",
+      "headline": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T12:50:57.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Anti-ICE protesters at Seattle-Tacoma airport force security presence during busy holiday travel",
+          "url": "https://www.foxnews.com/us/anti-ice-protesters-seattle-tacoma-airport-force-security-presence-busy-holiday-travel",
+          "paywall": false,
+          "publishedAt": "2026-11-23T18:59:00.000Z"
+        }
+      ]
+    }
+  ]
+}
