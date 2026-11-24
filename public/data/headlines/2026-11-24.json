@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T21:01:28.813Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 58
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 44
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 19
+    }
+  ],
+  "world": [
+    {
+      "id": "1ts297o",
+      "section": "world",
+      "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "paywall": false,
+          "publishedAt": "2026-11-23T10:16:33.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Ukraine Attack Off Coast of Libya Shows Reach of Its Naval Drones",
+          "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html",
+          "paywall": true,
+          "publishedAt": "2026-11-23T18:09:46.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T20:48:35.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "First Eastern Europe, now Libya: The Ukraine war expands its reach",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1123/russia-ukraine-sea-drones-missiles-libya-poland?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T22:06:53.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Ukraine was behind attack on Russian warship off Libya: Zelensky",
+          "url": "https://thehill.com/policy/defense/6237786-ukraine-drones-sink-russian-ship-zelensky/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T18:01:34.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Ukraine’s drone strike on Russian warship in Libya risks ‘serious escalation,’ former official warns",
+          "url": "https://www.foxnews.com/world/ukraines-drone-strike-russian-warship-libya-risks-serious-escalation-former-official-warns",
+          "paywall": false,
+          "publishedAt": "2026-11-24T00:42:28.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Ukraine claims strike on Russian warship and cargo tanker in Libyan port",
+          "url": "https://www.washingtonexaminer.com/news/world/4811959/ukraine-strike-russian-warship-tanker-libya/",
+          "paywall": false,
+          "publishedAt": "2026-11-23T13:51:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xk0oa7",
+      "section": "world",
+      "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Russian incursions into NATO territory are increasing",
+          "url": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing",
+          "paywall": false,
+          "publishedAt": "2026-11-23T23:08:51.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-24T10:58:51.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "NATO fighter jet cleared to shoot down Russian missile over Poland as Warsaw pushes for US troops",
+          "url": "https://www.foxnews.com/world/nato-jet-cleared-shoot-russian-missile-poland-warsaw-pushes-us-troops",
+          "paywall": false,
+          "publishedAt": "2026-11-24T20:56:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1iev060",
+      "section": "world",
+      "headline": "Iranian authorities flog singer who performed without hijab, lawyers say",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
+          "url": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T12:34:52.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Iranian authorities flog singer who performed without hijab, lawyers say",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T18:04:20.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Iran flogs female singer 74 times for performing without hijab in viral YouTube concert",
+          "url": "https://www.foxnews.com/world/iran-flogs-female-singer-74-times-performing-without-hijab-viral-youtube-concert",
+          "paywall": false,
+          "publishedAt": "2026-11-24T14:55:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "60a6zu",
+      "section": "world",
+      "headline": "Pope Francis' diary reveals claims he saw the devil three times",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Pope Francis Diary Excerpts Published in New Book",
+          "url": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T06:00:06.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pope Francis' diary reveals claims he saw the devil three times",
+          "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-24T11:10:57.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Pope Francis' private diary reveals visions of the devil",
+          "url": "https://thehill.com/policy/international/6240210-pope-francis-private-diary-reveals-visions-of-the-devil/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T19:41:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1e1cd48",
+      "section": "world",
+      "headline": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand",
+          "url": "https://www.nytimes.com/2026/11/24/world/asia/shanghai-party-leader-investigation-china-xi.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T14:42:31.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "China places Shanghai CCP leader under investigation for corruption as Xi expands purge",
+          "url": "https://www.washingtonexaminer.com/news/world/4813982/china-shanghai-ccp-leader-investigation-corruption-purge/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T19:03:12.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "oqxjvd",
+      "section": "us",
+      "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+          "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
+          "paywall": false,
+          "publishedAt": "2026-11-24T12:12:25.000Z"
+        },
+        {
+          "sourceId": "economist",
+          "name": "The Economist",
+          "leaning": "left",
+          "headline": "Republican lawmakers are in revolt over Jensen Huang’s return",
+          "url": "https://www.economist.com/united-states/2026/11/24/republican-lawmakers-are-in-revolt-over-jensen-huangs-return",
+          "paywall": true,
+          "publishedAt": "2026-11-24T12:37:32.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "National Security vs. the Stock Market",
+          "url": "https://www.nytimes.com/2026/11/24/world/nvidia-trump-stocks-china-books.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T20:56:04.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-24T10:53:37.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "In Jensen Huang’s return, are national security concerns being shoved aside?",
+          "url": "https://www.csmonitor.com/Business/2026/1123/trump-jensen-huang-nvidia-security?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T23:16:32.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Army set to detonate lead munitions in Iowa: What to know",
+          "url": "https://thehill.com/policy/energy-environment/6240870-army-iowa-lead-munitions-detonations-evacuations/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T20:32:00.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Controlled Iowa munitions detonation better than ‘worst-case scenario,’ acting Army secretary says",
+          "url": "https://www.foxnews.com/us/controlled-iowa-munitions-detonation-better-than-worst-case-scenario-acting-army-secretary-says",
+          "paywall": false,
+          "publishedAt": "2026-11-24T15:25:49.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Jensen Huang scandal gives Congress a rare bipartisan layup: ‘We share the same concerns’",
+          "url": "https://www.washingtonexaminer.com/news/senate/4814148/jensen-huang-scandal-congress-bipartisan-layup-nvidia/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T20:04:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xsstlv",
+      "section": "us",
+      "headline": "Outrage after ICE arrest father and daughter at Seattle airport",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Outrage after ICE arrest father and daughter at Seattle airport",
+          "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-23T22:59:07.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Anti-ICE protesters at Seattle-Tacoma airport force security presence during busy holiday travel",
+          "url": "https://www.foxnews.com/us/anti-ice-protesters-seattle-tacoma-airport-force-security-presence-busy-holiday-travel",
+          "paywall": false,
+          "publishedAt": "2026-11-23T18:59:00.000Z"
+        }
+      ]
+    }
+  ]
+}
