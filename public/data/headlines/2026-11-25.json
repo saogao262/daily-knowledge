@@ -1,0 +1,500 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T20:24:31.707Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 73
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 46
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 28
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 18
+    }
+  ],
+  "world": [
+    {
+      "id": "3n4t4a",
+      "section": "world",
+      "headline": "US announces new tariffs on host of countries including China",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Administration Pauses Joint Operations With Ecuador",
+          "url": "https://www.nytimes.com/2026/11/24/world/americas/ecuador-us-military-operations-trump.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T00:42:52.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US announces new tariffs on host of countries including China",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-25T16:21:34.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump administration rolls out new tariffs on China, EU",
+          "url": "https://thehill.com/homenews/administration/6242105-trump-administration-new-tariffs-china-european-union/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T14:17:08.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Trump administration weighs targeting Iran's top regime leaders in bid to end war: report",
+          "url": "https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report",
+          "paywall": false,
+          "publishedAt": "2026-11-25T00:36:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1f74977",
+      "section": "world",
+      "headline": "Pope Francis' private diary reveals visions of the devil",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Pope Francis Diary Excerpts Published in New Book",
+          "url": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T22:03:38.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Pope Francis' private diary reveals visions of the devil",
+          "url": "https://thehill.com/policy/international/6240210-pope-francis-private-diary-reveals-visions-of-the-devil/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T19:41:47.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Vatican releases Pope Francis' private diary detailing spiritual crisis, encounters with the devil",
+          "url": "https://www.foxnews.com/world/vatican-releases-pope-francis-private-diary-detailing-spiritual-crisis-encounters-devil",
+          "paywall": false,
+          "publishedAt": "2026-11-24T23:42:26.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Pope Francis’s diaries recount visions of hell, attacks by Satan throughout later life",
+          "url": "https://www.washingtonexaminer.com/news/world/4814431/pope-francis-diaries-hell-visions-satan-attacks/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T23:02:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fal73y",
+      "section": "world",
+      "headline": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Judges in Israel Suggest Dropping Key Corruption Case Against Netanyahu",
+          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/judges-israel-corruption-case-netanyahu.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T20:05:36.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Israeli judges recommend dropping most serious charges against Netanyahu",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:47:39.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Israeli high court signals that charges against Netanyahu will fail, suggests prosecutors make deals",
+          "url": "https://www.washingtonexaminer.com/news/world/4815056/israel-high-court-charges-netanyahu-fail/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T16:48:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1j3jpku",
+      "section": "world",
+      "headline": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T19:02:50.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Libyans pledge to retaliate after Ukraine strikes Russian warship near Benghazi, killing 2 soldiers",
+          "url": "https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers",
+          "paywall": false,
+          "publishedAt": "2026-11-25T16:57:41.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Libyan army promises reprisal for two officers killed in Ukrainian attack on Russian warship",
+          "url": "https://www.washingtonexaminer.com/news/world/4814888/libyan-army-reprisal-two-officers-killed-ukraine-attack/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T14:14:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1hh194v",
+      "section": "world",
+      "headline": "China investigates Politburo member and Shanghai party chief Chen Jining",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "China investigates Politburo member and Shanghai party chief Chen Jining",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+          "paywall": false,
+          "publishedAt": "2026-11-25T09:44:13.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand",
+          "url": "https://www.nytimes.com/2026/11/24/world/asia/shanghai-party-leader-investigation-china-xi.html",
+          "paywall": true,
+          "publishedAt": "2026-11-24T14:42:31.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "China places Shanghai CCP leader under investigation for corruption as Xi expands purge",
+          "url": "https://www.washingtonexaminer.com/news/world/4813982/china-shanghai-ccp-leader-investigation-corruption-purge/",
+          "paywall": false,
+          "publishedAt": "2026-11-24T19:03:12.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1386tju",
+      "section": "us",
+      "headline": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+          "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+          "paywall": false,
+          "publishedAt": "2026-11-25T12:18:09.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Army’s Maps of Iowa Explosion May Underestimate Impact",
+          "url": "https://www.nytimes.com/2026/11/25/us/army-detonation-emissions-maps-risk-underestimated.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T14:02:21.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:54:52.000Z"
+        },
+        {
+          "sourceId": "csm",
+          "name": "The Christian Science Monitor",
+          "leaning": "center",
+          "headline": "Army’s planned Iowa blast raises questions about aging military stockpiles",
+          "url": "https://www.csmonitor.com/USA/Military/2026/1124/iowa-detonate-explosives-lead-azide-us-military-safer-alternatives?icid=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-24T20:26:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Will Iowa lead azide detonation affect the nation's food supply?",
+          "url": "https://thehill.com/homenews/state-watch/6243130-iowa-lead-azide-detonation-us-food-supply/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:13:03.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Army detonates nearly 5 tons of lead azide at Iowa ammunition plant",
+          "url": "https://www.foxnews.com/us/army-detonates-nearly-5-tons-lead-azide-iowa-ammunition-plant",
+          "paywall": false,
+          "publishedAt": "2026-11-25T15:10:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "pi8nd5",
+      "section": "us",
+      "headline": "Will bad weather disrupt Thanksgiving travel?",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "With Measles on the Rise, Some Families Are Forgoing Thanksgiving Travel",
+          "url": "https://www.nytimes.com/2026/11/25/us/measles-cases-thanksgiving.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T16:28:42.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Will bad weather disrupt Thanksgiving travel?",
+          "url": "https://www.bbc.co.uk/news/videos/c5742n4741keo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-24T13:18:22.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Duffy says Thanksgiving flight delays mostly due to weather so far",
+          "url": "https://thehill.com/policy/transportation/6243181-duffy-thanksgiving-flight-delays-storms/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T18:18:40.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Pre-Thanksgiving flight to Chicago disrupted when unruly passenger rushes toward airplane door",
+          "url": "https://www.foxnews.com/us/pre-thanksgiving-flight-chicago-disrupted-unruly-passenger-rushes-airplane-door",
+          "paywall": false,
+          "publishedAt": "2026-11-25T17:43:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ltk8og",
+      "section": "us",
+      "headline": "Two children among six dead after plane crash off Mississippi coast",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Plane Crash Near Mississippi’s Horn Island Kills 6",
+          "url": "https://www.nytimes.com/2026/11/25/us/mississippi-plane-crash-horn-island.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T20:04:47.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Two children among six dead after plane crash off Mississippi coast",
+          "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:26:44.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "All 6 passengers found dead inside wreckage of plane off Mississippi coast",
+          "url": "https://www.foxnews.com/us/coast-guard-searching-2-children-4-adults-after-plane-crashes-off-mississippi-coast",
+          "paywall": false,
+          "publishedAt": "2026-11-25T00:45:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1nu0oi2",
+      "section": "us",
+      "headline": "Jackson, progressive Maine senator-elect, backs Van Hollen for leader",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Van Hollen’s Challenge to Schumer Highlights Democratic Rift on Israel",
+          "url": "https://www.nytimes.com/2026/11/25/us/politics/van-hollen-schumer-israel-senate.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T16:41:30.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Jackson, progressive Maine senator-elect, backs Van Hollen for leader",
+          "url": "https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T18:38:58.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Troy Jackson backs Chris Van Hollen for Senate majority leader: ‘I was impressed’",
+          "url": "https://www.washingtonexaminer.com/news/senate/4815410/troy-jackson-endorses-chris-van-hollen-senate-majority-leader/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:56:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fi3zec",
+      "section": "us",
+      "headline": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
+          "paywall": false,
+          "publishedAt": "2026-11-25T09:19:50.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Abrego Garcia Arrives in Spain After Voluntarily Leaving U.S.",
+          "url": "https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T18:35:57.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-25T19:22:18.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Kilmar Abrego Garcia arrives in Spain after self-deporting",
+          "url": "https://thehill.com/policy/international/6242020-kilmar-abrego-garcia-self-deport-spain-arrival/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T14:06:23.000Z"
+        }
+      ]
+    }
+  ]
+}
