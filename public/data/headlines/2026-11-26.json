@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T20:00:26.491Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 57
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 46
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 29
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 13
+    }
+  ],
+  "world": [
+    {
+      "id": "1j3jpku",
+      "section": "world",
+      "headline": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html",
+          "paywall": true,
+          "publishedAt": "2026-11-25T19:02:51.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Libyans pledge to retaliate after Ukraine strikes Russian warship near Benghazi, killing 2 soldiers",
+          "url": "https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers",
+          "paywall": false,
+          "publishedAt": "2026-11-25T16:57:41.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Libyan army promises reprisal for two officers killed in Ukrainian attack on Russian warship",
+          "url": "https://www.washingtonexaminer.com/news/world/4814888/libyan-army-reprisal-two-officers-killed-ukraine-attack/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T14:14:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "94zddc",
+      "section": "world",
+      "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
+          "url": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T19:33:06.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T19:27:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1uh7xrx",
+      "section": "world",
+      "headline": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Nine injured, three critically, after Bangkok oil refinery explosion",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:21:19.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Bangkok oil refinery explosion injures at least 9, Thailand company monitoring air quality",
+          "url": "https://www.foxnews.com/world/bangkok-oil-refinery-explosion-injures-least-9-thailand-company-monitoring-air-quality",
+          "paywall": false,
+          "publishedAt": "2026-11-26T18:21:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "qqijf4",
+      "section": "world",
+      "headline": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+          "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T12:16:06.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Egypt detains driver suspected of causing Cairo fuel tanker crash and inferno that left 31 dead",
+          "url": "https://www.foxnews.com/world/egypt-detains-driver-suspected-causing-cairo-fuel-tanker-crash-inferno-left-31-dead",
+          "paywall": false,
+          "publishedAt": "2026-11-26T15:41:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "z8ldg5",
+      "section": "world",
+      "headline": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Gérard Depardieu Is Ordered to Stand Trial Over Rape Accusation",
+          "url": "https://www.nytimes.com/2026/11/26/world/europe/france-depardieu-rape-trial.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T14:17:40.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T14:44:26.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "1it68d5",
+      "section": "us",
+      "headline": "Macy's postpones Thanksgiving parade due to severe weather",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+          "paywall": false,
+          "publishedAt": "2026-11-26T09:43:27.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "How a Thanksgiving Tradition Connects to Presidential Powers",
+          "url": "https://www.nytimes.com/video/us/politics/100000011304420/trump-president-turkey-pardon-thanksgiving.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T12:08:22.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Macy's postpones Thanksgiving parade due to severe weather",
+          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T04:04:14.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "5 questions facing President Trump this Thanksgiving",
+          "url": "https://thehill.com/homenews/analysis/6242015-iran-war-impact-election/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T17:00:00.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Macy’s Thanksgiving Day Parade postponed: Has the holiday tradition ever been canceled?",
+          "url": "https://www.foxnews.com/us/macys-thanksgiving-day-parade-postponed-has-holiday-tradition-ever-been-canceled",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:41:45.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump wishes America, including the ‘Radical Far Left,’ a happy Thanksgiving",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4816241/trump-radical-far-left-happy-thanksgiving/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:46:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1386tju",
+      "section": "us",
+      "headline": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "In a flash, the Army blew up nearly 5 tons of a degraded explosive at its plant in Iowa",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6054005/in-a-flash-the-army-blew-up-nearly-5-tons-of-a-degraded-explosive-at-its-plant-in-iowa",
+          "paywall": false,
+          "publishedAt": "2026-11-25T20:59:50.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "The Army Knew Much Earlier of the Explosive Risk in Iowa, Evidence Suggests",
+          "url": "https://www.nytimes.com/2026/11/26/us/iowa-lead-ammunition-stockpile-history.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T16:50:50.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T10:38:35.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Zeldin: No airborne lead detected in Iowa a day after Army blast",
+          "url": "https://thehill.com/policy/energy-environment/6244772-lead-azide-airborne-epa-lee-zeldin/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T18:21:06.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "EPA reports 'zero detection of airborne lead' day after Iowa lead azide detonation",
+          "url": "https://www.foxnews.com/us/epa-reports-zero-detection-airborne-lead-day-after-iowa-lead-azide-detonation",
+          "paywall": false,
+          "publishedAt": "2026-11-26T19:20:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3n4t4a",
+      "section": "us",
+      "headline": "US announces new tariffs on host of countries including China",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Administration’s Cuts to SNAP Threaten Free School Meals",
+          "url": "https://www.nytimes.com/2026/11/26/us/politics/snap-food-stamps-school-meals.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T15:44:53.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "US announces new tariffs on host of countries including China",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T04:10:58.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump administration rolls out new tariffs on China, EU",
+          "url": "https://thehill.com/homenews/administration/6242105-trump-administration-new-tariffs-china-european-union/",
+          "paywall": false,
+          "publishedAt": "2026-11-25T14:17:08.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Incoming Democratic congressional majorities set to challenge Trump tariffs",
+          "url": "https://www.washingtonexaminer.com/premium/4798888/democratic-congressional-majorities-set-challenge-trump-tariffs/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T11:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "xl4j8l",
+      "section": "us",
+      "headline": "FedEx plane sends dirt flying while overshooting Miami runway",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Flights at Miami Airport Are Disrupted After FedEx Jet Overshoots Runway",
+          "url": "https://www.nytimes.com/2026/11/26/us/fedex-plane-miami-airport.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T15:20:30.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "FedEx plane sends dirt flying while overshooting Miami runway",
+          "url": "https://www.bbc.co.uk/news/videos/cwr5gv5387r8o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T05:20:42.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "FedEx cargo jet overshoots runway at Miami International Airport and stops just short of busy road",
+          "url": "https://www.foxnews.com/us/fedex-cargo-jet-overshoots-runway-miami-international-airport-stops-just-short-busy-road",
+          "paywall": false,
+          "publishedAt": "2026-11-26T02:46:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xdc0bg",
+      "section": "us",
+      "headline": "Trump, NATO chief urge Russia not to expand war in Ukraine",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Trump, NATO chief urge Russia not to expand war in Ukraine",
+          "url": "https://thehill.com/policy/international/6244695-donald-trump-mark-rutte-meeting-russia-ukraine-war/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:44:26.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Trump says he had ‘outstanding’ meeting with NATO chief over Iran, Russia wars",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4816225/trump-outstanding-meeting-nato-chief-iran-russia/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:25:33.000Z"
+        }
+      ]
+    }
+  ]
+}
