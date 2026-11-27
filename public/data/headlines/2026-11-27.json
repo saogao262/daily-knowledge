@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T19:49:47.549Z",
+  "sources": [
+    {
+      "id": "npr",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "id": "nyt",
+      "ok": true,
+      "items": 49
+    },
+    {
+      "id": "economist",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "bbc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "id": "hill",
+      "ok": true,
+      "items": 22
+    },
+    {
+      "id": "csm",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "id": "fox",
+      "ok": true,
+      "items": 29
+    },
+    {
+      "id": "examiner",
+      "ok": true,
+      "items": 14
+    }
+  ],
+  "world": [
+    {
+      "id": "luuyh6",
+      "section": "world",
+      "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-27T18:00:40.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Zelensky on Trump calling Putin 'friend': Same as somebody saying that 'about Hitler' in WWII",
+          "url": "https://thehill.com/policy/international/6245089-zelensky-calls-for-us-peace-progress/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T03:51:11.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Zelensky chides the Trump-Putin friendship as ‘strange’",
+          "url": "https://www.washingtonexaminer.com/news/world/4816476/zelensky-trump-putin-friendship-russia-ukraine-war/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T15:54:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ooa0h8",
+      "section": "world",
+      "headline": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Canada’s Top Court Lets Quebec Use Controversial Measure for Secularism Law",
+          "url": "https://www.nytimes.com/2026/11/27/world/canada/canada-supreme-court-quebec-religion-bill-21.html",
+          "paywall": true,
+          "publishedAt": "2026-11-27T19:31:28.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-27T16:53:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xrpea4",
+      "section": "world",
+      "headline": "Military says it disabled vessel that 'attempted to run the U.S. naval blockade' against Iran",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Military says it disabled vessel that 'attempted to run the U.S. naval blockade' against Iran",
+          "url": "https://thehill.com/policy/defense/6245428-us-naval-blockade-iran-ship-disabled/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T17:39:02.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "US military disables tanker ship attempting to slip through Iran blockade on Thanksgiving Day",
+          "url": "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day",
+          "paywall": false,
+          "publishedAt": "2026-11-27T18:48:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84r6p7",
+      "section": "world",
+      "headline": "Why Russia Is Erasing Stalin’s Crimes",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Why Russia Is Erasing Stalin’s Crimes",
+          "url": "https://www.nytimes.com/video/world/europe/100000010915175/why-russia-is-erasing-stalins-crimes.html",
+          "paywall": true,
+          "publishedAt": "2026-11-27T16:29:46.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Putin's grip on Crimea tested amid major blackout as Zelenskyy warns of looming Russian strike",
+          "url": "https://www.foxnews.com/world/putins-grip-crimea-tested-amid-major-blackout-zelenskyy-warns-imminent-russia-strike",
+          "paywall": false,
+          "publishedAt": "2026-11-27T02:25:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "19cd6sk",
+      "section": "world",
+      "headline": "Brazilian Duped Into Fighting for Russia: ‘War Is Hell’",
+      "leanings": [
+        "left",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Brazilian Duped Into Fighting for Russia: ‘War Is Hell’",
+          "url": "https://www.nytimes.com/2026/11/26/world/americas/brazil-soldier-ukraine-war.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T15:27:03.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "UK shields fighter jets, contacts reservists in Cold War-scale push amid Russia threat",
+          "url": "https://www.foxnews.com/world/uk-shields-fighter-jets-contacts-reservists-cold-war-scale-push-amid-russia-threat",
+          "paywall": false,
+          "publishedAt": "2026-11-26T21:14:20.000Z"
+        }
+      ]
+    }
+  ],
+  "us": [
+    {
+      "id": "z6esgz",
+      "section": "us",
+      "headline": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "npr",
+          "name": "NPR",
+          "leaning": "left",
+          "headline": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+          "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+          "paywall": false,
+          "publishedAt": "2026-11-27T11:59:02.000Z"
+        },
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Thanksgiving Storm Leaves More Than 400,000 Without Power on the East Coast",
+          "url": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html",
+          "paywall": true,
+          "publishedAt": "2026-11-27T17:57:11.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+          "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-27T18:45:05.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Thousands still without power after Thanksgiving storms",
+          "url": "https://thehill.com/homenews/state-watch/6245503-black-friday-thanksgiving-storms-flight-delayed-macys-parade/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T19:17:46.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Macy’s Thanksgiving Day Parade postponed: Has the holiday tradition ever been canceled?",
+          "url": "https://www.foxnews.com/us/macys-thanksgiving-day-parade-postponed-has-holiday-tradition-ever-been-canceled",
+          "paywall": false,
+          "publishedAt": "2026-11-26T16:41:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "152iryb",
+      "section": "us",
+      "headline": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+      "leanings": [
+        "left",
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Pregnant Inmate Escapes in New Mexico Prison Transport Vehicle",
+          "url": "https://www.nytimes.com/2026/11/26/us/pregnant-inmate-escapes-new-mexico.html",
+          "paywall": true,
+          "publishedAt": "2026-11-27T00:23:58.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+          "url": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T14:35:22.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Pregnant inmate escapes in New Mexico prison transport SUV during Whataburger stop",
+          "url": "https://www.foxnews.com/us/pregnant-inmate-escapes-new-mexico-prison-transport-suv-whataburger-stop",
+          "paywall": false,
+          "publishedAt": "2026-11-27T10:55:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "zi59ar",
+      "section": "us",
+      "headline": "Analysis: Why Trump's new tariffs are less of a threat",
+      "leanings": [
+        "left",
+        "center"
+      ],
+      "outlets": [
+        {
+          "sourceId": "nyt",
+          "name": "The New York Times",
+          "leaning": "left",
+          "headline": "Trump Administration’s Cuts to SNAP Threaten Free School Meals",
+          "url": "https://www.nytimes.com/2026/11/26/us/politics/snap-food-stamps-school-meals.html",
+          "paywall": true,
+          "publishedAt": "2026-11-26T15:44:53.000Z"
+        },
+        {
+          "sourceId": "bbc",
+          "name": "BBC News",
+          "leaning": "center",
+          "headline": "Analysis: Why Trump's new tariffs are less of a threat",
+          "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+          "paywall": false,
+          "publishedAt": "2026-11-26T19:55:58.000Z"
+        },
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "China, others bash Trump’s latest tariff gambit: ‘Trade wars serve no one’s interests’",
+          "url": "https://thehill.com/policy/international/6244629-trump-global-tariffs-china-japan-eu-fallout/",
+          "paywall": false,
+          "publishedAt": "2026-11-26T15:44:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "awx534",
+      "section": "us",
+      "headline": "Sen. Deb Fischer's office says her husband died by suicide",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Sen. Deb Fischer's office says her husband died by suicide",
+          "url": "https://thehill.com/homenews/senate/6245545-deb-fischer-nebraska/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T19:39:16.000Z"
+        },
+        {
+          "sourceId": "examiner",
+          "name": "Washington Examiner",
+          "leaning": "right",
+          "headline": "Sen. Deb Fischer’s husband died by suicide, her office announces",
+          "url": "https://www.washingtonexaminer.com/news/senate/4816538/deb-fischer-husband-suicide/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T18:28:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1xhdlek",
+      "section": "us",
+      "headline": "Hackers break into US Air Force cloud computing platform: Report",
+      "leanings": [
+        "center",
+        "right"
+      ],
+      "outlets": [
+        {
+          "sourceId": "hill",
+          "name": "The Hill",
+          "leaning": "center",
+          "headline": "Hackers break into US Air Force cloud computing platform: Report",
+          "url": "https://thehill.com/policy/defense/6245197-air-force-cloud-one-hack/",
+          "paywall": false,
+          "publishedAt": "2026-11-27T13:54:01.000Z"
+        },
+        {
+          "sourceId": "fox",
+          "name": "Fox News",
+          "leaning": "right",
+          "headline": "Hackers breach Air Force's flagship cloud computing platform, report says",
+          "url": "https://www.foxnews.com/us/hackers-breach-air-force-flagship-cloud-computing-platform-report-says",
+          "paywall": false,
+          "publishedAt": "2026-11-27T18:29:03.000Z"
+        }
+      ]
+    }
+  ]
+}
